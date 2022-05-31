@@ -1,0 +1,310 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Hệ thống điều khiển tự động</title>
+  <metadata>
+  <md:content-id>m30532</md:content-id><md:title>Hệ thống điều khiển tự động</md:title>
+  <md:abstract>Phần này trình bày các nguyên tắc điều khiển tự động</md:abstract>
+  <md:uuid>80968ac9-6d71-41ed-b590-1ec508c049c8</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-450553283192">
+      <title>CÁC NGUYÊN TẮC ĐIỀU KHIỂN TỰ ĐỘNG</title>
+      <para id="id5571142">Xuất phát từ yêu cầu công nghệ: cần thay đổi tốc độ, thay đổi hành trình làm việc của cơ cấu sản xuất ...</para>
+      <para id="id5571151">Xuất phát từ chế độ làm việc của HT ĐKTĐ: khởi động, chuyển đổi tốc độ, hãm, đảo chiều, dừng máy ...</para>
+      <para id="id5571160">Xuất phát từ yêu cầu kỹ thuật, kinh tế: điều chỉnh tốc độ, ổn định, chính xác cao, an toàn ... và kinh tế.</para>
+      <para id="id5571169">Từ đó cần có những nguyên tắc ĐKTĐ để thực hiện được các yêu cầu trên, đồng thời tự động hạn chế các đại lượng cần hạn chế: dòng điện cho phép, mô men cho phép, tốc độ cho phép, công suất cho phép, ...</para>
+      <section id="id-383110687958">
+        <title>Điều khiển tự động theo nguyên tắc thời gian</title>
+        <section id="id-678145765952">
+          <title>Nội dung</title>
+          <para id="id6384688">Có đồ thị khởi động ĐMđl với 2 cấp điện trở phụ:</para>
+          <para id="id6384703">  IXL I1d e (t)b c I2 I(t) Ic a0 Ic I2 I1 Iư 0 t1 t2 t3 t Hình 7 - 1: Các đặc tính cơ và quá độ khi khởi động12TN</para>
+          <para id="id5691325">- Trên hình 7-1, trình bày đặc tính khởi động: (Iư), (t), I(t) của động cơ điện một chiều kích từ độc lập, có 2 cấp khởi động (dùng điện trở phụ hạn chế dòng khởi động).</para>
+          <para id="id5691353">- Qua đồ thị khởi động ở trên, ta thấy: việc ngắn mạch các cấp điện trở phụ có thể xảy ra sau những khoảng thời gian nhất định:</para>
+          <para id="id5691363">+ Cấp thứ nhất được ngắn mạch sau khoảng thời gian t1 kể từ khi bắt đầu khởi động.</para>
+          <para id="id6185124">+ Cấp thứ 2 được ngắn mạch sau khoảng thời gian t2 kể từ khi bắt đầu ngắn mạch cấp 1...</para>
+          <para id="id6185137">- Các tín hiệu điều khiển ở các thời điểm trên được tạo ra nhờ các rơ le thời gian. Thời gian duy trì của các rơ le thời gian hiện nay có thể đạt: td.tr = 0,05s  2 h, và lớn hơn.</para>
+          <para id="id6185164">- Thời gian thực hiện các cấp khởi động (tdtr.kđ) được xác định theo tính toán quá trình quá độ của hệ thống TĐĐ TĐ.</para>
+          <para id="id6185181">Khi M() [ hay I() ] là tuyến tính thì thời gian quá trình quá độ giữa hai cấp tốc độ là:</para>
+          <para id="id6185200"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ôđ</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>T</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ci</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mfrac><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>đgi</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>đgi</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>J</m:mi><m:mi>β</m:mi></m:mfrac></m:mrow><m:mtext>ln</m:mtext><m:mfrac><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>đgi</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>đgi</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mtext/><m:mo stretchy="false">=</m:mo><m:mi>J</m:mi></m:mrow><m:mfrac><m:mrow><m:msub><m:mi>ω</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ω</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>đgi</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>đgi</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mtext>ln</m:mtext><m:mfrac><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>đgi</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>đgi</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msub></m:mfrac><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{t rSub { size 8{ ital "ôđ"} } =T rSub { size 8{ ital "ci"} } "ln" {  {M rSub { size 8{ ital "đgi"} } }  over  {M rSub { size 8{ ital "đgi"+1} } } } = {  {J}  over  {β} } "ln" {  {M rSub { size 8{ ital "đgi"} } }  over  {M rSub { size 8{ ital "đgi"+1} } } } }  {} # 
+"        "=J {  {ω rSub { size 8{i+1} }  - ω rSub { size 8{i} } }  over  {M rSub { size 8{ ital "đgi"} }  - M rSub { size 8{ ital "đgi"+1} } } } "ln" {  {M rSub { size 8{ ital "đgi"} } }  over  {M rSub { size 8{ ital "đgi"+1} } } }  {} 
+} } {}</m:annotation></m:semantics></m:math> (7-1)</para>
+          <para id="id6185529">- Thời gian chỉnh định của rơ le thời gian để thực hiện gia tốc từ tốc độ thứ i đến tốc độ thứ i+1 là: </para>
+          <para id="id6185546">tcđ = tqđ - to (7-2)</para>
+          <para id="id6185582">Trong đó: tqđ - là thời gian quá độ giữa 2 cấp tốc độ.</para>
+          <para id="id6185594">to - là thời gian tác động của các thiết bị, khí cụ trong mạch có liên quan đến sự tác động của rơ le thời gian.</para>
+        </section>
+        <section id="id-250802083236">
+          <title>Các mạch điển hình:</title>
+          <para id="id6185620">* Mở máy động cơ điện một chiều 2 cấp điện trở phụ</para>
+          <para id="id6185627">1) Sơ đồ:</para>
+          <para id="id6185632">Hình 7 - 2: Sơ đồ nguyên lý và biểu đồ thời gian K1RTh1CD+UL132468KK2RThCKTL1L2Đ1G2GRưf2 Rưf1DMK2CD2CDL3L4+ULKK1RTh1G2G2RTh5791011131517</para>
+          <para id="id6166305">2) Nguyên lý làm việc:</para>
+          <para id="id6166310">* Khởi động động cơ:</para>
+          <para id="id6166318">- Đóng các cầu dao 1CD, 2CD, dẫn đến cuộn dây rơ le thời gian 1RTh(11-10) có điện, tiếp điểm 1RTh(13-15) mở ra, đảm bảo cho các cuộn dây công tắc tơ 1G(15-10), 2G(17-10) không có điện, và như vậy các điện trở phụ Rưf1 , Rưf2 , sẽ đều tham gia trong mạch phần ứng.</para>
+          <para id="id6166344">- Ấn nút M thì cuộn dây K(9-10) có điện, các tiếp điểm K(1-3), K(6-8) đóng lại, dẫn đến động cơ Đ được khởi động với toàn bộ điện trở phụ trong mạch phần ứng: Rưf = Rưf1 + Rưf2 , theo đặc tính 1. Tiếp điểm K(7-9) đóng lại để duy trì cho công tắc tơ K khi thôi ấn M. Các tiếp điểm K(1-3), K(6-8) đóng lại, làm cho cuộn dây 2RTh(4-6) có điện, tiếp điểm 2RTh(15-17) mở ra, đảm bảo cho cuộn dây 2G(17-10) không có điện.</para>
+          <para id="id6166390">K(5-11) mở, K(5-13) đóng, làm 1RTh(11-10) mất điện, sau thời gian chỉnh định của 1RTh ( t1) thì 1RTh(13-15) đóng, làm cho 1G(4-6) đóng, ngắn mạch Rưf1 , động cơ Đ khởi động sang đặc tính 2, tương ứng với Rưf2 . </para>
+          <para id="id6166427">Tiếp điểm 1G(4-6) đóng lại, làm 2RTh(4-6) mất điện, sau thời gian chỉnh định của 2RTh ( t2 - t1), thì 2RTh(15-17) kín lại, làm 2G(17-10) có điện, và 2G(2-4) đóng lại, ngắn mạch Rưf2 , động cơ Đ chuyển sang đặc tính cơ tự nhiên và sẽ tới làm việc ở điểm xác lập XL . </para>
+          <para id="id6166464">* Dừng động cơ:</para>
+          <para id="id6166469">- Ấn nút D làm cuộn dây K(9-10) mất điện, và K(1-3) mở, K(6-8) mở, làm phần ứng Đ mất điện, và 2RTh(4-6) mất điện; K(7-9) mở ra, K(5-13) mở, K(5-11) kín lại, làm 1RTh(11-10) có điện lại, chuẩn bị khởi động lần sau. </para>
+          <para id="id6166483">* Phương trình đặc tính cơ:</para>
+          <para id="id6166488"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mi>U</m:mi><m:mi fontstyle="italic">KΦ</m:mi></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>­</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>­</m:mi><m:mi fontstyle="italic">fΣ</m:mi></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi fontstyle="italic">KΦ</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω= {  {U}  over  {KΦ} }  -  {  {R rSub { size 8{­} } +R rSub { size 8{­fΣ} } }  over  { \( KΦ \)  rSup { size 8{2} } } } M} {}</m:annotation></m:semantics></m:math> (6-3)</para>
+          <para id="id6166622">* Phương trình đặc tính quá trình quá độ khi khởi động:</para>
+          <para id="id6166635"> = XL + (bđ + XL).e-t/Tc (7-4)</para>
+          <para id="id6166688">M = Mc + (M1 - Mc).e-t/Tc (7-5) </para>
+          <para id="id6166727">2RTh1RTh1G2G0 t0 t1 t2 t3 tHình 7-3: Đặc tính hoạt động theo thời giancủa các phần tử trong sơ đồ điều khiển tự độngTrạng thái phần tử</para>
+          <para id="id6303240">* Thời gian khởi động: </para>
+          <para id="id6303245">tkđ = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>ln</m:mtext><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>M</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:msub><m:mi>T</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>ln</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{c} } "ln" {  {M rSub { size 8{1} }  - M rSub { size 8{c} } }  over  {M rSub { size 8{2} }  - M rSub { size 8{c} } } } =T rSub { size 8{c} } "ln" {  {I rSub { size 8{1} }  - I rSub { size 8{c} } }  over  {I rSub { size 8{2} }  - I rSub { size 8{c} } } } } {}</m:annotation></m:semantics></m:math> (7-6)</para>
+          <para id="id6303439">* Thời gian chỉnh định của các rơ le thời gian:</para>
+          <para id="id6303446">RTh: tcđ.1RTh = tkđ.1 - [t(k) + t(1G)] (7-7)</para>
+          <para id="id6303487">2RTh: tcđ.2RTh = tkđ.2 - [t(2G)] (7-8)</para>
+          <para id="id6303525">Vì [t(K) , t(1G) , t(2G)] &lt;&lt; tkđ , nên: tcđ  tkđ . Đồ thị: hình 7 -31.</para>
+        </section>
+        <section id="id-990008797945">
+          <title>Nhận xét</title>
+          <para id="id6303586">1) Ảnh hưởng của mômen tải Mc (khi UL =const, R= const): </para>
+          <para id="id6303613">- Ví dụ: Có đồ thị khởi động ĐMđl với 2 cấp điện trở phụ:</para>
+          <para id="id6303627">- Khi Mc tăng thì Mđộng tăng, quá trình quá độ tăng.</para>
+          <para id="id6303644">- Khi mô men tải Mc hay dòng tải Ic tăng, mô men động giảm, thời gian quá độ tăng (quá trình quá độ bị giảm gia tốc).</para>
+          <para id="id6303667">- Vì Mc &gt; Mc (hay Ic &gt; Ic) nên Mđộng = (M - Mc) &lt; Mđộng do đó quá trình gia tốc chậm lại. Ban đầu  tăng đến 1 (1 &lt; 1), tức là cấp 1 ở điểm b1 thì đã hết thời gian chỉnh định của RTh nên phải chuyển sang cấp 2, tức sang điểm c1, cứ như vậy chuyển đổi từ d1 sang e1, v.v... Như vậy, khi khởi động mà Mc (hay Ic) tăng lên, sẽ dẫn đến quá tải, hay quá dòng cho phép.</para>
+          <para id="id5505433">TN2I1’I2’’10XL’121dbee’cc’aIcI’cI2I’2I1I’1I’’1Iư II1xl12I2Ic0 t1 t2 t3 t(t)I(t)0Hình 7-4: Các đặc tính khởi động theo nguyên tắc thời giankhi phụ tải bị thay đổi trong quá trình khởi động.</para>
+          <para id="id6069917">- Phương trình đặc tính quá độ lúc này:</para>
+          <para id="id6069923">b1 = XL + (bđ - XL).e-t1/ Tc (7-9)</para>
+          <para id="id6069984">M = Mc + (M1 - Mc).e-t/ Tc (7-10)</para>
+          <para id="id6070036">Tc = J.(XL - bđ) / (M1 - Mc) (7-11)</para>
+          <para id="id5647434">2) Ảnh hưởng của mô men quán tính J (hay GD2):</para>
+          <para id="id5647451">- Khi J tăng thì Tc cũng tăng và như vậy b1, d1, ... giảm, tương tự trường hợp Mc tăng.</para>
+          <para id="id5647489">Tc = J.(XL - bđ) / (M1 - Mc) (7-12)</para>
+          <para id="id5647540">3) Ảnh hưởng của áp lưới UL (khi Mc = const, R = const):</para>
+          <para id="id5647565">- Đối với động cơ điện một chiều:</para>
+          <para id="id5647571">Khi UL giảm thì 0 = (UL / K) cũng giảm xống, nếu phụ tải Mc = const thì mô men động cơ sẽ giảm, gia tốc giảm, quá trình quá độ sẽ kéo dài (hay thời gian khởi động, hãm, ... tăng).</para>
+          <para id="id5647614">o UL = UL.đmoUL &lt; UL.đm MMc M2 M1 Hình 7-5: Sự ảnh hưởng của điện áp lưới bị giảm</para>
+          <para id="id5648070">Nếu giữ cho 0 = const thì mô men M = KI  const, và dòng điện I sẽ tăng, có thể I &gt; Icp .</para>
+          <para id="id5648105">- Đối với động cơ không đồng bộ: f = const, M  U2 , nên UL giảm thì M giảm mạnh, mô men động giảm, tốc độ chuyển đổi giảm, và thời gian quá độ tăng (thời gian khởi động, hãm, đảo chiều, ... tăng).</para>
+          <para id="id5648134">4) Ảnh hưởng của điện trở R (khi UL = const, Mc = const):</para>
+          <para id="id5648160">- Các điện trở dây quấn của khởi động từ, công tắc tơ, rơ le, động cơ, ... khi nhiệt độ thay đổi thì điện trở sẽ bị thay đổi, thời gian chỉnh định thay đổi, nhất là các quá trình khởi động, hãm, đảo chiều ... mà dùng điện trở phụ thì khi nhiệt độ tăng, điện trở tăng, thời gian chỉnh định giảm, mô men động tăng có thể lớn hơn mô men cho phép.</para>
+          <para id="id5648177">5) Ưu, khuyết điểm</para>
+          <para id="id5648182">- Ưu điểm: Khống chế được thời gian mở máy, hãm máy, đảo chiều, ... </para>
+          <para id="id5648190">Thiết bị đơn giản, làm việc tin cậy, an toàn, nên phương pháp ĐKTĐ theo nguyên tắc thời gian này được sử dụng rộng rãi.</para>
+          <para id="id5648199">- Nhược điểm: Mô men (dòng điện) động cơ thay đổi theo Mc, J, to, UL, ..., nên có thể vượt quá trị số cho phép, cần phải có biện pháp bảo vệ.</para>
+        </section>
+      </section>
+      <section id="id-253810594354">
+        <title>Điều khiển tự động theo nguyên tắc tốc độ</title>
+        <section id="id-228494599665">
+          <title>Nội dung</title>
+          <para id="id6285678">- Có đồ thị khởi động ĐMđl với 2 cấp điện trở phụ:</para>
+          <para id="id6285692">  IXL I1d e (t)b c I2 I(t) Ic a0 Ic I2 I1 Iư 0 t1 t2 t3 t Hình 7 - 6: Các đặc tính khởi động theo nguyên tắc tốc độ12TNự2ự1ựxlự2ự1</para>
+          <para id="id6173117">- Điều khiển theo tốc độ là dựa trên cơ sở kiểm tra trực tiếp hoặc gián tiếp sự thay đổi của tốc độ.</para>
+          <para id="id6173126">- Kiểm tra trực tiếp có thể dùng rơ le kiểm tra tốc độ kiểu ly tâm. Cách này ít dùng vì dùng rơ le kiểm tra tốc độ phức tạp, đắt tiền và làm việc kém chắc chắn.</para>
+          <para id="id6173138">- Có thể kiểm tra tốc độ gián tiếp qua máy phát tốc. </para>
+          <para id="id6173147">Máy phát tốc (FT) là một máy điện một chiều có:  = const và EFT  , loại này hay dùng đối với động cơ điện một chiều.</para>
+          <para id="id6173180">- Đối với động cơ không đồng bộ, thường kiểm tra tốc độ gián tiếp theo sức điện động rôto và tần số rôto.</para>
+          <para id="id6173189">Tại những tốc độ cần điều khiển (1, 2, ...), các rơ le kiểm tra tốc độ hoặc kiểm tra điện áp FT, Erôto, frôto, sẽ tác động tạo ra tín hiệu điều khiển.</para>
+        </section>
+        <section id="id-0264544473354">
+          <title>Các mạch điển hình:</title>
+          <para id="id6173239">* Mở máy 2 cấp tốc độ động cơ điện một chiều: </para>
+          <para id="id6173246">UĐKMK+ULKD+-+ CKT -EIư2G1G1G2GRưf2 Rưf10VHình 7-7: Nguyên tắc ĐKTĐ mở máy 2 cấp ĐM theo tốc độ</para>
+          <para id="id6175048">* Mỗi công tắc tơ gia tốc (1G, 2G, ...) được chỉnh định với một trị số điện áp hút nhất định tương ứng với mỗi cấp tốc độ nhất định như ở 1, 2 , ...</para>
+          <para id="id6175082">Ấn nút M làm K tác động, động cơ Đ khởi động với toàn bộ điện trở trong mạch phần ứng (Rư = Rư + Rưf = Rư + Rưf1 + Rưf2), đường đặc tính 1, vì lúc đầu tốc độ  = 0 và còn nhỏ nên:</para>
+          <para id="id6175142">UĐ = EĐ + Iư.Rư = K + Iư.Rư &lt; Uh.1G (hoặc 2G); (6-13)</para>
+          <para id="id6175200">- Đến tại  = 1 thì:</para>
+          <para id="id6175221">U1G = K1 + I2.(Rư + Rưf2) = UL - I2.Rưf1 = Uh.1G ; (7-14)</para>
+          <para id="id6175285">1G tác động, ngắn mạch Rưf1, động cơ chuyển sang đường 2.</para>
+          <para id="id6175297">- Đến tại  = 2 thì:</para>
+          <para id="id6175317">U2G = K2 + I2.Rư = UL - I2.Rưf2 = Uh.2G &gt; Uh.1G ; (7-15)</para>
+          <para id="id6175386">2G tác động, ngắn mạch Rưf2, động cơ chuyển sang đặc tính tự nhiên.</para>
+          <para id="id6175398">- Coi điện áp lưới UL = cosnt, với I2 = const, và Rưf1 = Rưf2 , ta có các điện áp hút của các công tắc tơ : Uh.1G = Uh.2G .</para>
+          <para id="id6175440">Như vậy có thể chọn các công tắc tơ gia tốc cùng loại, chỉnh định ít.</para>
+        </section>
+        <section id="id-815625882606">
+          <title>Nhận xét</title>
+          <para id="id6175456">1) Ưu điểm: Phương pháp ĐKTĐ theo tốc độ dùng ít thiết bị, khí cụ điều khiển vì có thể chỉ dùng công tắc tơ chứ không cần tác động thông qua rơle nên đơn giản, rẻ tiền.</para>
+          <para id="id6175472">2) Nhược điểm: Thời gian quá độ và thời gian hãm phụ thuộc Mc, J, UL, tocủa R, dây quấn, làm thay đổi quá trình quá độ (như khi UL giảm hay Mc tăng, ... làm thời gian quá độ tăng, quá trình quá độ chậm, đốt nóng điện trở khởi động, điện trở hãm, ... làm khó khăn cho việc chỉnh định điện áp hút của các công tắc tơ hoặc rơ le tốc độ).</para>
+          <para id="id6175525">- Khi điện áp lưới dao động sẽ làm thay đổi tốc độ chuyển cấp điện trở (1, 2, ...) và dòng điện sẽ nhảy vọt có thể quá dòng cho phép.</para>
+          <para id="id6175555">- Khi điện áp lưới giảm quá thấp có khả năng xảy ra không đủ điện áp để công tắc tơ tác động và do đó động cơ có thể dừng lại làm việc lâu dài ở tốc độ trung gian, làm đốt nóng điện trở khởi động (hay điện trở hãm, ...) và như vậy làm thay đổi tốc độ chuyển cấp.</para>
+        </section>
+      </section>
+      <section id="id-453833417991">
+        <title>Điều khiển tự động theo nguyên tắc dòng điện</title>
+        <section id="id-964934218121">
+          <title>Nội dung</title>
+          <para id="id6175590">- Có đồ thị khởi động ĐMđl với 2 cấp điện trở phụ:</para>
+          <para id="id6175604">  IXL I1d e (t)b c I2 I(t) Ic a0 Ic I2 I1 Iư 0 t1 t2 t3 t Hình 7-8: Các đặc tính khởi động theo nguyên tắc dòng điện12TNự2ự1ựxlự2ự1</para>
+          <para id="id5322536">- Qua đồ thị hình 7-8 ta thấy rằng: khi khởi động, dòng khởi động thay đổi trong khoảng (I1  I2). Nhất là mỗi lần chuyển cấp thì các điểm chuyển cấp thường cùng một giá trị dòng điện (I2), nên ta có thể dùng rơle dòng điện hoặc công tắc tơ có cuộn dây dòng điện để tạo tín hiệu điều khiển. </para>
+          <para id="id5322574">- Tại điểm chuyển cấp b, rơle dòng điện tác động theo dòng chuyển cấp I2 để ngắn mạch cấp điện trở thứ nhất, động cơ chuyển từ đặc tính 1 sang đặc tính 2. Đến điểm d, rơle dòng điện sẽ tác động theo dòng I2 để ngắn mạch cấp điện trở thứ hai, động cơ chuyển từ đặc tính 2 sang đặc tính tự nhiên TN.</para>
+          <para id="id5322602">- Cứ như vậy, động cơ sẽ được khởi động đến tốc độ xác lập.</para>
+        </section>
+        <section id="id-100880562482">
+          <title>Các mạch điển hình:</title>
+          <para id="id5322618">* Hãm ngược và đảo chiều ĐKdq theo nguyên tắc dòng điện:</para>
+          <para id="id5322634">- Công tắc xoay KC có 5 vị trí: 0 ở giữa; 1, 2 bên thuận và 1, 2 bên ngược; KC có tiếp điểm: KC1, KC2, KC3, KC4, KC5, ...</para>
+          <para id="id5322643">- Các công tắc tơ có các tiếp điểm duy trì thời gian H, 1G.</para>
+          <para id="id5322650">- Rơle dòng điện RHn có: </para>
+          <para id="id5322655">Ihãm &gt; Ih.RHn &gt; I1 (7-16)</para>
+          <para id="id5322684">Inh.RHn = Irôto = I2 (7-17)</para>
+          <para id="id5322712">I1I2CĐ~ ULTN2G 2G1G 1GH HR2f2R2f1RhRHnKC1KC2KC3KC4KC5NNTTRHnHH1G1G2G2 1 0 1 2(N)(T)~ UL~A (TN,T)ựBIc2Ic1IưA’ (TN,N)ự0-ự0Hình 7-9: Sơ đồ điều khiển tự động ĐKdq theo nguyên tắc thời gian và dòng điện.</para>
+          <para id="id5271852">- Hệ thống đang làm việc điểm A trên đặc tính cơ (A), tương ứng với vị trí 2(T) của công tắc KC, các tiếp điểm KC1, KC3, KC4, KC5 đang kín, các công tắc tơ T, H, 1G, 2G đang có điện, công tắc tơ N không có điện, toàn bộ các điện trở phụ trong mạch rôto bị ngắn mạch, RHn không tác động.</para>
+          <para id="id5271879">- Dừng động cơ bằng cách hãm ngược:</para>
+          <para id="id5271885">+ Quay tay gạt của KC từ vị trí 2(T) sang 2(N), khi qua vị trí 0 thì tất cả các công tắc tơ và rơle đều mất điện, động cơ được tách khỏi lưới điện, toàn bộ điện trở phụ được đưa vào mạch rôto, mạch điện ở trạng thái thường như hình vẽ. </para>
+          <para id="id5271905">+ Khi đến vị trí 2(N), các tiếp điểm KC2, KC3, KC4, KC5 kín lại, KC1 hở ra, công tắc tơ T mất điện; còn N, H có điện sẽ đảo 2 trong 3 pha của stato động cơ, làm động cơ thực hiện quá trình hãm ngược (giai đoạn đầu của quá trình đảo chiều). Tốc độ đồng bộ của động cơ lúc này 0N = - 0T , dòng điện rôto tăng rất lớn: Irôto = Ihãm &gt; Ih.RHn &gt; I1 nên RHn tác động làm hở tiếp điểm thường kín của nó, đảm bảo cho các công tắc tơ H, 1G, 2G không có điện, toàn bộ R2f1 và R2f2 vẫn tham gia trong mạch rôto cùng với Rh để hạn chế dòng đảo chiều hay là dòng hãm ngược của động cơ Ihãm  Icp (đoạn BC).</para>
+          <para id="id5272014">+ Tốc độ động cơ Đ giảm dần, dòng hãm cũng giảm dần đến I2 thì RHn nhả (vì Inh.RHn = I2 , và lúc đó   0), làm cho H có điện, ngắn mạch Rh và đảm bảo RHn không tác động trở lại, kết thúc quá trình hãm ngược.</para>
+          <para id="id5272059">+ Muốn dừng động cơ thì quay KC về vị trí 0, các công tắc tơ và rơle mất điện, động cơ dừng tự do.</para>
+          <para id="id5272068">- Đảo chiều:</para>
+          <para id="id5272073">+ Quá trình thực hiện tương tự khi hãm ngược, nhưng khi dòng điện hãm giảm đến I2 thì vẫn để KC ở vị trí 2(N), sau khi RHn nhả làm cho H có điện, kết thúc quá trình hãm ngược và sẽ bắt đầu quá trình khởi động ngược. </para>
+          <para id="id5272095">Khi H có điện thì nó sẽ ngắn mạch Rh, làm cho Đ khởi động ngược theo đường đặc tính tiếp theo (CD). </para>
+          <para id="id5272109">+ Sau thời gian duy trì của H, nó sẽ tác động làm 1G có điện, các tiếp điểm của 1G sẽ ngắn mạch R2f1, làm cho Đ khởi động tiếp sang đặc tính DE.</para>
+          <para id="id5272127">+ Sau thời gian duy trì của 1G, nó sẽ tác động làm 2G có điện, ngắn mạch R2f2, và Đ sẽ khởi động sang đặc tính tự nhiên và tới điểm xác lập.</para>
+        </section>
+        <section id="id-244265891317">
+          <title>Nhận xét</title>
+          <para id="id5272151">1) Ưu điểm: Có thể duy trì mô men động cơ trong một giới hạn nhất định. Quá trình khởi động, hãm không phụ thuộc môi trường.</para>
+          <para id="id5272165">2) Nhược điểm: Khi UL, Mc thay đổi, nhất là khi Mc quá lớn sẽ làm cho Ic &gt; I2, như vậy động cơ có thể làm việc ở đặc tính trung gian, làm phát nóng điện trở, ảnh hưởng đến quá trình làm việc của động cơ.</para>
+        </section>
+      </section>
+      <section id="id-574493116986">
+        <title>Điều khiển tự động theo các nguyên tắc khác</title>
+        <section id="id-17951057538">
+          <title>Điều khiển tự động theo nguyên tắc hành trình</title>
+          <para id="id5272226">1) Nội dung:</para>
+          <para id="id5272234">- Trên hành trình (đường đi) của các bộ phận làm việc trong các máy móc, thiết bị (như bàn máy, đầu máy, mâm cặp, ...) được đặt các cảm biến, các công tắc hành trình, công tắc cực hạn, công tắc điểm cuối, ..., để tạo ra các tín hiệu điều khiển: khởi động, hãm, đảo chiều, thay đổi tốc độ ...</para>
+          <para id="id5272249">2) Mạch điển hình: </para>
+          <para id="id5272259">Phân tích truyền động bàn máy bào dường:</para>
+          <para id="id5272265">Trong sơ đồ dùng công tắc hành trình KH có 2 tiếp điểm KH1, KH2 loại không tự phục hồi. Tại vị trí xuất phát ban đầu của bàn máy thì các tiếp điểm KH1 kín, KH2 hở.</para>
+          <para id="id5272300">vvth tA Bàn N T Bvng KHA Bàn N T BKHKH D KH </para>
+          <para id="id6083737">+UL -T N DUL RTr+ - KH1 RTr 2RTh N TN TKH2 RTr 2RTh T NHình 7-10: 1RTh Sơ đồ điều khiển theonguyên tắc hành trình 2RTh TNĐMRTr</para>
+          <para id="id6096379">Khởi động: ấn nút M thì RTr có điện, T có điện làm ĐM được đóng điện và kéo bàn chạy thuận, đồngthời 1RTh có điện sẽ mở tiếp điểm của nó để chuẩn bị cho đảo chiều.</para>
+          <para id="id6096391">Khi hết hành trình thuận, vấu A đập vào công tắc hành trình KH làm cho các tiếp điểm KH1 mở, KH2 kín, dẫn đến T mất điện nhưng N cũng chưa có điện, ĐM hãm tự do.</para>
+          <para id="id6096402">Sau thời gian duy trì của 1RTh thì tiếp điểm của nó đóng điện cho N, làm ĐM đảo chiều, kéo bàn chạy ngược. Khi đó 2RTh có điện, mở tiếp điểm của nó chuẩn bị cho hành trình thuận.</para>
+          <para id="id6096415">Đi hết hành trình ngược, vấu B đập vào công tắc hành trình KH làm cho các tiếp điểm KH2 hở, KH1 kín lại, công tắc tơ N mất điện và T chưa có điện, ĐM hãm tự do. </para>
+          <para id="id6096422">Sau thời gian duy trì của 2RTh, tiếp điểm của nó đóng lại làm cho T có điện và ĐM kéo bàn chạy thuận. 1RTh có điện và mở tiếp điểm của nó, chuẩn bị cho hành trình ngược. </para>
+          <para id="id6096434">Bàn sẽ làm việc với chu kỳ thuận/ngược như hình 7-10.</para>
+          <para id="id6096441">Muốn dừng máy: ấn nút D thì RTr mất điện, T, N, 1RTh, 2RTh mất điện, động cơ hãm tự do cho đến lúc dừng máy.</para>
+        </section>
+        <section id="id-66262498615">
+          <title>Nhận xét</title>
+          <para id="id6096460">* Ngoài các nguyên tắc ĐKTĐ đã nêu trên, còn một số nguyên tắc ĐKTĐ khác: ĐKTĐ theo mô mem, công suất, sức căng, nhiệt độ, ánh sáng, áp suất, ....</para>
+          <para id="id6096471">* Đánh giá về các sơ đồ điều khiển: với các yêu cầu kỹ thuật đối với tất cả các sơ đồ là cao nhất thì:</para>
+          <para id="id6096480">Công suất càng lớn thì trọng lượng và giá thành càng cao. Dùng thiết bị, khí cụ càng bé, càng hiện đại thì giá thành càng cao.</para>
+          <para id="id6096490">Cùng công suất thì trọng lượng và giá thành lớn nhất là nguyên tắc ĐKTĐ theo thời gian, sau đó là nguyên tắc ĐKTĐ theo dòng điện và cuối cùng là nguyên tắc ĐKTĐ theo tốc độ.</para>
+          <para id="id6096504">Nói chung nguyên tắc ĐKTĐ theo tốc độ thường dùng để điều khiển hãm động cơ.</para>
+          <para id="id6096512">Nguyên tắc ĐKTĐ theo dòng điện chủ yếu dùng để điều khiển khởi động động cơ,</para>
+          <para id="id6096520">Nguyên tắc ĐKTĐ theo thời gian thì ứng dụng rộng rãi vì đơn giản.</para>
+        </section>
+      </section>
+    </section>
+    <section id="id-904879716182">
+      <title>CÁC PHẦN TỬ BẢO VỆ VÀ TÍN HIỆU HOÁ</title>
+      <section id="id-730707500744">
+        <title>Ý nghĩa của bảo vệ và tín hiệu hoá</title>
+        <para id="id6096546">* Các phần tử bảo vệ và tín hiệu hoá có vai trò rất to lớn:</para>
+        <para id="id6096553">Đảm bảo quá trình làm việc an toàn cho người và máy móc, thiết bị. Quá trình làm việc có thể xảy ra sự cố hoặc chế độ làm việc xấu cho người và máy móc, thiết bị, đồng thời có thể báo hiệu cho người vận hành biết tình trạng làm việc của hệ thống ĐKTĐ để xử lý. </para>
+        <para id="id6096569">* Chức năng của các thiết bị bảo vệ và tín hiệu hoá:</para>
+        <para id="id6096576">Ngừng hệ thống (máy móc) khi sự cố nguy hiểm trực tiếp đến người, thiết bị, máy móc: U &lt; Uquy định , U &gt; Ucp , I &gt; Icp , ....</para>
+        <para id="id6096601">Khi quá tải hoặc sự cố chưa nguy hiểm đến thiết bị, máy móc thì thiết bị bảo vệ và tín hiệu hoá phải báo cho người vận hành biết để sử lý kịp thời.</para>
+        <para id="id6096612">Bảo đảm khởi động, hãm, đảo chiều ..., một cách bình thường, nghĩa là phải đảm bảo sao cho: I &lt; Icp, to &lt; tocp ,...</para>
+      </section>
+      <section id="id-43182509028">
+        <title>Các dạng bảo vệ: </title>
+        <section id="id-797104297704">
+          <title>Bảo vệ ngắn mạch:</title>
+          <para id="id6096657">- Bảo vệ ngắn mạch là bảo vệ các sự cố có thể gây nên hư hỏng cách điện, hoặc hư hỏng các cơ cấu của thiết bị, máy móc (khi ngắn mạch sẽ gây nên nhiệt độ tăng nhanh gây cháy hoặc sức từ động tăng mạnh gây va đập, ...).</para>
+          <para id="id6096675">- Các thiết bị bảo vệ thường dùng: cầu chì, aptômat, rơle dòng điện cực đại, các khâu bảo vệ ngắn mạch bằng bán dẫn, điện tử, ...</para>
+          <para id="id5700527">- Dòng tác động của cầu chì: </para>
+          <para id="id5700535">Idc = Ikđ /  (7-18)</para>
+          <para id="id5700573">Trong đó:</para>
+          <para id="id5700578">Idc là dòng tác động của dây chảy được chọn.</para>
+          <para id="id5700590">Ikđ là dòng khởi động của động cơ, phụ tải được bảo vệ.</para>
+          <para id="id5700602"> là hệ số xét đến quán tính nhiệt.</para>
+          <para id="id5700612"> = 2,5 đối với động cơ khởi động bình thường.</para>
+          <para id="id5700623"> = (1,6  2) đối với động cơ khởi động nặng.</para>
+          <para id="id5700639">+ Cấm đặt cầu chì trên dây trung tính, mạch nối đất, vì đứt dây chì thì vỏ máy sẽ có điện áp cao nguy hiểm. Dùng cầu chì bảo vệ ngắn mạch thì đơn giản, rẻ tiền, nhưng tác động không chính xác, dòng tác động phụ thuộc vào thời gian, thay thế lâu, không bảo vệ được chế độ làm việc 2 pha.</para>
+          <para id="id5700653">- Dòng chỉnh định của aptômat: </para>
+          <para id="id5700660">Icđ = (1,2  1,3).Ikđ ; (7-19)</para>
+          <para id="id5700694">+ Aptômat tác động rồi thì có thể đóng lại nhanh, cắt được dòng lớn, bảo vệ được chế độ làm việc dòng 2 pha (khi bị mất 1 trong 3 pha).</para>
+          <para id="id5700707">- Dùng rơle dòng điện cực đại (RM) bảo vệ ngắn mạch phải chỉnh định dòng tác động cho phù hợp với dòng ngắn mạch. </para>
+          <para id="id5700716">Thường đặt rơle dòng cực đại trên 3 pha của động cơ không đồng bộ 3 pha, hoặc đặt trên 1 cực đối với động cơ một chiều. Tiếp điểm của RM là loại không tự phục hồi.</para>
+          <para id="id5700731">+ Ví dụ dùng cầu chì và aptômat bảo vệ ngắn mạch:</para>
+          <para id="id5700738">~ ~A 1CC K D K ĐK Hình 7-11: Sơ đồ dùng cầu chì, aptômat bảo vệ ngắn mạchM2CC2CC</para>
+          <para id="id5701882">+ Ví dụ dùng rơle dòng cực đại bảo vệ ngắn mạch:</para>
+          <para id="id5701889">~ ~CD RM K 2CC 2CC D Đ K Hình 7-12: Sơ đồ dùng rơle dòng cực đại bảo vệ ngắn mạchMRMK</para>
+        </section>
+        <section id="id-319641557651">
+          <title>Bảo vệ nhiệt:</title>
+          <para id="id5507322">- Nhằm tránh quá tải lâu dài, nếu không thì khí cụ, thiết bị, động cơ sẽ phát nóng quá nhiệt độ cho phép.</para>
+          <para id="id5507331">- Thường dùng rơle nhiệt, aptômát có bảo vệ nhiệt, phần tử bảo vệ quá tải bằng bán dẫn, để bảo vệ quá tải cho phụ tải dài hạn. </para>
+          <para id="id5507341">- Các tiếp điểm rơle nhiệt (RN) là loại không tự phục hồi, sau khi rơle nhiệt đã tác động thì phải ấn reset bằng tay. Phải chọn rơle nhiệt có đặc tính phát nóng gần với đặc tính phát nóng của thiết bị, động cơ cần được bảo vệ (hình 7-13).</para>
+          <para id="id5507364">+ Dòng chỉnh định của rơle nhiệt, aptômat:</para>
+          <para id="id5507370">Icđ = (1,2  1,3)Iđm (7-20)</para>
+          <para id="id5507399">Trong đó: Iđm là dòng định mức của động cơ, phụ tải.</para>
+          <para id="id5507411">+ Ví dụ dùng rơle nhiệt và aptômat bảo vệ quá tải dài hạn:</para>
+          <para id="id5507418">~ ~A K RN 2CC 2CC D Đ K RNHình 7-13: Sơ đồ dùng rơle nhiệt và aptômat bảo vệ quá tải dài hạnMKRN</para>
+          <para id="id5657928">- Dùng rơle dòng cực đại (RI) để bảo vệ quá tải cho phụ tải ngắn hạn hoặc ngắn hạn lặp lại. Khi phụ tải làm việc trong thời gian ngắn, sự phát nóng của phụ tải không phù hợp với đặc tính của rơle nhiệt, nên rơle nhiệt không tác động kịp, bởi vậy phải dùng rơle dòng cực đại tác động nhanh. </para>
+          <para id="id5657942">+ Ví dụ dùng rơle dòng cực đại bảo vệ quá tải ngắn hạn:</para>
+          <para id="id5657949">~ ~A K2CC 2CC Đ D RM RIK  RThHình 6 - 19: K RThSơ đồ dùng rơle dòng cực đại bảo vệ quá tải ngắn hạnRIRMRIMK</para>
+          <para id="id6352511">- Dòng chỉnh định của rơle dòng cực đại bảo vệ quá tải:</para>
+          <para id="id6352518">Icđ.RI = (1,4  1,5)Iđm (7-21)</para>
+          <para id="id6352546">- Thường dùng 1 rơle dòng cực đại bảo vệ ngắn mạch (RM) và 2 rơle dòng cực đại bảo vệ quá tải (RI). Tiếp điểm của rơle dòng cực đại bảo vệ quá tải là loại tự phục hồi (hình 7-14).</para>
+        </section>
+        <section id="id-295229618614">
+          <title>Bảo vệ điểm không và cực tiểu:</title>
+          <para id="id6352568">- Nhằm tránh làm việc với điện áp nguồn thấp hoặc mất áp nguồn, và tránh tự khởi động lại khi điện áp nguồn phục hồi.</para>
+          <para id="id6352578">- Thường dùng các rơle điện áp (RA), công tắc tơ (CTT), khởi động từ (KĐT), để bảo vệ đểm không và cực tiểu.</para>
+          <para id="id6352587">- Chỉnh định điện áp hút, nhả của rơle điện áp, công tắc tơ:</para>
+          <para id="id6352594">Uh.RA &gt; Ung.sụt.cp (7-22)</para>
+          <para id="id6352617">Unh.RA  Ung.sụt.cp (7-23)</para>
+          <para id="id6352645">Trong đó: </para>
+          <para id="id6352650">Uh.RA là điện áp hút của rơle điện áp, hay của công tắc tơ, khởi động từ.</para>
+          <para id="id6352663">Unh.RA là điện áp nhả của RA, CTT, KĐT.</para>
+          <para id="id6352674">Ung.sụt.cp = 85%Ung.đm là điện áp nguồn sụt cho phép.</para>
+          <para id="id6352693">Nguyên lý làm việc và bảo vệ của sơ đồ hình 6 - 20:</para>
+          <para id="id6352700">Đặt công tắc xoay KC ở vị trí 0 thì tiếp đểm KC1 sẽ kín, KC2 hở; Đóng cầu dao CD, nếuđiện áp làm việc đạt giá trị cho phép (Ung &gt; 85%Ung.đm) thì RA tác động, nó tự duy trì thông qua tiếp điểm RA(1-3) của nó.</para>
+          <para id="id6352724">Quay công tắc KC đến vị trí 1 trái (T) thì K có điện, làm cho động cơ quay. Khi điện áp Ung  85%Ung.đm thì RA sẽ nhả làm K mất điện và động cơ cũng được loại khỏi lưới điện, tránh cho động cơ khỏi bị đốt nóng quá nhiệt độ cho phép (vì điện áp thấp sẽ dẫn đến dòng tăng quá dòng cho phép của động cơ).</para>
+          <para id="id6352761">Khi động cơ đang làm việc, nếu mất điện nguồn thì khi có điện lại, động cơ vẫn không tự khởi động lại được, vì khi đó KC vẫn ở vị trí 1 trái và KC1 vẫn hở, RA đã mất điện khi mất điện áp nguồn, do đó khi có điện lại thì K vẫn không có điện.</para>
+          <para id="id6352775">+ Ví dụ dùng rơle điện áp (RA) bảo vệ đểm không và cực tiểu:</para>
+          <para id="id6352782">~Ung CD1CC 2CC 2CCRAK RA RN RN 1 (T) KC1 (P) 3 2 4 6RN RNKC2 KĐ1 0 1Hình 7-15: Sơ đồ có bảo vệ điểm không và cực tiểu</para>
+        </section>
+        <section id="id-426093409494">
+          <title>Bảo vệ thiếu và mất từ trường:</title>
+          <para id="id6183390">- Nhằm bảo vệ thiếu và mất kích từ động cơ. Khi điện áp hay dòng kích từ động cơ bị giảm, gây ra tốc độ động cơ cao hơn tốc độ cho phép, hoặc dòng điện động cơ lớn hơn dòng cho phép, dẫn đến hư hỏng các phần động học của máy, làm xấu điều kiện chuyển mạch, ...</para>
+          <para id="id6183404">- Dùng rơle dòng điện, rơle điện áp, ... để bảo vệ thiếu và mất từ trường.</para>
+          <para id="id6183415">+ Ví dụ dùng rơle dòng điện, rơle điện áp để bảo vệ thiếu và mất từ trường (hình 7-16)</para>
+          <para id="id6183423">Nguyên lý bảo vệ: khi đủ điện áp thì rơle thiếu từ trường RTT sẽ đóng kín tiếp điểm của nó, KC đặt ở vị trí giữa nên tiếp điểm KC1 kín, RA tác động. Quay KC sang vị trí 1 (T) thì cho động cơ làm việc bình thường.</para>
+          <para id="id6183437">Khi điện áp sụt quá giá trị cho phép, hoặc dòng kích từ giảm thấp đến giá trị: Ikt.Đ = Inh.RTT , Inh.RTT  Ikt.min.cp , nên RTT nhả làm K mất điện, loại động cơ ra khỏi lưới điện để bảo vệ động cơ.</para>
+          <para id="id6183477">Ung 1CC K RN K 1CC+ Đ -RTT CKĐ2CC RA RA RN RTT 2CCKC1KKC2 (T) 1 1 (P) Hình 7-16: Sơ đồ bảo vệ thiếu, mất kích từ động cơ</para>
+        </section>
+        <section id="id-330741502421">
+          <title>Bảo vệ liên động:</title>
+          <para id="id6304575">- Nhằm bảo đảm sự làm việc an toàn cho mạch (bảo đảm nghiêm ngặt một trình tự làm việc hợp lý giữa các thiết bị, tránh thao tác nhầm).</para>
+          <para id="id6304585">- Các thiết bị bảo vệ liên động bằng cơ khí như: các nút ấn kép, các công tắc hành trình kép, ... Và các phần tử bảo vệ liên động điện như: </para>
+          <para id="id6304599">Các tiếp điểm khoá chéo của các công tắc tơ, rơle, làm việc ở các chế độ khác nhau. Ví dụ: </para>
+          <para id="id6304607">~ ~ ~CC CCA D MT MN N TTN T MN T NNĐ Hình 6 - 22: Sơ đồ có bảo vệ liên động cơ và điện</para>
+          <para id="id6223262">Khi khởi động thuận, ấn nút MT thì T có điện, đóng điện cho động cơ quay, còn tiếp điểm thường kín của MT mở ra không cho N có điện, đảm bảo không bị ngắn mạch ở mạch stato. Khi T đã có điện thì tiếp điểm thường kín của T mở ra, đảm bảo cho N không thể có điện nếu như không may có người tác động vào nút MN.</para>
+          <para id="id6223276">Khi Đ đang quay thuận, muốn đảo chiều, ấn nút MN thì T sẽ mất điện và N sẽ có điện, quá trình đảo chiều diễn ra bình thường. Nếu không may trong quá trình quay thuận, tiếp điểm của T ở mạch stato bị dính thì tiếp điểm của T ở mạch của cuộn dây N sẽ không kín lại được, nên mặc dù ấn MN nhưng N vẫn không thể có điện được, tránh được sự ngắn mạch bên phía stato nếu như cả T và N đều tác động.</para>
+          <para id="id6223291">Như vậy các liên động cơ và điện trong sơ đồ đã bảo đảm cho sơ đồ hoạt động bình thường, đúng trình tự làm việc đặt ra, tránh thao tác nhầm.</para>
+        </section>
+      </section>
+      <section id="id-846157061468">
+        <title>Tín hiệu hoá</title>
+        <para id="id6223314">- Khi xuất hiện chế độ làm việc xấu nhưng chưa cần phải dừng máy thì thiết bị bảo vệ sẽ hoạt động làm cho các thiết bị tín hiệu báo cho người vận hành biết để xử lý kịp thời.</para>
+        <para id="id6223326">- Khi tín hiệu đã báo mà không được xử lý kịp thời thì thiết bị bảo vệ sẽ tác động đình chỉ sự làm việc của hệ thống truyền động điện.</para>
+        <para id="id6223337">- Thiết bị tín hiệu hoá: Âm thanh: chuông, còi, ...; Ánh sáng: đèn, mầu, ...; Cờ báo: rơle tín hiệu, ...</para>
+        <para id="id6223346">Ví dụ: </para>
+        <para id="id6223351">~Ung A2CC 2CCRM RARA RN RM 1 (T) KC1 (P) 3 2 4 6K KC2 KRN RN 1 0 1 ĐĐ RN  Chg RMĐ Hình 6 - 23: Sơ đồ có bảo vệ và tín hiệu hoá</para>
+        <para id="id5840741">Sơ đồ hình 6-23 đang hoạt động bình thường. Nếu như quá tải thì rơle nhiệt sẽ tác động, làm RA rồi đến K mất điện, loại động cơ ra khỏi tình trạng nguy hiểm, đồng thời đóng tiếp điểm của nó làm đèn đỏ ĐĐ sáng lên, báo cho người vận hành biết để xử lý, sau khi xử lý xong, người vận hành ấn reset của RN thì mới có thể vận hành lại được.</para>
+        <para id="id5840763">Còn nếu bị ngắn mạch trong động cơ thì rơle bảo vệ dòng cực đại RM tác động, loại ngay động cơ khỏi tình trạng nguy hiểm, đồng thời đóng tiếp điểm của nó làm cho chuông Chg kêu lên, báo cho người vận hành biết để xử lý kịp thời, sau khi xử lý xong, người vận hành ấn reset của RM thì mới có thể vận hành lại được.</para>
+      </section>
+    </section>
+    <section id="id-291285182619">
+      <title>CÂU HỎI ÔN TẬP</title>
+      <para id="id5840795">1. Dựa vào những cơ sở nào để người ta đưa ra các nguyên tắc điều khiển tự động theo các thông số thời gian, tốc độ, dòng điện, và hành trình, v.v… ? </para>
+      <para id="id5840811">2. Phân tích nội dung của nguyên tắc điều khiển tự động theo thời gian, tốc độ, dòng điện, hành trình ? Giải thích nguyên lý làm việc của sơ đồ minh họa cho mỗi nguyên tắc trên ?</para>
+      <para id="id5840823">3. Tại sao có thể xảy ra các sự cố trong hệ thống truyền động điện tự động ? cách khắc phục sự cố đó như thế nào ?</para>
+      <para id="id5840833">4. Phân tích bảo vệ ngắn mạch, bảo vệ quá tải, bảo bệ điểm không và cực tiểu, bảo vệ thiếu hoặc mất từ trường, bảo vệ liên động ? Giải thích nguyên lý bảo vệ của các mạch điển hình tương ứng với mỗi bảo vệ trên ?</para>
+      <para id="id5840847">5. Tín hiệu hóa là gì ? Các mạch tính hiệu hóa có tác dụng gì trong hệ thống truyền động điện tự động ?</para>
+    </section>
+  </content>
+</document>

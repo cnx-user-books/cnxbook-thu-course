@@ -1,0 +1,1022 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Phương pháp thu thập số liệu</title>
+  <metadata>
+  <md:content-id>m30095</md:content-id><md:title>Phương pháp thu thập số liệu</md:title>
+  <md:abstract>Thu thập số liệu thí nghiệm là một công việc quan trọng trong NCKH. Mục đích của thu thập số liệu (từ các tài liệu nghiên cứu khoa học có trước, từ quan sát và thực hiện thí nghiệm) là để làm cơ sơ lý luận khoa học hay luận cứ chứng minh giả thuyết hay tìm ra vấn đề cần nghiên cứu.
+Có 3 phương pháp thu thập số liệu:
+a) Thu thập số liệu bằng cách tham khảo tài liệu.
+b) Thu thập số liệu từ những thực nghiệm (các thí nghiệm trong phòng, thí nghiệm ngoài đồng, …).
+c) Thu thập số liệu phi thực nghiệm (lập bảng câu hỏi điều tra).</md:abstract>
+  <md:uuid>f70e6928-97f6-4a07-9773-054dba8c93d3</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-28741033294">
+      <title>Phương pháp thu thập số liệu từ tham khảo tài liệu</title>
+      <para id="id5291733">Phương pháp nầy là dựa trên nguồn thông tin sơ cấp và thứ cấp thu thập được từ những tài liệu nghiên cứu trước đây để xây dựng cơ sở luận cứ để chứng minh giả thuyết. Thí dụ, để chứng minh giả thuyết “không thể loại bỏ cây bạch đàn ra khỏi cơ cấu cây trồng rừng”, người ta đã dựa vào những nghiên cứu có trước như sau (Vũ Cao Đàm, 2003): </para>
+      <list id="id5291752" list-type="bulleted">
+        <item>Kết quả nghiên cứu tại Nga cho thấy, chỉ trong 15 năm bạch đàn có sức tăng trưởng chiều cao gấp 5 lần so với cây dẻ và 10 lần so với cây sồi;</item>
+        <item>Sản lượng bạch đàn trên 1 ha hàng năm rất cao, tới 20 đến 25 m3/ha/năm, trong khi cây mỡ chỉ đạt 15-20 m3/ha/năm và cây bồ đề là 10-15 m3/ha/năm;</item>
+        <item>Theo thống kê của FAO, từ năm 1.744 đến 1.975 đã có hơn 100 nước nhập khẩu bạch đàn, trong đó có 78 nước đã trồng rừng bạch đàn thành rừng kinh tế có sản lượng cao với qui mô lớn.</item>
+      </list>
+    </section>
+    <section id="id-832637184112">
+      <title>Phương pháp thu thập số liệu từ những thực nghiệm </title>
+      <section id="id-464226908197">
+        <title>Khái niệm</title>
+        <para id="id5291840">Trong phương pháp nầy, số liệu được thực hiện bằng cách quan sát, theo dõi, đo đạc qua các thí nghiệm. Các thí nghiệm trong lĩnh vực khoa học tự nhiên, vật lý, hóa học, kỹ thuật, nông nghiệp, kể cả xã hội thường được thực hiện trong phòng thí nghiệm, nhà lưới, ngoài đồng và cộng đồng xã hội. Để thu thập số liệu, các nhà NCKH thường đặt ra các biến để quan sát và đo đạc (thu thập số liệu). Các nghiệm thức trong thí nghiệm (có những mức độ khác nhau) thường được lặp lại để làm giảm sai số trong thu thập số liệu. </para>
+        <para id="id5291872">Ví dụ: Người nghiên cứu muốn xem xét những mức độ phân bón (hay còn gọi nghiệm thức phân bón) nào đó để làm tăng năng suất, trong cách bố trí thí nghiệm thì mỗi mức độ phân bón thường được lặp lại nhiều lần. Kết quả thí nghiệm là các số liệu được đo từ các chỉ tiêu sinh trưởng và năng suất ở những mức độ phân bón khác nhau. </para>
+        <para id="id5291889">Phương pháp khoa học trong thực nghiệm gồm các bước như: lập giả thuyết, xác định biến, bố trí thí nghiệm, thu thập số liệu để kiểm chứng giả thuyết.</para>
+      </section>
+      <section id="id-0652052686084">
+        <title>Định nghĩa các loại biến trong thí nghiệm</title>
+        <para id="id5291909">Trong nghiên cứu thực nghiệm, có 2 loại biến thường gặp trong thí nghiệm, đó là biến độc lập (independent variable) và biến phụ thuộc (dependent variable). </para>
+        <list id="id5291924" list-type="bulleted">
+          <item>Biến độc lập (còn gọi là nghiệm thức): là các yếu tố, điều kiện khi bị thay đổi trên đối tượng nghiên cứu sẽ ảnh hưởng đến kết quả thí nghiệm. Như vậy, đối tượng nghiên cứu chứa một hoặc nhiều yếu tố, điều kiện thay đổi. Nói cách khác kết quả số liệu của biến phụ thuộc thu thập được thay đổi theo biến độc lập. </item>
+        </list>
+        <para id="id5291952">Thí dụ: </para>
+        <para id="id5291957">Biến độc lập có thể là liều lượng phân bón, loại phân bón, lượng nước tưới, thời gian chiếu sáng khác nhau,… (hay còn gọi là các nghiệm thức khác nhau). </para>
+        <para id="id5291971">Trong biến độc lập, thường có một mức độ đối chứng hay nghiệm thức đối chứng (chứa các yếu tố, điều kiện ở mức độ thông thường) hoặc nghiệm thức đã được xác định mà người nghiên cứu không cần tiên đoán ảnh hưởng của chúng. Các nghiệm thức còn lại sẽ được so sánh với nghiệm thức đối chứng hoặc so sánh giữa các cặp nghiệm thức với nhau . </para>
+        <list id="id5291996" list-type="bulleted">
+          <item>Biến phụ thuộc (còn gọi là chỉ tiêu thu thập): là những chỉ tiêu đo đạc và bị ảnh hưởng trong suốt quá trình thí nghiệm, hay có thể nói kết quả đo đạc phụ thuộc vào sự thay đổi của biến độc lập. Thí dụ: khi nghiên cứu sự sinh trưởng của cây mía, các biến phụ thuộc ở đây có thể bao gồm: chiều cao cây, số lá, trọng lượng cây,… và kết quả đo đạc của biến phụ thuộc ở các nghiệm thức khác nhau có thể khác nhau.</item>
+        </list>
+        <para id="id5292024">Thí dụ: </para>
+        <para id="id5292030">Đề tài: “Ảnh hưởng của liều lượng phân N trên năng suất lúa Hè Thu” có các biến như sau:</para>
+        <para id="id5292057">+ Biến độc lập: liều lượng phân N bón cho lúa khác nhau. Các nghiệm thức trong thí nghiệm có thể là 0, 20, 40, 60 và 80 kgN/ha. Trong đó nghiệm thức “đối chứng” không bón phân N. </para>
+        <para id="id5292081">+ Biến phụ thuộc: có thể là số bông/m2, hạt chắt/bông, trọng lượng hạt và năng suất hạt (t/ha).</para>
+      </section>
+      <section id="id-384339307631">
+        <title>Xác định các biến trong thí nghiệm dựa trên mối quan hệ “nhân-quả” của giả thuyết</title>
+        <para id="id5292125">Kết quả quan sát lệ thuộc vào nguyên nhân gây ảnh hưởng. Dựa vào mối quan hệ trong giả thuyết đặt ra, người nghiên cứu dễ dàng xác định được yếu tố nào ảnh hưởng đến sự kiện quan sát. Thí dụ, “Ảnh hưởng của nồng độ NAA trên sự đậu trái của xoài Cát Hòa Lộc”. Ở đây, tỷ lệ đậu trái (kết quả) khác nhau là do ảnh hưởng của các nồng độ NAA (nguyên nhân) khác nhau. Như vậy, biến độc lập là biến mà người nghiên cứu có ý định làm thay đổi (nồng độ NAA khác nhau) và biến phụ thuộc ở đây là sự đậu trái hay tỷ lệ rụng trái ở các nghiệm thức có nồng độ NAA khác nhau. </para>
+      </section>
+      <section id="id-671150990805">
+        <title>Bố trí thí nghiệm để thu thập số liệu nghiên cứu</title>
+        <para id="id5292183"/>
+        <section id="id-483174360121">
+          <title>Đối tượng khảo sát</title>
+          <para id="id5292200"/>
+          <para id="id5292210">Để chọn đối tượng khảo sát trong thí nghiệm, công việc đầu tiên là phải xác định quần thể (population) mà người nghiên cứu muốn đo đạc để thu thập kết quả. Một quần thể bao gồm nhiều cá thể mang các thành phần và đặc điểm khác nhau mà ta muốn khảo sát. Đối tượng khảo sát thường được chia làm hai nhóm: </para>
+          <para id="id5292232">a) Nhóm khảo sát: đối tượng được đặt ra trong giả thuyết.</para>
+          <para id="id5292247">b) Nhóm đối chứng: so sánh với nhóm khảo sát.</para>
+        </section>
+        <section id="id-450713269736">
+          <title>Khung mẫu (sample frame)</title>
+          <para id="id5292270">Để bố trí và thu thập số liệu thí nghiệm nghiên cứu thì công việc trước tiên là thiết lập khung mẫu. Khung mẫu cần xác định các cá thể trong quần thể mục tiêu (target population), cỡ mẫu và phương pháp lấy mẫu. </para>
+          <para id="id5292284">Trong trường hợp thiết lập khung mẫu sai thì mẫu chọn sẽ không đại diện cho quần thể mục tiêu và số liệu thu thập sẽ không đại diện cho quần thể. Có ba trường hợp tạo ra khung mẫu sai:</para>
+          <list id="id5292301" list-type="bulleted">
+            <item>Khung mẫu chứa quá nhiều cá thể, mà trong đó có cá thể không nằm trong quần thể mục tiêu.</item>
+            <item>Khung mẫu chứa quá ít cá thể, mà trong đó có cá thể nằm và không nằm trong quần thể mục tiêu.</item>
+            <item>Khung mẫu chứa tập hợp các cá thể không đúng hay khung mẫu không nằm trong quần thể mục tiêu.</item>
+          </list>
+          <para id="id5292332">Hai giai đoạn tạo khung mẫu:</para>
+          <list id="id5292338" list-type="enumerated">
+            <item>Xác định các cá thể trong quần thể mục tiêu và cỡ mẫu. Thí dụ, cỡ mẫu của 100 hộ gia đình ở thành phố và 150 gia đình ở nông thôn.</item>
+            <item>Chọn phương pháp lấy mẫu ngẫu nhiên hoặc không ngẫu nhiên. Thí dụ: trong nghiên cứu điều tra, mẫu ngẫu nhiên thì vị trí chọn mẫu có thể dựa vào bản đồ ranh giới giữa các vùng, lập danh sách hộ gia đình theo số nhà, danh bạ điện thoại nếu có, … sau đó chọn phương pháp lấy mẫu. </item>
+          </list>
+        </section>
+        <section id="id-343893705289">
+          <title>Phương pháp lấy mẫu</title>
+          <para id="id5292384">Trước khi đi vào chi tiết về phương pháp lấy mẫu, cần hiểu các định nghĩa có liên quan đến phương pháp, trình bày trong Bảng 5.1. </para>
+          <para id="id5292399">Bảng 5.1 Các định nghĩa có liên quan đến phương pháp lấy mẫu</para>
+          <table id="id5292416" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>Quần thể (population)</entry>
+                  <entry>Một tập hợp các đối tượng khảo sát (người, cá thể, nhân vật, sinh vật,…) và chứa các đặc tính cần nghiên cứu hay khảo sát. </entry>
+                </row>
+                <row>
+                  <entry>Quần thể mục tiêu(target population)</entry>
+                  <entry>Mang đặc tính nào đó và được đánh giá qua mẫu; hoặc mang các đặc tính cần nghiên cứu và đại diện cho toàn quần thể. Thí dụ, khi nghiên cứu về việc sử dụng các bếp lò nấu ăn, thì quần thể mục tiêu hầu hết là người phụ nữ.</entry>
+                </row>
+                <row>
+                  <entry>Mẫu (sample)</entry>
+                  <entry>Một phần hoặc tập hợp nhỏ cá thể của quần thể mục tiêu được chọn đại diện cho quần thể để khảo sát nghiên cứu. </entry>
+                </row>
+                <row>
+                  <entry>Mẫu không xác suất (non-probability sample)</entry>
+                  <entry>Phương pháp trong đó việc chọn mẫu không có xác suất đồng đều hay các cá thể trong quần thể không có cơ hội được chọn như nhau. </entry>
+                </row>
+                <row>
+                  <entry>Mẫu xác suất (probability sample)</entry>
+                  <entry>Phương pháp chọn mẫu trong đó mỗi cá thể có một xác suất đặc trưng của mẫu và thường bằng nhau. Hầu hết việc lấy mẫu xác suất sử dụng cách lấy mẫu ngẫu nhiên để tạo ra mỗi cá thể trong quần thể có cơ hội được chọn như nhau. </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id5292638"/>
+          <para id="id5292642"/>
+          <para id="id5292646">Mục đích của tất cả các phương pháp lấy mẫu là đạt được mẫu đại diện cho cả quần thể nghiên cứu. Khi chọn phương pháp lấy mẫu thì cần hiểu rõ các đặc tính của quần thể nghiên cứu để xác định cỡ mẫu quan sát đại diện và để đánh giá tương đối chính xác quần thể.</para>
+          <para id="id5292665">Trong nghiên cứu, không thể quan sát hết toàn bộ các cá thể trong quần thể, mà chỉ chọn một số lượng đủ các cá thể đại diện hay còn gọi là mẫu thí nghiệm. Phương pháp chọn mẫu thí nghiệm rất quan trọng, bởi vì có liên quan tới sự biến động hay độ đồng đều của mẫu. Có hai phương pháp chọn mẫu: (1) Chọn mẫu không xác suất (không chú ý tới độ đồng đều) và (2) chọn mẫu xác suất (đề cập tới độ đồng đều).</para>
+          <para id="id5292684">* Chọn mẫu không có xác suất</para>
+          <para id="id5292691">Phương pháp chọn mẫu không xác suất là cách lấy mẫu trong đó các cá thể của mẫu được chọn không ngẫu nhiên hay không có xác suất lựa chọn giống nhau. Điều này thể hiện trong cách chọn mẫu như sau: </para>
+          <list id="id5292705" list-type="bulleted">
+            <item>Các đơn vị mẫu được tự lựa chọn mà không có phương pháp.</item>
+            <item>Các đơn vị mẫu rất dễ dàng đạt được hoặc dễ dàng tiếp cận. Thí dụ chọn những hộ trên những con đường dễ đi. </item>
+            <item>Các đơn vị mẫu được chọn theo lý do kinh tế, thí dụ trả tiền cho sự tham dự.</item>
+            <item>Các đơn vị mẫu được quan tâm bởi người nghiên cứu trong cách “điển hình” của quần thể mục tiêu. Thí dụ người nghiên cứu chỉ quan tâm đến các nhân vật điển hình trong quần thể nghiên cứu, để so sánh với các nhân vật khác.</item>
+            <item>Các đơn vị mẫu được chọn mà không có sự thiết kế rõ ràng (thí dụ: chọn 50 người đầu tiên đến buổi sáng).</item>
+          </list>
+          <para id="id5292762">Phương pháp chọn mẫu không có xác suất thường có độ tin cậy thấp. Mức độ chính xác của cách chọn mẫu không xác suất tùy thuộc vào sự phán đoán, cách nhìn, kinh nghiệm của người nghiên cứu, sự may mắn hoặc dễ dàng và không có cơ sở thống kê trong việc chọn mẫu. </para>
+          <para id="id5292777">* Chọn mẫu xác suất</para>
+          <para id="id5292784">Cơ bản của việc chọn mẫu xác suất là cách lấy mẫu trong đó việc chọn các cá thể của mẫu sao cho mỗi cá thể có cơ hội lựa chọn như nhau, nếu như có một số cá thể có cơ hội xuất hiện nhiều hơn thì sự lựa chọn không phải là ngẫu nhiên. Để tối ưu hóa mức độ chính xác, người nghiên cứu thường sử dụng phương pháp lấy mẫu ngẫu nhiên. </para>
+          <para id="id5292801">* Các phương pháp chọn mẫu ngẫu nhiên</para>
+          <para id="id5292812">- Chọn mẫu ngẫu nhiên đơn giản (simple random)</para>
+          <para id="id5292830">Cách đơn giản nhất của việc chọn các cá thể của mẫu trong cách chọn mẫu ngẫu nhiên là sử dụng xác suất. Việc lựa chọn n các cá thể từ một quần thể sao cho các cá thể có cơ hội bằng nhau hay một xác suất bằng nhau trong phương pháp nầy. Thí dụ: Một trường học có 1.000 sinh viên, người nghiên cứu muốn chọn ra 100 sinh viên để nghiên cứu về tình trạng sức khỏe trong số 1.000 sinh viên. Theo cách chọn mẫu đơn giản thì chỉ cần viết tên 1.000 sinh viên vào trong mẫu giấy nhỏ, sau đó bỏ tất cả vào trong một cái thùng và rồi rút ngẫu nhiên ra 100 mẫu giấy. Như vậy, mỗi sinh viên có một cơ hội lựa chọn như nhau và xác suất chọn ngẫu nhiên một sinh viên trên dễ dàng được tính. Thí dụ trên ta có quần thể N = 1.000 sinh viên và cỡ mẫu n = 100 sinh viên. Như vậy, sinh viên của trường được chọn trong cách lấy mẫu ngẫu nhiên sẽ có xác suất là n/(N x 100) hay 100/(1000 x 100) = 10%.</para>
+          <para id="id5292866">Một cách chọn mẫu ngẫu nhiên khác là sử dụng bảng số ngẫu nhiên trong sách thống kê phép thí nghiệm hoặc cách chọn số ngẫu nhiên bằng các chương trình thống kê trên máy tính. </para>
+          <para id="id5292882">Phương pháp chọn mẫu ngẫu nhiên trong các thí nghiệm lấy mẫu trong thực tế được thể hiện trong hình 5.1. </para>
+          <figure id="id5292899">
+            <media id="id1167766971963" alt=""><image src="../../media/graphics1.png" mime-type="image/png" height="138" width="138"/></media>
+          </figure>
+          <para id="id5292923">Hình 5.1 Phương pháp chọn mẫu ngẫu nhiên trong thực tế </para>
+          <para id="id5299590">- Chọn mẫu phân lớp (stratified samples) </para>
+          <para id="id5299605">Chọn mẫu phân lớp được thực hiện khi quần thể mục tiêu được chia thành các nhóm hay phân lớp. Trong phương pháp lấy mẫu phân lớp, tổng quần thể (N) đầu tiên được chia ra thành L lớp của các quần thể phụ N1, N2 … NL, như vậy: </para>
+          <figure id="id5299652">
+            <media id="id1167766457461" alt=""><image src="../../media/graphics2.png" mime-type="image/png" height="31" width="238"/></media>
+          </figure>
+          <para id="id5299676">Để áp dụng kỹ thuật chọn mẫu phân lớp thì trước tiên người nghiên cứu cần nắm các thông tin và các số liệu nghiên cứu trước đây có liên quan đến cách lấy mẫu phân lớp. Sau đó, người nghiên cứu sẽ xác định cỡ mẫu và chọn ngẫu nhiên các cá thể trong mỗi lớp. </para>
+          <para id="id5299692">Thí dụ: khi nghiên cứu về mức độ giàu nghèo của một vùng nghiên cứu có 4 huyện (4 phân lớp), mỗi huyện có số hộ gia đình khác nhau được biết trong Bảng 5.2. Người nghiên cứu muốn thực hiện 200 cuộc phỏng vấn hộ gia đình trong vùng nghiên cứu, như vậy cỡ mẫu của mỗi huyện sẽ được tính theo tỷ lệ phần trăm trong Bảng 5.2 như sau:</para>
+          <para id="id5299709">Bảng 5.2 Thí dụ về cách chọn mẫu phân lớp</para>
+          <table id="id5299725" summary="">
+            <tgroup cols="4">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry>Huyện</entry>
+                  <entry>Số hộ trong mỗi lớp </entry>
+                  <entry>Tỷ lệ hộ trong mỗi lớp (%)</entry>
+                  <entry>Cỡ mẫu phỏng vấn ỡ mỗi lớp </entry>
+                </row>
+                <row>
+                  <entry>A</entry>
+                  <entry>250</entry>
+                  <entry>25</entry>
+                  <entry>50</entry>
+                </row>
+                <row>
+                  <entry>B</entry>
+                  <entry>150</entry>
+                  <entry>15</entry>
+                  <entry>30</entry>
+                </row>
+                <row>
+                  <entry>C</entry>
+                  <entry>400</entry>
+                  <entry>40</entry>
+                  <entry>80</entry>
+                </row>
+                <row>
+                  <entry>D</entry>
+                  <entry>200</entry>
+                  <entry>20</entry>
+                  <entry>40</entry>
+                </row>
+                <row>
+                  <entry/>
+                  <entry>1000</entry>
+                  <entry>100</entry>
+                  <entry>200</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id5300004">Nếu như số hộ của 4 huyện gần như nhau, người nghiên cứu chỉ cần chọn 50 cuộc phỏng vấn trong mỗi huyện và sau đó chọn mẫu ngẫu nhiên trong mỗi lớp. </para>
+          <para id="id5300018">Cũng trong nghiên cứu trên, nếu người nghiên cứu không phân chia các huyện ra thành các lớp, thì phương pháp lấy mẫu ngẫu nhiên phỏng vấn hộ gia đình trong vùng nghiên cứu sẽ sai và số liệu thu thập sẽ không đại diện cho vùng nghiên cứu, do mẫu có thể tập trung ở một huyện nào đó. </para>
+          <para id="id5300036">Một số nghiên cứu thường được chia lớp trong quần thể mục tiêu gồm: </para>
+          <list id="id5300046" list-type="bulleted">
+            <item>Phân lớp quần thể mục tiêu là các thành phố, tỉnh, huyện; </item>
+            <item>phân lớp theo vùng sinh thái khác nhau; </item>
+            <item>phân lớp quần thể mục tiêu là các hộ gia đình theo mức độ giàu nghèo, trình độ học vấn, …; </item>
+            <item>…</item>
+          </list>
+          <para id="id5300085">Trong phương pháp chọn mẫu phân lớp, các quần thể phụ là các vùng chia phụ hay các lô được chia trong Hình 5.2 khi đã xác định các yếu tố như loại đất, dạng đời sống thực vật hoặc dạng địa hình, … Các điểm được chọn ngẫu nhiên trong mỗi vùng phụ được thể hiện trong Hình 5.2. </para>
+          <figure id="id5300110">
+            <media id="id1167766457614" alt=""><image src="../../media/graphics3.png" mime-type="image/png" height="142" width="142"/></media>
+          </figure>
+          <para id="id5300134">Hình 5.2  Phương pháp chọn mẫu phân lớp</para>
+          <para id="id5300147">- Chọn mẫu hệ thống (systematic samples) </para>
+          <para id="id5300165">Đôi khi cách chọn đơn vị mẫu ngẫu nhiên không tốt hơn cách chọn mẫu hệ thống. Trong chọn mẫu hệ thống, cỡ mẫu n được chọn (có phương pháp tính xác suất tương tự) từ một quần thể N. Cách lấy mẫu hệ thống là khung mẫu giống như là 1 “hàng” của các đơn vị mẫu, và mẫu như là một chuổi liên tiếp của các điểm số có khoảng cách bằng nhau theo hàng dọc. </para>
+          <para id="id5300192">Thí dụ chọn mẫu hệ thống như sau: muốn nghiên cứu 1 thành viên trong mỗi nhóm có 10 cá thể, quần thể có 10 nhóm (tổng cá thể của quần thể là 100), đánh số cá thể từ 1-100. Lúc này nhóm 1 được đánh số từ 1-10; nhóm 2 từ 11-20; nhóm 3 từ 21-30; …nhóm 10 từ 91-100. </para>
+          <para id="id5300240">Trước tiên cần sắp xếp thứ tự các đơn vị mẫu (thí dụ theo thứ tự gia tăng trong trường hợp này). Sau đó chọn điểm đầu tiên bất kỳ có giá trị &lt; 10 (thí dụ chọn ngẫu nhiên một số trong khoảng từ 1-10 là 7. Số cá thể tiếp theo sẽ cộng thêm là 10. Như vậy các thành viên được chọn sẽ có số thứ tự là 7, 17, 27, 37, 47,… 97.</para>
+          <para id="id5300270">Nhóm 1:</para>
+          <para id="id5300282">1. 93535459</para>
+          <para id="id5300330">2. 93781078 </para>
+          <para id="id5300342">3. 93732085</para>
+          <para id="id5300351">4. 93763450</para>
+          <para id="id5300359">5. 93763450 </para>
+          <para id="id5300371">6. 94407382</para>
+          <para id="id5300379">7. 94409687 &lt;======== (cá thể được chọn có số thứ tự là 7)</para>
+          <para id="id5300398">8. 94552345 </para>
+          <para id="id5300410">9. 94768091</para>
+          <para id="id5300419">10. 94556321</para>
+          <para id="id5300425">Nhóm 2:</para>
+          <para id="id5300437">11. 94562119 </para>
+          <para id="id5300447">12. 94127845</para>
+          <para id="id5300454">13. 94675420</para>
+          <para id="id5300461">14. 94562119 </para>
+          <para id="id5300470">15. 94127846</para>
+          <para id="id5300477">16. 94675442</para>
+          <para id="id5300484">17. 94675411 &lt;======== (cá thể được chọn có số thứ tự là 17)</para>
+          <para id="id5300505">18. 94675420</para>
+          <para id="id5300512">19. 94675422</para>
+          <para id="id5300518">20. 94675416</para>
+          <para id="id5300525">Phương pháp chọn mẫu hệ thống tạo ra các ô có các điểm có khoảng cách đều nhau với các ô có cấu trúc khác nhau như hình vuông (Hình 5.3), chữ nhật, … </para>
+          <figure id="id5300542">
+            <media id="id1167766457700" alt=""><image src="../../media/graphics4.png" mime-type="image/png" height="148" width="148"/></media>
+          </figure>
+          <para id="id5300566">Hình 5.3  Phương pháp chọn mẫu hệ thống</para>
+          <para id="id5300579">- Chọn mẫu chỉ tiêu (quota sampling)</para>
+          <para id="id5300597">Trong cách chọn mẫu chỉ tiêu, quần thể nghiên cứu được phân nhóm hoặc phân lớp như cách chọn mẫu phân lớp. Các đối tượng nghiên cứu trong mỗi nhóm được lấy mẫu theo tỷ lệ đã biết và sau đó tiến hành phương pháp chọn mẫu không sác xuất. Để thiết lập mẫu chỉ tiêu thì người nghiên cứu cần phải biết ít nhất các số liệu, thông tin trong quần thể mục tiêu để phân chia các chỉ tiêu muốn kiểm soát. Thí dụ, một cuộc phỏng vấn để biết được hoạt động hoặc lý do khách du lịch đến Cần thơ. Dựa trên số liệu nghiên cứu trước đây hoặc số liệu điều tra dân số cho biết lý do khách du lịch tới Cần thơ như sau: 60% với lý do đi nghĩ mát, vui chơi; 20% lý do thăm bạn bè, gia đình; 15% lý do kinh doanh và 5% lý do hội họp. Người nghiên cứu dự tính cỡ mẫu muốn phỏng vấn 500 khách du lịch, và chọn những nơi có nhiều khách du lịch như khách sạn, nơi hội họp, khu vui chơi giải trí,… Như vậy tỷ lệ mẫu để muốn phỏng vấn đạt được cho mỗi lý do (chỉ tiêu) nêu trên sẽ tương ứng tỷ lệ là 300, 100, 75 và 25 khách du lịch. Nếu như chỉ tiêu 300 khách du lịch đến với lý do vui chơi, giải trí được trả lời chưa đủ thì phải tiếp tục phỏng vấn cho tới khi đạt được đủ chỉ tiêu. </para>
+          <para id="id5300633">Thuận lợi của lấy mẫu chỉ tiêu áp dụng trong một vài nghiên cứu là chi phí thực hiện nghiên cứu tương đối rẽ và dễ (do không cần phải thiết lập khung mẫu). Bất lợi của việc chọn mẫu chỉ tiêu là không đại diện toàn bộ quần thể, do lấy mẫu không xác suất như chọn ưu tiên phỏng vấn khách du lịch đến trước, chọn nơi có nhiều khách lui tới, khách ở khách sạn, ... và vì vậy mức độ tin cậy phụ thuộc vào kinh nghiệm hay sự phán đoán của người nghiên cứu và sự nhiệt tình của người trả lời phỏng vấn. </para>
+          <para id="id5300671">Để tăng mức độ tin cậy, người nghiên cứu cần thực hiện cuộc phỏng vấn bước đầu để kiểm tra người trả lời có rơi vào các chỉ tiêu hay không. Chọn mẫu chỉ tiêu ít được áp dụng trong các nghiên cứu phát triển, nhưng đôi khi đựoc sử dụng trong một vài nghiên cứu nhỏ mang các đặc tính quan sát. </para>
+          <para id="id5300693">* Chọn mẫu không gian (spatial sampling)</para>
+          <para id="id5300708"/>
+          <para id="id5300712">Người nghiên cứu có thể sử dụng cách lấy mẫu nầy khi hiện tượng, sự vật được quan sát có sự phân bố mẫu theo không gian (các đối tượng khảo sát trong khung mẫu có vị trí không gian 2 hoặc 3 chiều). Thí dụ lấy mẫu nước ở sông, đất ở sườn đồi, hoặc không khí trong phòng. Cách chọn mẫu như vậy thường gặp trong các nghiên cứu sinh học, địa chất, địa lý. </para>
+          <para id="id5300730">Lấy mẫu theo sự phân bố này yêu cầu có sự giống nhau về không gian qua các phương pháp ngẫu nhiên, hệ thống và phân lớp. Kết quả của một mẫu chọn có thể được biểu diễn như một loạt các điểm trong không gian hai chiều, giống như là bản đồ. </para>
+          <para id="id5300752"/>
+        </section>
+        <section id="id-24682296078">
+          <title>Xác định cỡ mẫu</title>
+          <para id="id5300777"/>
+          <para id="id5300781">Mục đích của việc xác định cỡ mẫu là để giảm đi công lao động và chi phí làm thí nghiệm và điều quan trọng là chọn cỡ mẫu như thế nào mà không làm mất đi các đặc tính của mẫu và độ tin cậy của số liệu đại diện cho quần thể. </para>
+          <para id="id5300799">Việc xác định cỡ mẫu là một cách lấy thống kê theo độ ý nghĩa, nhưng đôi khi quá trình này cũng được bỏ qua và người nghiên cứu chỉ lấy cỡ mẫu có tỷ lệ ấn định (như cỡ mẫu 10% của quần thể mẫu). Dĩ nhiên, đối với quần thể tương đối lớn, thì việc chọn cỡ mẫu có tỷ lệ như vậy tương đối chính xác đủ để đại diện cho quần thể. Việc tính toán là làm sao xác định một kích cỡ mẫu tối thiểu mà vẫn đánh giá được tương đối chính xác quần thể. Chọn cỡ mẫu quá lớn hoặc lớn hơn mức tối thiểu thì tốn kém còn chọn cở mẫu dưới mức tối thiểu lại ít chính xác. </para>
+          <para id="id5300834">Trước khi xác định cỡ mẫu, phải thừa nhận mẫu cần xác định từ quần thể có sự phân phối bình thường. Để xác định cỡ mẫu tối thiểu cần phải đánh giá trung bình quần thể μ. Khi chúng ta thu thập số liệu từ mẫu và tính trung bình mẫu. Trung bình mẫu này thì khác với trung bình quần thể μ. Sự khác nhau giữa mẫu và quần thể được xem là sai số. Sai số biên (The margin of error) d thể hiện sự khác nhau giữa trung bình mẫu quan sát và giá trị trung bình của quần thể μ được tính như sau: </para>
+          <para id="id5300906">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>d</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi/>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mstyle fontsize="24pt">
+                            <m:mrow>
+                              <m:mi>z</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>α</m:mi>
+                                <m:mo stretchy="false">/</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mtext>.</m:mtext>
+                        <m:mfrac>
+                          <m:mi>σ</m:mi>
+                          <m:msqrt>
+                            <m:mi>n</m:mi>
+                          </m:msqrt>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{d=` { size 24{z} }  rSub { size 8{ {α} slash {2} } }  "."  {  {σ}  over  { sqrt {n} } } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id5300991">d : sai số biên mong muốn</para>
+          <para id="id5301009">Z/2: giá trị ngưỡng của phân bố chuẩn </para>
+          <para id="id5301031">n : cỡ mẫu</para>
+          <para id="id5301048">σ : độ lệch chuẩn quần thể</para>
+          <para id="id5301074"/>
+          <figure id="id5301082">
+            <media id="id1167772428815" alt=""><image src="../../media/graphics5.png" mime-type="image/png" height="156" width="242"/></media>
+          </figure>
+          <para id="id5301106">Sau đó chúng ta có thể tính cỡ mẫu cần thiết dựa trên khoảng tin cậy và sai số biên. Cỡ mẫu được tính qua chuyển đổi công thức trên là: </para>
+          <para id="id5301121">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi/>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mstyle fontsize="24pt">
+                            <m:mrow>
+                              <m:mfenced open="[" close="]">
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>z</m:mi>
+                                    <m:mstyle fontsize="10pt">
+                                      <m:mrow>
+                                        <m:mrow>
+                                          <m:mi>α</m:mi>
+                                          <m:mo stretchy="false">/</m:mo>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mfrac>
+                                    <m:mi>σ</m:mi>
+                                    <m:msqrt>
+                                      <m:mi>d</m:mi>
+                                    </m:msqrt>
+                                  </m:mfrac>
+                                </m:mrow>
+                              </m:mfenced>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mrow/>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{n=` { size 24{ left [ {z}  rSub { size 10{ {α} slash {2} } }  "."  {  {σ}  over  { sqrt {d} } }  right ]} }  rSub {} } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id5301219">Để tính được n thì phải biết σ , xác định khoảng tin cậy <figure id="id5301236"><media id="id1167770391008" alt=""><image src="../../media/graphics6.png" mime-type="image/png" height="25" width="45"/></media></figure> và giá trị trung bình μ trong khoảng ±d. Giá trị Z/2 được tính qua Bảng 5.3.</para>
+          <para id="id5301300">Bảng 5.3 Giá trị Z/2 </para>
+          <table id="id5301332" summary="">
+            <tgroup cols="6">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <tbody>
+                <row>
+                  <entry>1- </entry>
+                  <entry>0,80</entry>
+                  <entry>0,85</entry>
+                  <entry>0,90</entry>
+                  <entry>0,95</entry>
+                  <entry>0,99</entry>
+                </row>
+                <row>
+                  <entry>Z/2</entry>
+                  <entry>1,28</entry>
+                  <entry>1,44</entry>
+                  <entry>1,645</entry>
+                  <entry>1,96</entry>
+                  <entry>2,85</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id5301491">Theo qui luật, nếu như cỡ mẫu n &lt; 30, chúng ta có thể tính σ từ độ lệch chuẩn mẫu S theo công thức. Ngoài ra chúng ta củng có thể tính σ từ những quần thể tương tự hoặc từ cuộc thử nghiệm thí điểm, hoặc phỏng đoán.</para>
+          <para id="id5301532">Thí dụ: Một người nghiên cứu muốn đánh giá hàm lượng trung bình của phosphorus trong một ao hồ. Một nghiên cứu trong nhiều năm trườc đây có một độ lệch chuẩn quần thể σ có giá trị là 1,5 gram/lít. Bao nhiêu mẫu nước sẽ được lấy để đo hàm lượng phosphorus chính xác mà 95% mẫu có có sai số không vượt quá 0,1 gram. </para>
+          <para id="id5301554">Áp dụng công thức tính cỡ mẫu:</para>
+          <para id="id5301562">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi/>
+                        </m:mrow>
+                        <m:msub>
+                          <m:mstyle fontsize="24pt">
+                            <m:mrow>
+                              <m:mfenced open="[" close="]">
+                                <m:mrow>
+                                  <m:msub>
+                                    <m:mi>z</m:mi>
+                                    <m:mstyle fontsize="10pt">
+                                      <m:mrow>
+                                        <m:mrow>
+                                          <m:mi>α</m:mi>
+                                          <m:mo stretchy="false">/</m:mo>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msub>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mfrac>
+                                    <m:mi>σ</m:mi>
+                                    <m:msqrt>
+                                      <m:mi>d</m:mi>
+                                    </m:msqrt>
+                                  </m:mfrac>
+                                </m:mrow>
+                              </m:mfenced>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mrow/>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{n=` { size 24{ left [ {z}  rSub { size 10{ {α} slash {2} } }  "."  {  {σ}  over  { sqrt {d} } }  right ]} }  rSub {} } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id5301660">Thay các tham số trên ta có:</para>
+          <para id="id5301669"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mi/></m:mrow><m:msub><m:mstyle fontsize="24pt"><m:mrow><m:mfenced open="[" close="]"><m:mrow><m:msub><m:mrow><m:mn>1,</m:mn><m:mtext>96</m:mtext></m:mrow><m:mrow/></m:msub><m:mtext>.</m:mtext><m:mfrac><m:mn>1,5</m:mn><m:msqrt><m:mn>0,1</m:mn></m:msqrt></m:mfrac></m:mrow></m:mfenced></m:mrow></m:mstyle><m:mrow/></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=` { size 24{ left [ {1,"96"}  rSub {}  "."  {  {1,5}  over  { sqrt {0,1} } }  right ]} }  rSub {} } {}</m:annotation></m:semantics></m:math>= 9,30 ~ 10 mẫu nước</para>
+          <para id="id5301768">Như vậy, người nghiên cứu chỉ cần lấy 10 mẫu nước để phân tích hàm lượng trung bình của phosphorus trong ao hồ.</para>
+          <para id="id5301778">Đánh giá sự biến động của quần thể</para>
+          <para id="id5301783">Thậm chí khi chúng ta thật sự không biết sự biến động của quần thể, có một vài phương pháp tìm giá trị biến động:</para>
+          <list id="id5301793" list-type="bulleted">
+            <item>Có thể ước lượng S dựa trên các mẫu trước đây đã chọn có cùng quần thể nghiên cứu giống nhau.</item>
+            <item>Có thể phỏng đoán dựa trên các kinh nghiệm trước đây có cùng quần thể nghiên cứu giống nhau. </item>
+            <item>Tiến hành nghiên cứu thí điểm để tính giá trị của S.</item>
+          </list>
+        </section>
+      </section>
+    </section>
+    <section id="id-00105775313158">
+      <title>Phương pháp phi thực nghiệm </title>
+      <para id="id5301876"/>
+      <section id="id-91131850062">
+        <title>Khái niệm</title>
+        <para id="id5301912">Phương pháp phi thực nghiệm là phương pháp thu thập số liệu dựa trên sự quan sát các sự kiện, sự vật đã hay đang tồn tại, từ đó tìm ra qui luật của chúng. Phương pháp này gồm các loại nghiên cứu kinh tế và xã hội, nghiên cứu nhân chủng học, … </para>
+        <para id="id5301931">Loại số liệu thu thập trong phương pháp phi thực nghiệm gồm số liệu được thu thập từ các câu hỏi có cấu trúc kín hoặc số liệu được thu thập từ các câu hỏi mở theo các phương pháp thu thập số liệu.</para>
+        <para id="id5301968">+ Câu hỏi mở: là dạng câu hỏi có số liệu thu thập không có cấu trúc hay số liệu khó được mã hóa. Câu hỏi cho phép câu trả lời mở và có các diễn tả, suy nghĩ khác nhau hơn là ép hoặc định hướng cho người trả lời. </para>
+        <para id="id5301999">+ Câu hỏi kín: là dạng câu hỏi có số liệu thu thập có thể tương đối dễ dàng phân tích, mã hóa nhưng nó giới hạn sự trả lời. Thí dụ, sinh viên các khóa học được đưa ra các câu hỏi nhận xét về giáo trình, bài giảng, sách, … và được chỉ định trả lời theo thang đánh giá 5 mức độ (rất hài lòng: +2; hài lòng: +1; trung bình: 0; không hài lòng: -1; rất không hài lòng: -2) để biết sinh viên thỏa mãn hay không thỏa mãn. Đây là các câu hỏi kín thể hiện sự mã hóa số liệu.</para>
+      </section>
+      <section id="id-0238505173777">
+        <title>Phương pháp thu thập số liệu</title>
+        <para id="id5302037">Nhiều đề tài, chương trình, dự án nghiên cứu trong các lãnh vực sản xuất, thương mại, kinh doanh có liên quan tới nhiều nhóm người như chủ kinh doanh, đại lý, nhà khoa học, người sản xuất, người tiêu thụ, hay tiềm năng, thị trường, kinh nghiệm, kiến thức hoặc quan điểm. Việc thu thập các thông tin, số liệu trong mối quan hệ trên cần thiết phải chọn phương pháp thu thập số liệu cho phù hợp. Trong đó, phương pháp phỏng vấn là một cách được sử dụng chủ yếu để tìm hiểu những lý do và động cơ về quan điểm, thái độ, sở thích hoặc hành vi của con người. Người phỏng vấn có thể thực hiện các cuộc phỏng vấn là cá nhân hoặc nhóm người ở nơi làm việc, ở nhà, ngoài ruộng đồng, ngoài đường, siêu thị hay ở một nơi nào đó đã thỏa thuận,… Trong phương pháp phỏng vấn, trước khi bắt đầu đặt câu hỏi cho người trả lời thì người nghiên cứu nên xác định phạm vi câu hỏi. Có hai quyết định cần phải làm:</para>
+        <list id="id5302082" list-type="enumerated">
+          <item>Xác định ranh giới nghiên cứu: Bằng cách tự hỏi quần thể cộng đồng nào hay quần chúng nào trong cộng đồng để nắm bắt được các kiến thức, ý kiến và thông tin từ họ? </item>
+          <item>Chọn mẫu hay chọn đối tượng phỏng vấn: Theo nguyên tắc, chọn mẫu ngẫu nhiên là tốt nhất. Nhưng thực tế cho thấy khó đạt được và khó thuyết phục được người được chọn ngẫu nhiên để tham dự. Vì vậy, thường có nhiều cách khác nhau trong việc lấy mẫu (xem phần phương pháp chọn mẫu trong phương pháp thực nghiệm). </item>
+        </list>
+        <para id="id5302120">Một khi đã giải quyết xong hai câu hỏi trên, bước kế là xác định kiểu trả lời của người được phỏng vấn. Có hai phương pháp phỏng vấn: Phương pháp phỏng vấn - trả lời và phương pháp sử dụng bảng câu hỏi - trả lời bằng viết. Sự khác nhau quan trọng giữa hai phương pháp này có liên quan tới khối lượng kiến thức và cơ sở lý thuyết để bắt đầu làm cuộc điều tra, cũng như khối lượng số liệu cần thu thập. Đôi khi có một số mẫu khuyết các câu khó trả lời và một số lổ hổng lớn trong kiến thức. Đây là những trường hợp hay những phương pháp khác nhau mà người nghiên cứu cần chú ý để chọn phương pháp nào thích hợp trong việc điều tra. </para>
+        <section id="id-814208008752">
+          <title>Phương pháp phỏng vấn - trả lời </title>
+          <para id="id5302165">Phỏng vấn là một loạt các câu hỏi mà người nghiên cứu đưa ra để phỏng vấn người trả lời. Phỏng vấn có thể được tổ chức có cấu trúc, nghĩa là người nghiên cứu hỏi các câu hỏi được xác định rõ ràng; và phỏng vấn không theo cấu trúc, nghĩa là người nghiên cứu cho phép một số các câu hỏi của họ được trả lời (hay dẫn dắt) theo ý muốn của người trả lời. Đặc biệt, khi áp dụng cuộc phỏng vấn không cấu trúc, người nghiên cứu thường sử dụng băng ghi chép thì tốt hơn nếu không muốn ảnh hưởng đến người được phỏng vấn. </para>
+          <para id="id5302199">Phương pháp phỏng vấn được áp dụng tốt trong trường hợp:</para>
+          <list id="id5302207" list-type="bulleted">
+            <item>Mục tiêu nghiên cứu chưa được hiểu rõ hoàn toàn. Vấn đề và mục tiêu nghiên cứu có thể sửa hoặc xem lại trong quá trình nghiên cứu.</item>
+            <item>Một loạt các câu trả lời có khả năng chưa được biết trước. Một số người trả lời có thể trình bày các quan điểm mới mà người nghiên cứu chưa biết tới.</item>
+            <item>Người nghiên cứu cần có sự lựa chọn đề xuất hay trình bày thêm những câu hỏi dựa trên thông tin từ người trả lời.</item>
+            <item>Một số người trả lời có thể có thông tin chất lượng cao và người nghiên cứu mong muốn tìm hiểu sâu hơn với họ về đề tài nghiên cứu.</item>
+            <item>Các câu hỏi có liên quan tới kiến thức ẩn, không nói ra hoặc quan điểm cá nhân (thái độ, giá trị, niềm tin, suy nghĩ, …).</item>
+            <item>Người nghiên cứu có thể cung cấp thêm thời gian và chi phí cho phỏng vấn và đi lại.</item>
+            <item>Một số người trả lời có những khó khăn trong cách diễn đạt bằng cách viết.</item>
+            <item>Chúng ta muốn công bố báo cáo có liên quan đến công bố chung. </item>
+          </list>
+          <para id="id5302304">Các cuộc phỏng vấn thường mất nhiều thời gian, có thể khoảng một ngày cho mỗi cuộc phỏng vấn và kèm theo nhiều giấy tờ, nhưng người nghiên cứu có thể thu thập nhiều bảng câu hỏi được phỏng vấn trong một ngày. Phương pháp phỏng vấn chủ đề là phỏng vấn nhanh, thích hợp và giống như cuộc thảo luận thông thường. Người trả lời phỏng vấn có quyền đưa ra bất kỳ sự bình luận nào mà họ thấy thích hợp, và nếu người phỏng vấn tìm ra chủ đề mới thích thú thì họ có thể đưa ra thêm các câu hỏi dựa trên quan điểm mới. Nhưng nếu như người phỏng vấn đi lạc đề thì sẽ thất bại và cần phải điều chỉnh lại cuộc nói chuyện liên quan tới chủ đề ban đầu đã đưa ra. </para>
+          <para id="id5302342">Phỏng vấn là phương pháp đặc biệt thích hợp khi người nghiên cứu không có cơ sở lý thuyết, lý luận hay suy nghĩ xác thực về vấn đề, trái lại mong muốn để học và biết về quan điểm mới mà không nhìn thấy trước được. Nếu chọn phương pháp nầy, ngưởi trả lời phỏng vấn thường sẽ đưa ra nhiều quan điểm mới hơn.</para>
+          <para id="id5302357">* Phỏng vấn cá nhân</para>
+          <para id="id5302364">Đây là phương pháp trao đổi thông tin giữa người trả lời phỏng vấn và người phỏng vấn. Phương pháp này có những thuận lợi và không thuận lợi sau:</para>
+          <para id="id5302372">Thuận lợi:</para>
+          <list id="id5302377" list-type="bulleted">
+            <item>Người trả lời cho các thông tin tốt hơn so với các điều tra gởi qua bưu điện</item>
+            <item>Trao đổi thông tin giữa 2 người nhanh hơn</item>
+            <item>Dễ khai thác các câu trả lời cho các câu hỏi chuyên sâu hơn</item>
+            <item>Người phỏng vấn dễ điều khiển, kiểm soát nếu có vấn đề</item>
+            <item>Tạo động cơ và cảm hứng</item>
+            <item>Có thể sử dụng một số cách để ghi chép dễ dàng</item>
+            <item>Đánh giá được tính cách, hành động … của người trả lời phỏng vấn </item>
+            <item>Có thể sử dụng các sản phẩm hay đồ vật để minh họa</item>
+            <item>Thường để làm thử nghiệm trước cho các phương pháp khác</item>
+          </list>
+          <para id="id5302448">Không thuận lợi:</para>
+          <list id="id5302453" list-type="bulleted">
+            <item>Mất thời gian hơn so với các điều tra gởi qua bưu điện </item>
+            <item>Cần thiết để sắp đặt ra cuộc phỏng vấn</item>
+            <item>Thông thường cần phải đặt ra một bộ câu hỏi trước</item>
+            <item>Có thể sai số ở người trả lời phỏng vấn khi họ muốn làm hài lòng hoặc gây ấn tượng, hoặc muốn trả lời nhanh, suông sẽ</item>
+            <item>Phải phỏng vấn nhiều người ở nhiều nơi khác nhau </item>
+            <item>Một số câu hỏi cá nhân, riêng tư có thể làm bối rối cho người trả lời</item>
+            <item>Việc ghi chép và phân tích có thể gây ra vấn đề - nếu chủ quan</item>
+          </list>
+          <para id="id5302525">* Phỏng vấn nhóm </para>
+          <para id="id5302535">Lúc đầu thì hầu hết những người nghiên cứu nghĩ rằng, một người thứ 3 luôn hướng tới sự trả lời và vì vậy những người không cần đến (người không liên quan) như các thành viên khác trong gia đình hay các đồng nghiệp sẽ không bao giờ được phép tham gia phỏng vấn. Nhiều người cho rằng, các giá trị và thái độ riêng của các thành viên được sinh ra trong nhóm xã hội của họ và họ sẽ không tồn tại khi bị tách ra khỏi nhóm. Vì vậy, phỏng vấn nhóm là việc thảo luận trong nhóm xã hội hiện tại như nhóm xã hội, gia đình. Phỏng vấn đạt hiệu quả khi người nghiên cứu cần thu thập các thông tin về đời sống, công việc và sự vui chơi giải trí, cũng như các thông tin phổ biến về sử dụng, đánh giá và các phương tiện có liên quan tới các kết quả hay sản phẩm. Phỏng vấn không đề cập tới sự khác nhau, chủ đề tranh chấp và các câu hỏi nhạy cảm, dễ bị xúc phạm. Hơn nữa, trong một nhóm lớn thì một số các thành viên nói hết thời gian và những thành viên khác bị hạn chế nói hơn. Nếu mục đích nghiên cứu là để mô tả động cơ thực sự của nhóm thì người nghiên cứu có thể chọn để chấp nhận và ghi nhận tính không cân xứng này trong cuộc nói chuyện. Nếu mục đích để thu thập các quan điểm, thái độ về chủ đề đã nêu ra thì nên hướng theo cuộc thảo luận, ngăn chặn khỏi bị lạc đề, và chú ý tất cả những người tham dự đang lắng nghe. </para>
+          <para id="id5302593">* Phỏng vấn nhóm trung tâm </para>
+          <para id="id5302601">Đây là cuộc phỏng vấn nhóm bình thường, được sử dụng để đưa ra nền tảng, lý lẽ về sự phát triển kết quả hay sản phẩm mới. Thường có từ 5-10 người tham dự tiên phong được lựa chọn trong số các người hiểu biết về kết quả hay sản phẩm hoặc trong số các khách hàng quan trọng trong tương lai được mời để thảo luận sự triển vọng của kết quả hay sản phẩm tương lai hoặc những kinh nghiệm về việc sử dụng kết quả hay sản phẩm hiện tại.</para>
+          <para id="id5302644">Tiến trình phỏng vấn nhóm trung tâm có định hướng mạnh mẽ về mục đích mà có thể chuẩn bị trước tài liệu, vật liệu cho công việc được thuận lợi qua cuộc nói chuyện về mục đích và các công việc chương trình cần thực hiện trong cuộc họp, mẫu mã của các kiểu sản phẩm, và sự mô tả kết quả hay sản phẩm qua tranh ảnh, đồ vật, hay bắt chước.</para>
+          <para id="id5302660">Nhóm trung tâm, giống như câu lạc bộ họp mặt thường ngày, có chương trình làm việc, thư ký và người hướng dẫn thảo luận để động viên kích thích người tham dự cho ý kiến của họ. </para>
+          <para id="id5302676">Cuộc thảo luận thường được ghi chép bằng ghi băng cassette hoặc video và người nghiên cứu sẽ tóm tắt các ý kiến có giá trị sau đó. Sự tóm tắt sau đó có thể được thảo luận bởi các người tham dự chính được chọn hoặc nhóm trung tâm mới. </para>
+          <para id="id5302698">* Sắp xếp, chuẩn bị cho cuộc phỏng vấn ngoài thực tế</para>
+          <para id="id5302710">- Cách bố trí cuộc phỏng vấn </para>
+          <para id="id5302728">Phỏng vấn cũng giống các nghiên cứu khác, tất cả sự chuẩn bị là nhằm mục đích tạo điều kiện thuận lợi cho nghiên cứu và điều kiện nơi phỏng vấn có thể ảnh hưởng đến người trả lời phỏng vấn. Để giảm tối đa ảnh hưởng này thì người nghiên cứu nên chọn một nơi quen thuộc với người trả lời phỏng vấn, thí dụ như phỏng vấn tại nhà, phòng họp, quán cafe hoặc nơi yên tĩnh để có thể trò chuyện một cách thoải mái, không bị quấy rầy và không hấp tấp, vội vã. </para>
+          <para id="id5302760">Cách ăn mặc, cư xử và hành động của người phỏng vấn cũng có ảnh hưởng đến người trả lời phỏng vấn. Sự trả lời của người phỏng vấn có thể được ghi chép bởi người trợ lý, thu băng hoặc video. </para>
+          <para id="id5302777">- Tài liệu, đồ vật, hình ảnh để minh họa </para>
+          <para id="id5302796"/>
+          <para id="id5302800">Khi câu hỏi gắn với kết quả hay sản phẩm đã đưa ra trong nghiên cứu, thì việc trả lời có thể dễ dàng và đầy đủ hơn nếu kết quả hay sản phẩm sẵn có và hiện đang được sử dụng ngoài thực tế. Nếu như không có sản phẩm chứng minh thì người nghiên cứu có thể đưa ra sản phẩm khác hoặc bắt chước sản phẩm qua các tài liệu, đồ vật, tranh ảnh,… minh họa. Điều này sẽ giúp cho người trả lời hình dung, xác định rõ, chính xác và dễ dàng trả lời các câu hỏi có liên quan tới sản phẩm nghiên cứu. </para>
+          <para id="id5302834">- Chương trình làm việc </para>
+          <para id="id5302851">Người phỏng vấn thường bắt đầu cuộc phỏng vấn bằng cách trình bày tổ chức, mục đích nghiên cứu và làm thế nào để sử dụng các kết quả. Các mẫu thông tin nhỏ hầu như có thể ít ảnh hưởng đến quan điểm của người trả lời phỏng vấn. Thường cần thiết phải giải thích mức độ nào mà sự thể hiện của người trả lời có thể được giữ kín đáo. </para>
+          <para id="id5302873">Câu hỏi đầu tiên đưa ra là phải diễn đạt trong thuật ngữ chung. Câu hỏi “kết thúc mỡ” và thường kích thích người trả lời phỏng vấn để giải thích và mở rộng câu trả lời của họ. Để tránh sự trả lời lệch lạc, người phỏng vấn phải không bao giờ tiết lộ ý kiến riêng của mình về các chủ đề đã thảo luận. Thí dụ, người nghiên cứu có thể thể hiện sự đồng ý với ý kiến của người trả lời bằng cách gật đầu, nhưng nên cẩn thận và tránh thể hiện sự đồng ý với chỉ một vài ý kiến.</para>
+          <para id="id5302900">Khi người trả lời phỏng vấn trình bày vấn đề một cách kỹ lưỡng, họ không biết khái niệm mới nào làm cho người nghiên cứu quan tâm. Vì vậy, người phỏng vấn phải dẫn dắt người trả lời tới vấn đề. Nếu ngắt câu trả lời lệch lạc của người trả lời thì bất lịch sự, vì vậy phải đợi cho người trả lời kết thúc. Người nghiên cứu phải tìm cách kích thích và gợi ý tích cực tới người trả lời phỏng vấn hướng vào mục tiêu câu hỏi và gợi ý, gây cảm hứng cho họ. Thí dụ, một số câu hỏi gợi ý: </para>
+          <list id="id5302931" list-type="bulleted">
+            <item>Anh có thể kể cho tôi nghe về điều đó không?</item>
+            <item>Tại sao anh nghĩ điều đó xảy ra?</item>
+            <item>Người ta có suy nghĩ và cảm nhận như thế nào khi nghe về điều đó không?</item>
+          </list>
+          <para id="id5302957"/>
+          <para id="id5302961">Một kiểu gợi ý gây cảm hứng khác là khi người trả lời phỏng vấn nói điều gì cường điệu quá (nói phóng đại) mà người nghiên cứu còn nghi ngờ, thì trong tình huống như vậy nên hỏi một cách đơn giản: Anh muốn nói về điều đó … phải không?, anh thực sự muốn nói về điều đó … phải không? và nói lại điều đó bằng cách khác hơn để làm rõ hơn.</para>
+        </section>
+        <section id="id-916648924275">
+          <title>Phương pháp sử dụng bảng câu hỏi - trả lời bằng viết</title>
+          <para id="id5302987">Bảng câu hỏi là một loạt các câu hỏi được viết hay thiết kế bởi người nghiên cứu để gởi cho người trả lời phỏng vấn trả lời và gởi lại bảng trả lời câu hỏi qua thư bưu điện cho người nghiên cứu. </para>
+          <para id="id5303002">Sử dụng bảng câu hỏi là phương pháp phổ biến để thu thập các thông tin từ người trả lời các câu hỏi đơn giản. Các thông tin trả lời được gởi bằng thư từ giữa người trả lời phỏng vấn ở xa với người nghiên cứu. Để thu thập các thông tin chính xác qua phương pháp này, cần nêu ra các câu hỏi và suy nghĩ chính xác về vấn đề muốn nghiên cứu trước khi hoàn thành thiết kế bảng câu hỏi. Thường thì người nghiên cứu có các giả thuyết định lượng với các biến số. </para>
+          <para id="id5303031">Bảng câu hỏi là phương pháp thu thập thông tin được sử dụng tốt nếu:</para>
+          <list id="id5303039" list-type="bulleted">
+            <item>Vấn đề được xác định rõ (giả thuyết tốt) và không thay đổi trong suốt quá trình nghiên cứu.</item>
+            <item>Tất cả các câu hỏi có câu trả lời được đoán biết trước. </item>
+            <item>Một loạt các câu trả lời có thể được biết trước.</item>
+            <item>Các câu hỏi có liên quan hầu hết tới các sự kiện, số lượng hoặc đồ vật.</item>
+            <item>Có nhiều câu hỏi mà một số người trả lời phỏng vấn thích để trả lời một cách ẩn danh hơn.</item>
+            <item>Người nghiên cứu thích phân tích các con số. </item>
+          </list>
+          <para id="id5303094">Chú ý: khi sử dụng bảng câu hỏi, người nghiên cứu thu thập được những câu trả lời trong bảng thiết kế mà không có những thông tin thêm vào như phương pháp phỏng vấn. Vì vậy việc thiết kế xây dựng bảng câu hỏi cần phải xác định đầy đủ tất cả các câu hỏi trước khi bắt đầu gởi và thu nhận thông tin.</para>
+          <para id="id5303112">Khi thiết kế bảng câu hỏi, phải tôn trọng quyền của người trả lời phỏng vấn. Vì vậy bắt đầu của bảng câu hỏi, nên đặt lời giới thiệu và giải thích cách làm như thế nào cho người trả lời câu hỏi biết. Cũng nên đưa ra thời gian giới hạn để nhận lại bảng câu hỏi, địa chỉ kèm theo phong bì đã được trả cước hoặc tem. Không nên yêu cầu người trả lời ký tên vào bảng câu hỏi. Tuy nhiên, có thể cho ký hiệu trên bao thư để có thể nhận ra có phải là người trả lời phỏng vấn hay không. </para>
+          <para id="id5303142">* Cách thiết kế câu hỏi:</para>
+          <para id="id5303157"/>
+          <para id="id5303166">- Đặt câu hỏi về các sự kiện</para>
+          <para id="id5303175">Sự kiện là điều gì đó không bị ảnh hưởng bởi quan điểm hoặc ý kiến. Người nghiên cứu có thể nói tới các câu hỏi thực sự trong phỏng vấn hoặc bảng câu hỏi. Bảo đảm không nối kết hai chủ đề trong một câu hỏi, các câu hỏi thường được thiết kế các dạng như sau:</para>
+          <para id="id5303190">Năm sinh: ____________</para>
+          <para id="id5303195">Tình trạng hôn nhân: <media id="id1167766461665" alt=""><image src="../../media/graphics7.png" mime-type="image/png" height="25" width="25"/></media> độc thân <media id="id1756953" alt=""><image src="../../media/graphics8.png" mime-type="image/png" height="25" width="25"/></media> có gia đình <media id="id7744790" alt=""><image src="../../media/graphics9.png" mime-type="image/png" height="25" width="25"/></media> ly dị <media id="id1167767536616" alt=""><image src="../../media/graphics10.png" mime-type="image/png" height="25" width="25"/></media> quả phụ</para>
+          <para id="id5303339">Khi trình bày các câu hỏi chọn lựa theo thiết kế, phải bảo đảm là tất cả sự lựa chọn có thể được bao gồm. Để bảo đảm an toàn có thể thêm các hộp chọn: </para>
+          <para id="id5303352"><media id="id1167766461693" alt=""><image src="../../media/graphics11.png" mime-type="image/png" height="15" width="15"/></media> khác ; hoặc những cái gì khác _____________</para>
+          <para id="id5303392">Các câu hỏi phải hoàn toàn không được mơ hồ, khó hiểu cho người trả lời. Vì vậy, nên sử dụng câu đơn giản, các từ sử dụng thông thường, dễ hiểu. Đôi khi có thể làm rõ nghĩa hơn bằng cách nhấn mạnh các từ quan trọng hoặc đưa ra các hình ảnh hoặc dùng viết để vẽ hình minh họa. Các câu hỏi không rõ có thể làm cho người trả lời lúng túng, cảm thấy bị bó buộc hay gượng ép để trả lời, như vậy sẽ không đạt được các câu trả lời đúng, chính xác (số liệu sẽ không tin cậy). </para>
+          <para id="id5303418">Sau khi thiết kế xong bảng câu hỏi, nên làm cuộc thử nghiệm trước khi có cuộc điều tra chính thức ngoài thực tế. Tốt nhất nên đưa cho một vài người nào đó điền vào bảng câu hỏi và quan sát người trả lời viết ra hay phản ứng của người trả lời nhanh hay chậm, các hành động, cử chỉ trong khi trả lời như thế nào (thể hiện khó khăn, suy nghĩ như thế nào,…).</para>
+          <para id="id5303433">- Đặt câu hỏi về ý kiến và quan điểm </para>
+          <para id="id5303443">Khi hỏi về quan điểm, câu hỏi nên được trình bày trong các nguyên tắc sau đây:</para>
+          <list id="id5303455" list-type="bulleted">
+            <item>Câu hỏi, cách trình bày phải thu hút, lý thú và gây cho người trả lời thoải mái, dễ chịu.</item>
+            <item>Câu hỏi, cách trình bày phải ngắn gọn, đơn giản, rõ ràng, dễ hiểu. Tránh các mệnh đề phụ thuộc.</item>
+            <item>Các từ như “tất cả”, “luôn luôn”, “không ai” và “không bao giờ” nên tránh sử dụng trong câu ở quá khứ.</item>
+          </list>
+          <para id="id5303490">Khi hình thành sự trình bày và nhìn vào kết quả, nên quan tâm ảnh hưởng sai lệch của câu hỏi. Hầu hết mọi người thích trả lời câu hỏi tích cực hơn tiêu cực (trả lời điều hay, tốt, suông sẻ, … hơn là điều xấu, không tốt). Đặc biệt nếu họ biết hay đọc được suy nghĩ và cách thể hiện chính người nghiên cứu muốn ủng hộ cách trình bày trả lời của họ. Vì vậy, tốt nhất là người phỏng vấn nên chọn lựa cách thể hiện, trình bày câu hỏi theo một cách để vừa phản ánh thể hiện quan điểm tiêu cực và tích cực cho người trả lời câu hỏi (quan điểm trả lời ngang bằng nhau lúc đầu, hay không thiên vị).</para>
+          <para id="id5303526">Các mẫu câu hỏi cho người trả lời phỏng vấn trong phương pháp sử dụng bảng câu hỏi gồm:</para>
+          <para id="id5303535">a/ Mẫu câu hỏi sắp xếp theo sự chia độ. Còn gọi là sự chênh lệch hay vi sai có ý nghĩa được sử dụng trong bảng câu hỏi. </para>
+          <table id="id5303564" summary="">
+            <tgroup cols="9">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <colspec colnum="7" colname="c7"/>
+              <colspec colnum="8" colname="c8"/>
+              <colspec colnum="9" colname="c9"/>
+              <tbody>
+                <row>
+                  <entry namest="c1" nameend="c9">Làm thế nào đánh giá mẫu thiết kế điện thoại? (Vui lòng đánh dấu x vào hộp ô lựa chọn trên mỗi dòng)</entry>
+                </row>
+                <row>
+                  <entry>Nhẹ</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>Nặng</entry>
+                </row>
+                <row>
+                  <entry>Gây ấn tượng</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>Đẹp mắt</entry>
+                </row>
+                <row>
+                  <entry>Thuận tiện</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>Không thuận tiện (bất tiện)</entry>
+                </row>
+                <row>
+                  <entry>Cổ điển</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>Hiện đại</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id5303865">b/ Mẫu câu hỏi mở</para>
+          <para id="id5303886">Cấu trúc theo dạng này có một số các đường gạch (hoặc không gian trống) cho người trả lời viết câu trả lời câu hỏi. Thí dụ sau: </para>
+          <table id="id5303898" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>1.</entry>
+                  <entry>Nguyên nhân nào bạn nghĩ là quan trọng về việc bùng nổ dân số ở Việt Nam trong 5 năm tới? </entry>
+                </row>
+                <row>
+                  <entry namest="c1" nameend="c2">
+                    <media id="id1167768542384" alt=""><image src="../../media/graphics12.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+                <row>
+                  <entry namest="c1" nameend="c2"/>
+                </row>
+                <row>
+                  <entry namest="c1" nameend="c2">
+                    <media id="id1167769399308" alt=""><image src="../../media/graphics13.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id5304027">c/ Mẫu câu hỏi kín</para>
+          <para id="id5304034">Cấu trúc dạng câu hỏi này đưa ra một số lựa chọn như sau: Bạn đồng ý với các yêu cầu điện thoại đẹp sau đây không? Vui lòng đánh dấu x vào hộp ô lựa chọn dưới đây.</para>
+          <para id="id5304050"><media id="id1167766461950" alt=""><image src="../../media/graphics14.png" mime-type="image/png" height="25" width="25"/></media> Tôi hoàn toàn không đồng ý <media id="id7518616" alt=""><image src="../../media/graphics15.png" mime-type="image/png" height="25" width="25"/></media> Tôi khá không đồng ý <media id="id1167767522870" alt=""><image src="../../media/graphics16.png" mime-type="image/png" height="25" width="25"/></media> Tôi hơi không đồng ý <media id="id1167767651076" alt=""><image src="../../media/graphics17.png" mime-type="image/png" height="25" width="25"/></media> Tôi hơi đồng ý <media id="id985607" alt=""><image src="../../media/graphics18.png" mime-type="image/png" height="25" width="25"/></media> Tôi khá đồng ý <media id="id1167769474386" alt=""><image src="../../media/graphics19.png" mime-type="image/png" height="25" width="25"/></media> Tôi hoàn toàn đồng ý</para>
+          <para id="id5304264"/>
+          <para id="id5304269">Một cấu trúc giống như trên, nhưng có sự lựa chọn khác nữa mà không tìm thấy trong hộp lựa chọn thì chúng ta có thể thiết kế sau: </para>
+          <table id="id5304280" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>4.</entry>
+                  <entry>Vấn đề nào bạn nghĩ là quan trọng về quan cảnh chính trị ở nước Úc trong 5 năm tới? (vui lòng đánh dấu x vào 1 hộp ô hoặc hơn nếu chọn) </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <table id="id5304324" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>Ô nhiễm</entry>
+                  <entry>   <media id="id8165720" alt=""><image src="../../media/graphics20.png" mime-type="image/png"/></media></entry>
+                </row>
+                <row>
+                  <entry>Kiểm soát dân số</entry>
+                  <entry>   <media id="id1167767137185" alt=""><image src="../../media/graphics21.png" mime-type="image/png"/></media></entry>
+                </row>
+                <row>
+                  <entry>Tôn giáo</entry>
+                  <entry>   <media id="id1167768306071" alt=""><image src="../../media/graphics22.png" mime-type="image/png"/></media></entry>
+                </row>
+                <row>
+                  <entry>Sự nhập cư</entry>
+                  <entry>   <media id="id1167772128445" alt=""><image src="../../media/graphics23.png" mime-type="image/png"/></media></entry>
+                </row>
+                <row>
+                  <entry>Thu nhập người dân</entry>
+                  <entry>   <media id="id1167767573333" alt=""><image src="../../media/graphics24.png" mime-type="image/png"/></media></entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <table id="id5304611" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>Khác (vui lòng cho ý kiến):</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry namest="c1" nameend="c2">
+                    <media id="id1167767555991" alt=""><image src="../../media/graphics25.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+                <row>
+                  <entry namest="c1" nameend="c2">
+                    <media id="id1167773338867" alt=""><image src="../../media/graphics26.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+                <row>
+                  <entry namest="c1" nameend="c2">
+                    <media id="id7749417" alt=""><image src="../../media/graphics27.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id5304760">c/ Các mẫu câu hỏi có cấu trúc khác</para>
+          <list id="id5304766" list-type="bulleted">
+            <item>Mẫu đánh dấu hộp lựa chọn</item>
+          </list>
+          <table id="id5304776" summary="">
+            <tgroup cols="6">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <tbody>
+                <row>
+                  <entry>Đúng</entry>
+                  <entry>   <media id="id1167770984529" alt=""><image src="../../media/graphics28.png" mime-type="image/png"/></media></entry>
+                  <entry>Sai</entry>
+                  <entry>   <media id="id1167775560989" alt=""><image src="../../media/graphics29.png" mime-type="image/png"/></media></entry>
+                  <entry>Không chắc</entry>
+                  <entry>   <media id="id1167771571602" alt=""><image src="../../media/graphics30.png" mime-type="image/png"/></media></entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <list id="id5304955" list-type="bulleted">
+            <item>Mẫu đường thẳng chia độ</item>
+          </list>
+          <table id="id5304965" summary="">
+            <tgroup cols="3">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry namest="c1" nameend="c3">Đời sống của nông dân ngày càng ổn định hơn </entry>
+                </row>
+                <row>
+                  <entry>Rất đồng ý</entry>
+                  <entry>
+                    <media id="id1167768205693" alt=""><image src="../../media/graphics31.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>Hoàn toàn không đồng ý </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <list id="id5305059" list-type="bulleted">
+            <item>Mẫu bảng hệ thống chia mức độ</item>
+          </list>
+          <table id="id5305069" summary="">
+            <tgroup cols="4">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry>Thức uống</entry>
+                  <entry>Thích</entry>
+                  <entry>Bình thường</entry>
+                  <entry>Không thích</entry>
+                </row>
+                <row>
+                  <entry>Coca Cola</entry>
+                  <entry>
+                    <media id="id1167775125476" alt=""><image src="../../media/graphics32.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167769599405" alt=""><image src="../../media/graphics33.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167775086298" alt=""><image src="../../media/graphics34.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+                <row>
+                  <entry>Pepsi Cola</entry>
+                  <entry>
+                    <media id="id1167768165719" alt=""><image src="../../media/graphics35.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167767632357" alt=""><image src="../../media/graphics36.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167768178960" alt=""><image src="../../media/graphics37.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+                <row>
+                  <entry>Fanta</entry>
+                  <entry>
+                    <media id="id1167772852511" alt=""><image src="../../media/graphics38.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167767796730" alt=""><image src="../../media/graphics39.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167768168993" alt=""><image src="../../media/graphics40.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+                <row>
+                  <entry>Sprite</entry>
+                  <entry>
+                    <media id="id1167767146583" alt=""><image src="../../media/graphics41.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167772503044" alt=""><image src="../../media/graphics42.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167767513743" alt=""><image src="../../media/graphics43.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <list id="id5305587" list-type="bulleted">
+            <item>Mẫu bảng</item>
+          </list>
+          <para id="id5305596">Dạng bảng này chứa các hạng mục có cấu trúc được sắp xếp theo hàng và cột trong bảng. </para>
+          <table id="id5305606" summary="">
+            <tgroup cols="4">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry>
+                    <media id="id1167774872970" alt=""><image src="../../media/graphics44.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry namest="c2" nameend="c4">Mức giáo dục</entry>
+                </row>
+                <row>
+                  <entry>Nhóm tuổi</entry>
+                  <entry>Cấp II</entry>
+                  <entry>Cấp III</entry>
+                  <entry>Sau cấp III</entry>
+                </row>
+                <row>
+                  <entry>20-30</entry>
+                  <entry>
+                    <media id="id1167767737423" alt=""><image src="../../media/graphics45.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167767227009" alt=""><image src="../../media/graphics46.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167768320352" alt=""><image src="../../media/graphics47.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+                <row>
+                  <entry>30-40</entry>
+                  <entry>
+                    <media id="id1167768503044" alt=""><image src="../../media/graphics48.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167771753837" alt=""><image src="../../media/graphics49.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167768279548" alt=""><image src="../../media/graphics50.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+                <row>
+                  <entry>40-50</entry>
+                  <entry>
+                    <media id="id1167766919893" alt=""><image src="../../media/graphics51.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1209121" alt=""><image src="../../media/graphics52.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167767237150" alt=""><image src="../../media/graphics53.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+                <row>
+                  <entry>50-60</entry>
+                  <entry>
+                    <media id="id1167767631420" alt=""><image src="../../media/graphics54.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id6308883" alt=""><image src="../../media/graphics55.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167767279740" alt=""><image src="../../media/graphics56.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+                <row>
+                  <entry>Trên 60</entry>
+                  <entry>
+                    <media id="id1167772648151" alt=""><image src="../../media/graphics57.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1167767161879" alt=""><image src="../../media/graphics58.png" mime-type="image/png"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id8797392" alt=""><image src="../../media/graphics59.png" mime-type="image/png"/></media>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id5306304">- Phương pháp đóng vai trò</para>
+          <para id="id5306315">Phương pháp này đôi khi được sử dụng để nghiên cứu các chỉ tiêu quan điểm và hành vi. Người nghiên cứu trình bày câu chuyện dưới các sự kiện bằng cách vẽ ra các hình tượng, tranh ảnh để hư cấu tình huống xã hội, sau đó tiếp tục hỏi người trả lời phỏng vấn để tìm ra câu trả lời thích hợp. Người trả lời được hỏi sao cho họ tưởng tượng ra câu hỏi và chọn lựa các sự kiện trong tranh ảnh đưa ra. Người nghiên cứu thường đưa ra câu chuyện có các sự kiện dưới hai hay nhiều cách khác nhau và cơ bản hình thành khái niệm cho người trả lời để trả lời đầy đủ. Điều cần thiết là đặt câu chuyện trong bảng câu hỏi làm sao gây kích thích cho người trả lời. </para>
+          <para id="id5306354">Chú ý : không nên gởi loại bảng câu hỏi này qua thư bởi vì khó lòng kích thích người trả lời để hoàn thành việc trả lời câu hỏi. </para>
+        </section>
+        <section id="id-645105794068">
+          <title>Phương pháp sử dụng nhật ký ghi chép</title>
+          <para id="id5306383"/>
+          <para id="id5306387">Một phương pháp thu thập số liệu khá hấp dẫn, đặc biệt khi thực hiện nghiên cứu theo chiều dọc, là phương pháp sử dụng nhật ký ghi chép. Việc ghi chép được theo dõi trong nhiều ngày, nhiều tuần hoặc có thể hàng năm, nhiều năm. Người nghiên cứu phát sổ ghi nhật ký cho người trả lời và thu lại sổ nhật ký sau một thời gian nghiên cứu nào đó. Người trả lời tự ghi chép các số liệu của các sự kiện về công việc hay hoạt động đang xảy ra, hoặc họ đang xem tivi, hoặc xem quảng cáo, mua bán điều gì đó,… Hiện tại, tất cả việc đánh giá số liệu từ hoạt động tivi và nghe đài được áp dụng qua phương pháp này và dễ dàng để quản lý. Phương pháp này tương đối ít tốn tiền và rẽ, nhưng có nhược điểm bị giới hạn lớn về việc thu thập các loại thông tin về thái độ, hành vi, … </para>
+          <para id="id5306422">Vấn đề chính của việc sử dụng phương pháp này là rất khó đạt được bất kỳ xác nhận hay bằng chứng độc lập được ghi chép trong nhật ký và chỉ có người trả lời biết chính xác hay là không. Một số người ghi nhật ký cho các câu trả lời mà họ nghĩ muốn làm hài lòng hoặc do họ sợ hoặc tôn trọng người hoặc tổ chức nghiên cứu. Trong khi đó, những người khác cho thông tin không chính xác, đặc biệt khi họ không thích người hoặc tổ chức nghiên cứu. Khi áp dụng phương pháp này, người nghiên cứu nên làm động cơ thúc đẩy người trả lời để họ cung cấp các thông tin chính xác hơn. </para>
+          <para id="id5306454"/>
+        </section>
+        <section id="id-170644239449">
+          <title>Thu thập mẫu từ cuộc nói chuyện ở những nơi công cộng</title>
+          <para id="id5306474">Đây là một phương pháp đặc biệt nhằm mục đích để loại trừ hoàn toàn ảnh hưởng của sự hiện diện của người nghiên cứu. Nghĩa là nghe lõm cuộc nói chuyện riêng tư ở những nơi công cộng như công viên, cửa hiệu mua sắm,… Một số người nghiên cứu dùng phương pháp này để thu thập các ý kiến chung của cộng đồng liên quan tới việc xây dựng các nơi công cộng mới. Phương pháp nầy cũng được sử dụng để thu thập các quan điểm về đồ đạc, hàng, vật phẩm,… buôn bán trong cửa hiệu. Điểm yếu của phương pháp nầy là thường mất nhiều thời gian khi người nói không đề cặp tới vấn đề người nghiên cứu quan tâm và không giới hạn nghiên cứu ở bất kỳ quần thể xác định nào.</para>
+        </section>
+        <section id="id-656644259123">
+          <title>Thu thập mẫu phỏng vấn qua tường thuật</title>
+          <para id="id5306515">Phỏng vấn tường thuật thường phức tạp, thậm chí khi câu trả lời được ghi băng. Đôi khi cần phải nghe một vài lần và cố gắng hiểu nghĩa trả lời nói gì, sau đó mới ghi chép ra ngoài. Đôi khi một số câu hỏi quan trọng cần được giải thích rõ thì có thể làm lại cuộc phỏng vấn. Làm sao các ý kiến, suy nghĩ của người trả lời phỏng vấn được ghi chép một cách càng trung thực càng tốt, nhưng thực sự đôi khi sự trả lời là một điều khác hơn. Các sự kiện được trình bày từ người trả lời nên nhớ có thể xảy ra như: </para>
+          <list id="id5306546" list-type="bulleted">
+            <item>Sự sai lệch đích thực của người trả lời phỏng vấn: có thể là họ có lý do để “thêm thắt” các sự kiện.</item>
+            <item>Khả năng thực sự của người trả lời phỏng vấn để kể toàn bộ sự thật: họ nằm trong vị trí để trả lời chỉ một mặt hay toàn bộ? </item>
+          </list>
+        </section>
+      </section>
+      <section id="id-983288412653">
+        <title>Một số biện pháp để kích thích người trả lời phỏng vấn</title>
+        <para id="id5306589">Động cơ thúc đẩy sự tích cực của người trả lời phỏng vấn là cách hiệu quả nhất để hoàn thành mục đích và rất quan trọng trong nghiên cứu trước khi đưa ra các câu hỏi nghiên cứu chính thức. Người nghiên cứu có lẽ cũng nhấn mạnh sự kiện mà cuộc phỏng vấn đem lại thông tin giá trị mình đạt được mà bất kỳ chỗ khác không có như vậy. </para>
+        <para id="id5306615">Cách khác trong việc thúc đẩy người khác là làm sao gây ra càng ít phiền toái càng tốt cho người trả lời phỏng vấn trong bảng câu hỏi. Vì vậy, bảng câu hỏi và các câu hỏi không nên thiết kế quá dài dòng, làm cho người trả lời sợ và cảm thấy không thỏa mái để trả lời hay các câu hỏi nên cần trình bày ngắn gọn, rõ ý. </para>
+        <para id="id5306634">Một số cách để cải tiến mức độ trả lời câu hỏi qua nghiên cứu sử dụng bảng câu hỏi được tóm tắt như sau: </para>
+        <table id="id5306645" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Cách thực hiện</entry>
+                <entry>Ảnh hưởng mức độ trả lời </entry>
+              </row>
+              <row>
+                <entry>Thông báo trước qua thư </entry>
+                <entry>Tăng nghiên cứu khách hàng (người tiêu dùng). </entry>
+              </row>
+              <row>
+                <entry>Thông báo trước qua điện thoại</entry>
+                <entry>Tăng mức độ trả lời</entry>
+              </row>
+              <row>
+                <entry>Kích thích bằng tiền, quà </entry>
+                <entry>Tăng mức độ trả lời</entry>
+              </row>
+              <row>
+                <entry>Bao thư gởi được dán tem sẵn </entry>
+                <entry>Tăng mức độ trả lời</entry>
+              </row>
+              <row>
+                <entry>Riêng tư cá nhân</entry>
+                <entry>Ảnh hưởng thay đổi</entry>
+              </row>
+              <row>
+                <entry>Bảng câu hỏi dài</entry>
+                <entry>Ảnh hưởng ít trên mức độ trả lời </entry>
+              </row>
+              <row>
+                <entry>Bảng câu hỏi màu</entry>
+                <entry>Không ảnh hưởng mức độ trả lời</entry>
+              </row>
+              <row>
+                <entry>Sự gia hạn</entry>
+                <entry>Không ảnh hưởng mức độ trả lời</entry>
+              </row>
+              <row>
+                <entry>Dạng câu hỏi</entry>
+                <entry>Dạng câu hỏi kết thúc kín (Closed-ended) có mức độ trả lời cao hơn dạng câu hỏi mở (open-ended)</entry>
+              </row>
+              <row>
+                <entry>Tiếp diễn tiếp theo</entry>
+                <entry>Thư từ và điện thoại sau đó làm tăng mức độ trả lời </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id5306943"/>
+        <para id="id5306952">Chú ý: nếu một số người trả lời phỏng vấn không gởi lại bảng trả lời câu hỏi, người nghiên cứu không nên tự động thay thế các câu hỏi đã đưa ra trong bảng câu hỏi bằng các câu hỏi khác. Nếu làm như vậy sẽ dễ dàng làm lệch kết quả, bởi vì người không gởi lại bảng trả lời có thể có những suy nghĩ khác với người gởi bảng trả lời câu hỏi. Patrick W. Jordan đưa ra thí dụ một về sự kiện xem xét như sau: Thí dụ, nhà sản xuất software muốn nghiên cứu khách hàng của họ về mức độ mong muốn sử dụng sản phẩm của mình. Một số người gặp trở ngại để trả lời (không gởi lại bảng trả lời hay vắng mặt) và một số người cho ý kiến mạnh về việc này (gởi bảng câu hỏi lại), do đó kết quả số liệu có thể bị sai lệch. Điều này cho thấy, khách hàng chia làm hai phe – phe người thích sử dụng software và phe người không thích software. </para>
+        <para id="id5306994">Để chỉnh lại sự sai lệch do những người vắng mặt trả lời câu hỏi. Thực hiện các bước sau đây : </para>
+        <list id="id5307002" list-type="enumerated">
+          <item>Đầu tiên, người nghiên cứu tách riêng các câu trả lời gởi lại mà không có bất kỳ yêu cầu trả lời nào (nhóm A, có tỷ lệ 50% trả lời trong thí dụ này), và các câu trả lời gởi lại sau khi có yêu cầu trả lời (nhóm B, trả lời 30%). Nhóm không gởi lại bảng trả lời (nhóm C chiếm 20%). </item>
+          <item>Sau đó, người nghiên cứu xem xét nhóm B có khác với nhóm A hay không tương ứng với các biến, bằng phép thử thống kê t-test.</item>
+          <item>Nếu có sự khác biệt giữa nhóm A và B. Chúng ta thừa nhận nhóm không trả lời, nhóm C sẽ có sự khác biệt với nhóm A và nhóm B. Từ đó các câu trả lời được đưa ra ở nhóm B sẽ được tính bao gồm cho những người không trả lời ở nhóm C hay gia tăng tỷ trọng của nhóm B để bằng với tổng số của nhóm B và C cộng lại là 50% trong thí dụ này.</item>
+          <item>Nếu nhóm A và B được xem là không khác biệt nhau, chúng ta có thể mong muốn rằng sự vắng mặt của nhóm C sẽ không ảnh hưởng lớn đến kết quả, và vì vậy không cần thiết điều chỉnh lại. Nhóm A và B được kết hợp nhau, tổng kết quả được thừa nhận là đúng cho toàn quần thể. </item>
+        </list>
+      </section>
+    </section>
+  </content>
+</document>

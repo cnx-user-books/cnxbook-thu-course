@@ -1,0 +1,456 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Hệ thống điện động lực, điều khiển và bảo vệ của hệ thống lạnh</title>
+  <metadata>
+  <md:content-id>m30530</md:content-id><md:title>Hệ thống điện động lực, điều khiển và bảo vệ của hệ thống lạnh</md:title>
+  <md:abstract>Hệ thống điện động lực, điều khiển, bảo vệ hệ thống lạnh</md:abstract>
+  <md:uuid>92d47d6e-0a93-4c1c-88e6-d992d9040cf0</md:uuid>
+</metadata>
+
+<content>
+    
+    <section id="id-763854579431">
+      <title>CÁC THIẾT BỊ ĐIỆN THƯỜNG HAY SỬ DỤNG TRONG HỆ THỐNG LẠNH</title>
+      <section id="id-45727509686">
+        <title>Các thiết bị điều khiển</title>
+        <para id="id6689406">Để làm nhiệm vụ điều khiển, đóng mở máy trong các mạch điện người ta sử dụng nhiều thiết bị điện khác nhau.</para>
+        <section id="id-19340914614">
+          <title>Aptomat (MCCB) </title>
+          <para id="id6689421">Để đóng ngắt không thường xuyên trong các mạch điện người ta sử dụng các aptomat. Cấu tạo aptomat gồm hệ thống các tiếp điểm có bộ phận dập hồ quang, bộ phận tự động cắt mạch để bảo vệ quá tải và ngắn mạch. Bộ phận cắt mạch điện bằng tác động điện từ theo dòng cực đại. Khi dòng vượt quá trị số cho phép chúng sẽ cắt mạch điện để bảo vệ thiết bị.</para>
+          <para id="id6927913">Như vậy áptomat được sử dụng để đóng, ngắt các mạch điện và bảo vệ thiết bị trong trong trường hợp quá tải.</para>
+          <figure id="id6927927">
+            <media id="id1172475035935" alt=""><image src="../../media/graphics1.jpg" mime-type="image/jpeg" height="232" width="208"/></media>
+          </figure>
+          <para id="id6927951">Hình 10-1: Thiết bị đóng ngắt điện tự động (aptomat)</para>
+        </section>
+        <section id="id-83060057149">
+          <title>Rơ le nhiệt bảo vệ quá dòng và quá nhiệt (OCR)</title>
+          <para id="id6927967">Rơ le nhiệt được sử dụng để bảo vệ quá dòng hoặc quá nhiệt. Khi dòng điện quá lớn hoặc vì một lý do gì đó nhiệt độ cuộn dây mô tơ quá cao. Rơ le nhiệt ngát mạch điện để bảo vệ mô tơ máy nén.</para>
+          <para id="id6927990">Rơ le nhiệt có thể đặt bên trong hoặc bên ngoài máy nén. Trường hợp đặt bên ngoài rơ le nhằm bảo vệ quá dòng thường được lắp đi kèm công tắc tơ. Một số máy lạnh nhỏ có bố trí rơ le nhiệt bên trong ở ngay đầu máy nén.</para>
+          <figure id="id6928008">
+            <media id="id1172472774215" alt=""><image src="../../media/graphics2.jpg" mime-type="image/jpeg" height="187" width="458"/></media>
+          </figure>
+          <para id="id6928032">1- Dây nối, 2- Chụp nối; 3- Chốt tiếp điểm; 4- Đầu cực 5- Tiếp điểm; </para>
+          <para id="id6928044">6- Cơ cấu lưỡng kim; 7- Điện trở; 8- Thân; 9- Vít </para>
+          <para id="id6928050">Hình 10-2: Rơ le nhiệt lắp trong máy nén</para>
+          <figure id="id6928060">
+            <media id="id4194241" alt=""><image src="../../media/graphics3.jpg" mime-type="image/jpeg" height="263" width="479"/></media>
+          </figure>
+          <para id="id7073868">Hình 10-3: Rơ le nhiệt và mạch điện </para>
+          <para id="id7073877">Phần tử cơ bản của rơ le nhiệt là một cơ cấu lưỡng kim gồm có 2 kim loại khác nhau về bản chất, có hệ số giãn nở nhiệt khác nhau và hàn với nhau. Bản lưỡng kim được đốt nóng bằng điện trở có dòng điện của mạch cần bảo vệ chạy qua. Khi làm việc bình thường sự phát nóng ở điện trở này không đủ để cơ cấu lưỡng kim biến dạng. Khi dòng điện vượt quá định mức bản lưỡng kim bị đốt nóng và bị uốn cong, kết quả mạch điện của thiết bị bảo vệ hở </para>
+        </section>
+        <section id="id-825806584699">
+          <title>Công tắc tơ và rơ le trung gian</title>
+          <para id="id7073919">Các công tắc tơ và rơ le trung gian được sử dụng để đóng ngắt các mạch điện. Cấu tạo của chúng bao gồm các bộ phận chính sau đây :</para>
+          <para id="id7073931">1. Cuộn dây hút</para>
+          <para id="id7073937">2. Mạch từ tính</para>
+          <para id="id7073942">3. Phần động (phần ứng)</para>
+          <para id="id7073947">4. Hệ thống tiếp điểm (thường đóng và thường mở)</para>
+          <table id="id7073953" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>
+                    <media id="id8332093" alt=""><image src="../../media/graphics4.jpg" mime-type="image/jpeg"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id1172480988052" alt=""><image src="../../media/graphics5.jpg" mime-type="image/jpeg"/></media>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id6547130">Hình 10-4: Công tắc tơ </para>
+          <para id="id6547136">Cần lưu ý các tiếp điểm thường mở của thiết bị chỉ đóng khi cuộn dây hút có điện và ngược lại các tiếp điểm thường đóng sẽ mở khi cuộn dây có điện, đóng khi mất điện.</para>
+          <para id="id6547152">Hệ thống các tiếp điểm có cấu tạo khác nhau và thường được mạ kẽm để đảm bảo tiếp xúc tốt. Các thiết bị đóng ngắt lớn có bộ phận dập hồ quang ngoài ra còn có thêm các tiếp điểm phụ để đóng mạch điều khiển. </para>
+        </section>
+      </section>
+      <section id="id-529307582323">
+        <title>Rơ le bảo vệ áp suất và thermostat</title>
+        <para id="id6547178">Để bảo vệ máy nén khi áp suất dầu và áp suất hút thấp, áp suất đầu đẩy quá cao người ta sử dụng các rơ le áp suất dầu (OP), rơ le áp suất thấp (LP) và rơ le áp suất cao (HP). Khi có một trong các sự cố nêu trên, các rơ le áp suất sẽ ngắt mạch điện cuộn dây của công tắc tơ máy máy nén để dừng máy. </para>
+        <para id="id6547202">Dưới đây chúng là cấu tạo và nguyên lý làm việc của các rơ le áp suất </para>
+        <section id="id-819290116678">
+          <title>Rơ le áp suất dầu</title>
+          <table id="id6547222" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>
+                    <media id="id1172481722913" alt=""><image src="../../media/graphics6.jpg" mime-type="image/jpeg"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id2947544" alt=""><image src="../../media/graphics7.jpg" mime-type="image/jpeg"/></media>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id6645640">1- Phần tử cảm biến áp suất dầu; 2- Phần tử cảm biến áp suất hút; 3- Cơ cấu điều chỉnh; 4- Cần điều chỉnh; 5- </para>
+          <section id="id-342855775685">
+            <title>Hình 10-5 : Rơ le áp suất dầu</title>
+            <para id="id6645660">Áp sấu dầu của máy nén phải được duy trì ở một giá trị cao hơn áp suất hút của máy nén một khoảng nhất định nào đó, tuỳ thuộc vào từng máy nén cụ thể nhằm đảm bảo quá trình lưu chuyển trong hệ thống rãnh cấp dầu bôi trơn và tác động cơ cấu giảm tải của máy nén. Khi làm việc rơ le áp suất dầu sẽ so sánh hiệu áp suất dầu và áp suất trong cacte máy nén nên còn gọi là rơ le hiệu áp suất. Vì vậy khi hiệu áp suất quá thấp, chế độ bôi trơn không đảm bảo, không điều khiển được cơ cấu giảm tải. </para>
+            <para id="id6645704">Áp suất dầu xuống thấp có thể do các nguyên nhân sau:</para>
+            <para id="id6645713">- Bơm dầu bị hỏng</para>
+            <para id="id6645719">- Thiếu dầu bôi trơn.</para>
+            <para id="id6645726">- Phin lọc dầu bị bẫn, tắc ống dẫn dầu;</para>
+            <para id="id6645735">- Lẫn môi chất vào dầu quá nhiều.</para>
+            <para id="id6645742">Trên hình 10-5 giới thiệu cấu tạo bên ngoài và bên trong rơ le áp suất dầu.</para>
+            <para id="id6645751">Rơ le bảo vệ áp suất dầu lấy tín hiệu của áp suất dầu và áp suất cacte máy nén. Phần tử cảm biến áp suất dầu “OIL” (1) ở phía dưới của rơ le được nối đầu đẩy bơm dầu và phần tử cảm biến áp suất thấp “LP” (2) được nối với cacte máy nén. </para>
+            <para id="id6645779">Nếu chênh lệch áp suất dầu so với áp suất trong cacte p = pd - po nhỏ hơn giá trị đặt trước được duy trì trong một khoảng thời gian nhất định thì mạch điều khiển tác động dừng máy nén. Khi p nhỏ thì dòng điện sẽ đi qua rơ le thời gian (hoặc mạch sấy cơ cấu lưỡng kim). Sau một khoảng thời gian trễ nhất định, thì rơ le thời gian (hoặc cơ cấu lưỡng kim ngắt mạch điện) ngắt dòng điều khiển khởi đến khởi động từ máy nén </para>
+            <para id="id6671768">Độ chênh lệch áp suất cực tiểu cho phép có thể điều chỉnh nhờ cơ cấu 3. Khi quay theo chiều kim đồng hồ sẽ tăng độ chênh lệch áp suất cho phép, nghĩa làm tăng áp suất dầu cực tiểu ở đó máy nén có thể làm việc.</para>
+            <para id="id6671785">Độ chênh áp suất được cố định ở 0,2 bar </para>
+          </section>
+        </section>
+        <section id="id-915915243151">
+          <title>Rơ le áp suất cao HP và rơ le áp suất thấp LP</title>
+          <para id="id6671810">Rơ le áp suất cao và rơ le áp suất thấp có hai kiểu khác nhau :</para>
+          <para id="id6671820">* Dạng tổ hợp gồm 02 rơ le </para>
+          <para id="id6671833">* Dạng các rơ le rời nhau</para>
+          <para id="id6671846">Trên hình 10-6 là cặp rơ le tổ hợp của HP và LP, chúng hoạt động hoàn toàn độc lập với nhau, mỗi rơ le có ống nối lấy tín hiệu riêng.</para>
+          <para id="id6671858">Cụm LP thường bố trí nằm phía trái, còn Hp bố trí nằm phía phải. Có thể phân biệt LP và HP theo giá trị nhiệt độ đặt trên các thang kẻ, tránh nhầm lẫn.</para>
+          <para id="id6671871">Trên hình 10-7 là các rơ le áp suất cao và thấp dạng rời. </para>
+          <para id="id6671882">Rơ le áp suất cao được sử dụng bảo vệ máy nén khi áp suất đầu đẩy cao quá mức quy định, nó sẽ tác động trước khi van an toàn mở. Hơi đầu đẩy được dẫn vào hộp xếp ở phía dưới của rơ le, tín hiệu áp suất được hộp xếp chuyển thành tín hiệu cơ khí và chuyển dịch hệ thống tiếp điểm, qua đó ngắt mạch điện khởi động từ máy nén.</para>
+          <table id="id6671897" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>
+                    <media id="id1172479009039" alt=""><image src="../../media/graphics8.jpg" mime-type="image/jpeg"/></media>
+                  </entry>
+                  <entry>
+                    <media id="id6218839" alt=""><image src="../../media/graphics9.jpg" mime-type="image/jpeg"/></media>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <section id="id-427660212717">
+            <title>Hình 10-6 : Rơ le tổ hợp áp suất cao và thấp</title>
+            <para id="id6509989"/>
+            <para id="id6509993"> Giá trị đặt của rơ le áp suất cao là 18,5 kG/cm2 thấp hơn giá trị đặt của van an toàn 19,5 kG/cm2. Giá trị đặt này có thể điều chỉnh thông qua vít “A”. Độ chênh áp suất làm việc được điều chỉnh bằng vít “B”. Khi quay các vít “A” và “B” kim chỉ áp suất đặt di chuyển trên bảng chỉ thị áp suất.</para>
+            <table id="id6510034" summary="">
+              <tgroup cols="2">
+                <colspec colnum="1" colname="c1"/>
+                <colspec colnum="2" colname="c2"/>
+                <tbody>
+                  <row>
+                    <entry>
+                      <media id="id1172478603466" alt=""><image src="../../media/graphics10.jpg" mime-type="image/jpeg"/></media>
+                    </entry>
+                    <entry>
+                      <media id="id1172481173615" alt=""><image src="../../media/graphics11.jpg" mime-type="image/jpeg"/></media>
+                    </entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <para id="id7762009">a- Rơ le áp suất cao HP b- Rơ le áp suất thấp</para>
+          </section>
+          <section id="id-411152327941">
+            <title>Hình 10-7 : Rơ le áp suất cao và thấp</title>
+            <para id="id7762033">Sau khi xảy ra sự cố áp suất và đã tiến hành xử lý, khắc phục xong cần nhấn nút Reset để ngặt mạch duy trì sự cố mới có thể khởi động lại được.</para>
+            <para id="id7762046">Tương tự HP, rơ le áp suất thấp LP được sử dụng để tự động đóng mở máy nén, trong các hệ thống lạnh chạy tự động. Khi nhiệt độ buồng lạnh đạt yêu cầu, van điện từ ngừng cấp dịch cho dàn lạnh, máy thực hiện rút gas về bình chứa và áp suất phía đầu hút giảm xuống dưới giá trị đặt, rơ le áp suất tác động dừng máy. Khi nhiệt độ phòng lạnh lên cao van điện từ mở, dịch vào dàn lạnh và áp suất hút lên cao và vượt giá trị đặt, rơ le áp suất thấp tự động đóng mạch cho động cơ hoạt động.</para>
+          </section>
+        </section>
+      </section>
+      <section id="id-996112926316">
+        <title>Thermostat </title>
+        <figure id="id7762103">
+          <media id="id1172480816534" alt=""><image src="../../media/graphics12.jpg" mime-type="image/jpeg" height="235" width="342"/></media>
+        </figure>
+        <section id="id-990880164355">
+          <title>Hình 10-8 : Thermostat</title>
+          <para id="id7762134">Thermostat là một thiết bị điều khiển dùng để duy trì nhiệt độ của phòng lạnh. Cấu tạo gồm có một công tắc đổi hướng đơn cực (12) duy trì mạch điện giữ các tiếp điểm 1 và 2 khi nhiệt độ bầu cảm biến tăng lên, nghĩa là nhiệt độ phòng tăng. Khi quay trục (1) theo chiều kim đồng hồ thì sẽ tăng nhiệt độ đóng và ngắt của Thermostat. Khi quay trục vi sai (2) theo chiều kim thì giảm vi sai giữa nhiệt độ đóng và ngắt thiết bị.</para>
+          <figure id="id6728997">
+            <media id="id1172479990935" alt=""><image src="../../media/graphics13.jpg" mime-type="image/jpeg" height="282" width="242"/></media>
+          </figure>
+        </section>
+        <section id="id-914677996012">
+          <title>Hình 10-9 : Cấu tạo bên ngoài của thermostat</title>
+          <para id="id6729022">
+            <!--Empty sections are illegal in CNXML 0.5.  This empty paragraph is a place holder that added as a byproduct of the word importer.-->
+          </para>
+        </section>
+      </section>
+      <section id="id-225192358886">
+        <title>Rơ le bảo vệ áp suất nước (WP) và rơ le lưu lượng (Flow Switch)</title>
+        <para id="id6729044">Nhằm bảo vệ máy nén khi các bơm giải nhiệt thiết bị ngưng tụ và bơm giải nhiệt máy nén làm việc không được tốt (áp suất tụt, thiếu nước ..) người ta sử dụng rơ le áp suất nước và rơ le lưu lượng.</para>
+        <para id="id6729066"> Rơ le áp suất nước hoạt động giống các rơ le áp suất khác, khi áp suất nước thấp, không đảm bảo điều kiện giải nhiệt cho dàn ngưng hay máy nén, rơ le sẽ ngắt điện cuộn dây khởi động từ của máy nén để dừng máy. Như vậy rơ le áp suất nước lấy tín hiệu áp suất đầu đẩy của các bơm nước.</para>
+        <para id="id6729089">Ngược lại rơ le lưu lượng lấy tín hiệu của dòng chảy. Khi có nước chảy qua rơ le lưu lượng tiếp điểm tiếp xúc hở, hệ thống hoạt động bình thường. Khi không có nước chảy qua, tiếp điểm của rơ le lưu lượng đóng lại, đồng thời ngắt mạch điện cuộn dây khởi động từ và dừng máy.</para>
+        <para id="id6729115">10.1.3 Các ký hiệu trên bản vẽ</para>
+        <para id="id6729121">Để thuận lợi cho việc đọc các bản vẽ các mạch điện, trên hình 10-10 dưới đây xin giới thiệu một số ký hiệu qui ước các thiết bị điện của mạch điện các hệ thống lạnh. Đây là các ký hiệu thường hay sử dụng cho các mạch điện hệ thống lạnh hiện nay thường hay được sử dụng.</para>
+        <para id="id7823885">Mặt khác để tránh nhầm lẫn khi thuyết minh nguyên lý hoạt động của các mạch điện chúng tôi ký hiệu chỉ số “1” cho tiếp điểm thường đóng và chỉ số “2” cho tiếp điểm thường mở.</para>
+        <figure id="id7823906">
+          <media id="id1172480677476" alt=""><image src="graphics14.wmf" mime-type="image/wmf" height="553" width="470"/></media>
+        </figure>
+        <section id="id-83798174437">
+          <title>Hình 10-10: Các ký hiệu qui ước trên các mach điện</title>
+          <para id="id7823942">10.2 ĐIỀU KHIỂN VÀ BẢO VỆ CÁC THIẾT BỊ LẠNH</para>
+          <para id="id7823949">10.2.1 Bảo vệ máy nén </para>
+          <para id="id7823958">Máy nén là thiết bị quan trọng nhất trong hệ thống lạnh, vì vậy nó được bảo vệ rất nghiêm ngặt. Khi các điều kiện làm việc không đạt yêu cầu, hệ thống bảo vệ tự động ngắt điện để dừng máy. Cụ thể, máy nén được bảo vệ bởi các thiết bị sau:</para>
+          <para id="id7823980">1. Bảo vệ áp suất </para>
+          <para id="id7823985">- Áp suất cao HP.</para>
+          <para id="id7823990">- Áp suất dầu OP.</para>
+          <para id="id7823995">- Áp suất thấp LP </para>
+          <para id="id7824000">2. Bảo vệ quá dòng và quá nhiệt (OCR): </para>
+          <para id="id7824007">- Bảo vệ quá dòng. </para>
+          <para id="id7824014">- Bảo vệ quá nhiệt.</para>
+          <para id="id7824019">3. Bảo vệ khi các điều kiện giải nhiệt không tốt</para>
+          <para id="id7824027">- Bảo vệ áp suất nước, lưu lượng nước</para>
+          <para id="id7824037">- Bảo vệ khi bơm nước giải nhiệt dàn ngưng hoặc máy nén ngừng hoạt động</para>
+          <para id="id7824047">- Bảo vệ khi quạt dàn ngưng không làm việc</para>
+          <para id="id7824057">- Bảo vệ khi quạt tháp giải nhiệt không làm việc</para>
+          <para id="id6787606">4. Bảo vệ khi một số thiết bị khác không làm việc</para>
+          <para id="id6787613">Trong một số mạch điện, máy nén sẽ tự động dừng khi một thiết bị nào đó không làm việc, chẳng hạn như quạt dàn lạnh, mô tơ cánh khuấy nước muối, bơm nước lạnh vv..</para>
+          <para id="id6787637">10.2.2 Điều khiển mức dịch ở bình trung gian </para>
+          <para id="id6787643">Để điều khiển mức dịch ở các bình trung gian trong các hệ thống lạnh 2 cấp người ta sử dụng các van phao điện từ. </para>
+          <para id="id6787654">Mức dịch ở bình trung gian, nói chung được được khống chế giữa 02 mức: cực đại và cực tiểu.</para>
+          <para id="id6787666">- Mức cực đại : Khống chế mức cực đại nhằm bảo vệ máy nén tránh hút ẩm, gây ngập lỏng phía cao áp.</para>
+          <para id="id6787683">- Mức cực tiểu : Nhằm đảm bảo lượng dịch tối thiểu trong bình để tăng cường trao đổi nhiệt cho ống xoắn.</para>
+          <para id="id6787695">Khi mức dịch trong bình đạt mức cực đại van phao phía trên tác động ngắt điện cuộn dây van điện từ cấp dịch cho bình trung gian, khi đó mức dịch trong bình sẽ không tăng. </para>
+          <para id="id6787710">Khi mức dịch hạ xuống mức cực tiểu van phao tác động mở van điện từ và dịch được tiết lưu vào bình. </para>
+          <para id="id6787727">10.2.3 Điều khiển mức dịch ở bình giữa mức </para>
+          <para id="id6787735">Đối với các bình giữ mức của các dàn lạnh, yêu cầu chỉ bảo vệ mức dịch trên của bình tránh hút lỏng về máy nén, do đó chỉ cần 01 van phao tác động đóng mở van điện từ cấp dịch cho bình và qua đó duy trì mức dịch trong bình ở giới hạn cho phép.</para>
+          <para id="id6787754">10.2.4 Điều khiển mức dịch ở bình chứa hạ áp </para>
+          <para id="id6787761">Bình chứa hạ áp được bảo vệ bằng 03 van phao. Nhiệm vụ của các van phao như sau:</para>
+          <para id="id6787769">- Van phao trên cùng, bảo vệ mức dịch cực đại tránh vượt quá mức cho phép, máy nén có thể hút lỏng về nguy hiểm. Khi đạt mức cực đại van phao tác động đóng van điện từ cấp dịch vào bình.</para>
+          <para id="id6787790">- Van phao giữa, duy trì mức dịch trung bình, khi mức dịch trong bình giảm xuống mức trung bình, van phao đóng mạch điện van điện từ và cấp dịch vào bình chứa hạ áp. </para>
+          <para id="id7832087">- Van phao dưới cùng bảo vệ mức dịch cực tiểu, đây là mức dịch sự cố, nhằm bảo vệ bơm. Khi lượng dịch trong bình quá thấp, van phao tác động ngắt điện cuộn dây khởi động từ bơm cấp dịch và bơm cấp dịch sẽ ngừng hoạt động. </para>
+          <para id="id7832105">10.2.5 Điều khiển nhiệt độ phòng lạnh </para>
+          <para id="id7832113">Đối với kho lạnh bảo quản hệ thống lạnh hoạt động hoàn toàn tự động và được điều khiển đóng tắt theo nhiệt độ phòng.</para>
+          <para id="id7832123">Quá trình tác động như sau : Khi nhiệt độ phòng lạnh đạt yêu cầu (xuống bằng nhiệt độ đặt của thermostat), thermostat tác động đóng van điện từ ngừng cấp dịch cho dàn lạnh, máy nén tiếp tục hoạt động nên áp suất hút hạ xuống, sau một thời gian khi áp suất hút xuống thấp rơ le áp suất thấp tác động dừng máy.</para>
+          <para id="id7832144">Khi nhiệt độ phòng nâng lên cao, thermostat tác động mở van điện từ cấp dịch cho dàn lạnh, áp suất hút tăng lên và rơ áp suất thấp đóng mạch khởi động lại máy nén.</para>
+          <para id="id7832161">Về mặt nguyên tắc, thermostat có thể trực tiếp tác động mạch điều khiển đóng máy nén. Tuy nhiên để đảm bảo an toàn khi dừng máy phải hút kiệt gas khỏi dàn lạnh nên người ta mới cho hoạt động như đã nêu ở trên.</para>
+          <para id="id7832181">10.3 MẠCH ĐIỆN ĐỘNG LỰC VÀ ĐIỀU KHIỂN MÁY NÉN</para>
+          <para id="id7832188">10.3.1 Mạch động lực của các máy nén, bơm và quạt</para>
+          <para id="id7832194">Mạch điện động lực còn gọi là mạch điện nguồn là mạch điện cấp điện nguồn để chạy các thiết bị như máy nén, bơm, quạt vv.. Dòng điện trong mạch điện động lực lớn nhỏ tuỳ thuộc vào công suất thiết bị và do đó công suất các thiết bị đi kèm mạch điện động lực phụ thuộc công suất thiết bị và lựa chọn một cách tương ứng. </para>
+          <para id="id7832219">Để có khái niệm về một mạch điện động lực ta giả sử có hệ thống lạnh kho cấp đông gồm các thiết bị chính sau đây (hình 10-11):</para>
+          <para id="id7832234">- Máy nén với mô tơ 75kW</para>
+          <para id="id7832243">- Bơm cấp dịch dàn lạnh 1,5 kW</para>
+          <para id="id7832250">- Bơm nước giải nhiệt máy nén 2,2 kW</para>
+          <para id="id7832257">- Bơm nước giải nhiệt dàn ngưng 3,7 kW</para>
+          <para id="id7037684">- Bơm nước xả băng dàn lạnh 2,2 kW</para>
+          <para id="id7037691">- Quạt giải nhiệt dàn ngưng : 2 x 1,5 kW</para>
+          <para id="id7037698">- Quạt giải nhiệt dàn lạnh: 2 x 2,2 kW</para>
+          <para id="id7037709">Đối với các động cơ và thiết bị điện của hệ thống lạnh, do công suất lớn nên việc đóng mở các động cơ đều thực hiện bằng các khởi động từ. Các thiết bị đều được đóng mở và bảo vệ bằng các aptomat, tất cả các thiết bị đều có rơ le nhiệt bảo vệ quá dòng. Các thiết bị có công suất nhỏ, ampekế nối trực tiếp vào mạch điện, còn các thiết bị có công suất lớn ampekế được qua biến dòng CT.</para>
+          <para id="id7037734">Các thiết bị chính trên mạch điện động lực bao gồm :</para>
+          <para id="id7037744">- MCCB - Aptomat </para>
+          <para id="id7037752">- CT : Biến dòng </para>
+          <para id="id7037759">- MC : Tiếp điểm khởi động từ cuộn chạy của máy nén</para>
+          <para id="id7037768">- MD - Tiếp điểm khởi động từ mạch tam giác</para>
+          <para id="id7037778">- MS - Tiếp điểm khởi động từ mạch sao</para>
+          <para id="id7037789">- OCR - Rơle nhiệt</para>
+          <para id="id7037796">- M - Môtơ ; P – Bơm (Pump); F – Quạt (Fan)</para>
+          <para id="id7037804">- A – Ampekế</para>
+          <para id="id7037811">- Dây điện các loại</para>
+          <figure id="id7037822">
+            <media id="id6651219" alt=""><image src="graphics15.wmf" mime-type="image/wmf" height="415" width="699"/></media>
+          </figure>
+        </section>
+        <section id="id-554940589524">
+          <title>Hình 10-11 : Mạch điện động lực trong hệ thống lạnh</title>
+          <para id="id7037856">Đối với động cơ máy nén quá trình khởi động diễn ra như sau :</para>
+          <para id="id7037862">Khi nhấn nút START trên mạch điều khiển, nếu không có bất cứ sự cố nào thì cuộn dây khởi động từ (MC) có điện và đóng tiếp điểm thường mở MC trên mạch động lực. Trong khoảng 5 giây đầu tiên (đặt ở rơ le thời gian), cuộn dây khởi động từ (MS) có điện và tiếp điểm thường mở MS của nó trên mạch động lực đóng. Lúc đó máy chạy theo sơ đồ sao, dòng khởi động giảm đáng kể. Sau thời gian đặt, rơ le thời gian tác động ngắt điện cuộn (MS) và đóng điện cho cuộn (MD), tương ứng các tiếp điểm trên mạch động lực, MD đóng và MS mở. Máy chuyển từ sơ đồ nối sao sang sơ đồ tam giác.</para>
+          <para id="id7815128">Đối với các thiết bị có công suất nhỏ như bơm, quạt dòng khởi động nhỏ nên không cần khởi động theo sơ đồ sao – tam giác như máy nén.</para>
+          <para id="id7815142">10.3.2 Mạch khởi động sao - tam giác</para>
+          <para id="id7815148">10.3.2.1 Dòng điện khởi động</para>
+          <para id="id7815155">Hầu hết các máy nén lạnh cỡ lớn đều sử dụng động cơ không đồng bộ 3 pha. Để khởi động được các động cơ không đồng bộ 3 pha mô men khởi động của động cơ phải đủ lớn để thắng được mô men cản của tải khi khởi động và đồng thời đảm bảo thời gian khởi động nằm trong giới hạn cho phép.</para>
+          <para id="id7815171">Dòng điện pha khi khởi động được xác định theo công thức sau:</para>
+          <para id="id7815179"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>KD</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>'</m:mi></m:mrow></m:mstyle></m:msubsup></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>'</m:mi></m:mrow></m:mstyle></m:msubsup></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{P} }  rSup { size 8{ ital "KD"} } = {  {U rSub { size 8{1} } }  over  { sqrt { \( R rSub { size 8{1} } +R rSub { size 8{2} }  rSup { size 8{'} }  \)  rSup { size 8{2} } + \( X rSub { size 8{1} } +X rSub { size 8{2} }  rSup { size 8{'} }  \)  rSup { size 8{2} } } } } } {}</m:annotation></m:semantics></m:math>(10-1)</para>
+          <para id="id7833337">trong đó:</para>
+          <para id="id7833342">R1 - Điện trở dây quấn stato;</para>
+          <para id="id7833360">X1 - Điện kháng stato;</para>
+          <para id="id7833378">R’2 - Điện trở dây quấn rôto qui đổi về stato;</para>
+          <para id="id7833397">X’2 - Điện kháng dây quấn rôto qui đổi về stato;</para>
+          <para id="id7833416">Dòng điện khi mở máy khá lớn, gấp 5  7 lần dòng điện định mức. Do đó đối với lưới điện công suất nhỏ khi khởi động máy có thể làm sụt áp mạng ảnh hưởng đến sự làm việc của các thiết bị khác. Vì vậy cần có các biện pháp khởi động hợp lý để giảm dòng khởi động.</para>
+          <para id="id7767263">10.3.2.2 Các phương pháp khởi động</para>
+          <para id="id7767269">1. Đối với động cơ rôto dây quấn</para>
+          <para id="id7767276">Để giảm dòng khởi động đối với động cơ loại này người ta nối dây quấn rôto với 01 biến trở khởi động. </para>
+          <para id="id7767284">Muốn mô men khởi động cực đại hệ số trượt tới hạn phải bằng 1 tức là</para>
+          <para id="id7767296"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>S</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>TH</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>'</m:mi></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>KD</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>'</m:mi></m:mrow></m:mstyle></m:msubsup></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>'</m:mi></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S rSub { size 8{ ital "TH"} } = {  {R rSub { size 8{2} }  rSup { size 8{'} } +R rSub { size 8{ ital "KD"} }  rSup { size 8{'} } }  over  {X rSub { size 8{1} } +X rSub { size 8{2} }  rSup { size 8{'} } } } =1} {}</m:annotation></m:semantics></m:math>(10-2)</para>
+          <para id="id7732627">Từ đó xác định được điện trở khởi động tối ưu để đạt mô men cực đại </para>
+          <para id="id7732635">Nhờ mạch rôto có thêm điện trở R’kđ nên dòng điện khởi động giảm </para>
+          <para id="id7732661"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>KD</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>'</m:mi></m:mrow></m:mstyle></m:msubsup></m:mrow><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>KD</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>'</m:mi></m:mrow></m:mstyle></m:msubsup></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>'</m:mi></m:mrow></m:mstyle></m:msubsup></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{P} }  rSup { size 8{ ital "KD"} } = {  {U rSub { size 8{1} } }  over  { sqrt { \( R rSub { size 8{1} } +R rSub { size 8{2} }  rSup { size 8{'} } +R rSub { size 8{ ital "KD"} }  rSup { size 8{'} }  \)  rSup { size 8{2} } + \( X rSub { size 8{1} } +X rSub { size 8{2} }  rSup { size 8{'} }  \)  rSup { size 8{2} } } } } } {}</m:annotation></m:semantics></m:math>(10-3)</para>
+          <para id="id7823562">2. Đối với động cơ lồng sóc</para>
+          <para id="id7823568">* Khởi động trực tiếp </para>
+          <para id="id7823577">Đóng trực tiếp động cơ vào mạch điện. Phương pháp này chỉ áp dụng cho các động cơ công suất nhỏ. Đây là phương pháp đơn giản, nhưng dòng khởi động lớn, điện áp sụt nhiều, thời gian khởi động lâu.</para>
+          <para id="id7823594">* Giảm điện áp stato</para>
+          <para id="id7823599">Khi giảm điện áp stato thì dòng điện mở máy giảm. Tuy nhiên lúc đó mô men khởi động cũng giảm theo, nên phương pháp này chỉ áp dụng cho động cơ không đòi hỏi mô men khởi động lớn. Để giảm điện áp stato có các cách sau :</para>
+          <para id="id7823615">- Dùng điện kháng nối tiếp vào mạch stato</para>
+          <para id="id7823621">- Dùng máy tự biến áp </para>
+          <para id="id7823626">* Đổi mạch nối sao - tam giác</para>
+          <para id="id7823634">Phương pháp này áp dụng cho các động cơ khi làm việc bình thường dây quấn stato nối theo kiểu tam giác.</para>
+          <para id="id7823645">Khi khởi động, mạch điện tự động chuyển nối sao, lúc đó điện áp đặt vào mỗi pha giảm 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {3} } {}</m:annotation></m:semantics></m:math> lần. Sau thời gian khởi động người ta chuyển sang mạch nối tam giác như qui định. </para>
+          <para id="id6724082">- Dòng điện dây khi nối tam giác:</para>
+          <para id="id6724087"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">dΔ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mtext>.</m:mtext><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{dΔ} } = {  { sqrt {3}  "." U rSub { size 8{1} } }  over  {z rSub { size 8{n} } } } } {}</m:annotation></m:semantics></m:math>(10-4)</para>
+          <para id="id6724207">- Dòng điện dây khi nối sao:</para>
+          <para id="id6724212"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">dΔ</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>U</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mtext>.</m:mtext><m:msub><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{dΔ} } = {  { "." U rSub { size 8{1} } }  over  { sqrt {3}  "." z rSub { size 8{n} } } } } {}</m:annotation></m:semantics></m:math>(10-5)</para>
+          <para id="id7766792">Theo các công thức trên, dòng điện khởi động khi nối sao nhỏ hơn khi nối tam giác 3 lần.</para>
+          <para id="id7766802">Qua việc nghiên cứu các phương pháp khởi động, chúng ta nhận thấy hầu hết các phương pháp đều làm giảm mô men khởi động. Để khắc phục điều này người ta đã chế tạo loại động cơ lồng sóc kép và loại rãnh sâu có đặc tính mở máy tốt.</para>
+          <para id="id7766817">10.3.2.3 Mạch khởi động sao tam giác</para>
+          <para id="id7766822">Trên hình 10-12 giới thiệu mạch điện khởi động sao - tam giác thường hay được sử dụng trong các hệ thống lạnh.</para>
+          <figure id="id7766835">
+            <media id="id1172480834040" alt=""><image src="graphics16.wmf" mime-type="image/wmf" height="396" width="426"/></media>
+          </figure>
+        </section>
+        <section id="id-0199113103361">
+          <title>Hình 10-12 : Mạch khởi động sao - tam giác </title>
+          <para id="id7766868">Các ký hiệu trên mạch điện </para>
+          <para id="id7766875">- MC, MS và MD – Cuộn dây khởi động từ sử dụng đóng mạch chính, mạch sao và mạch tam giác của mô tơ máy nén.</para>
+          <para id="id7745618">- AX - Rơ le trung gian</para>
+          <para id="id7745624">- T - Rơ le thời gian</para>
+          <para id="id7745630">Khi hệ thống đang dừng cuộn dây của rơ le trung gian (AX) không có điện, các tiếp điểm thường mở của nó ở trạng thái hở nên các cuộn dây (MC), (MD), (MS) không có điện.</para>
+          <para id="id7745646">Khi nhấn nút START để khởi động máy, nếu hệ thống không có các sự cố áp suất cao, áp suất dầu, áp suất nước, quá nhiệt thì tất cả các tiếp điểm thường đóng HPX, OPX, WPX, OCR ở trạng thái đóng. Dòng điện đi qua cuộn dây của rơ le trung gian (AX). Khi cuộn dây (AX) có điện nhờ tiếp điểm thường đóng AX mắc nối tiếp với tiếp điểm MCX nên tự duy trì điện cho cuộn AX. Tiếp điểm thường mở MCX đóng khi không có sự cố áp suất nước ở bơm giải nhiệt máy nén và bơm giải nhiệt dàn ngưng (xem mạch bảo vệ áp suất nước).</para>
+          <para id="id7745688">Khi cuộn (AX) có điện, tiếp điểm thường mở AX thứ hai của nó sẽ đóng mạch điện cho các cuộn dây khởi động từ (MC) và (MS) hoặc (MD). Trong thời gian 5 giây đầu (thời gian này có thể thay đổi tuỳ ý) rơ le thời gian T có điện và bắt đầu đếm thời gian, mạch cuộn dây khởi động từ (MS) có điện, máy chạy theo sơ đồ nối sao, cuộn (MD) không có điện.</para>
+          <para id="id7745719">Sau thời gian đặt 5 giây, tiếp điểm của rơ le thời gian nhảy và đóng mạch cuộn (MD) và mạch cuộn (MS) mất điện. Kết quả máy chuyển từ sơ đồ nối sao sang tam giác.</para>
+          <para id="id7745736">Do cuộn dây (MC) nối với cặp tiếp điểm thường mở MS, MD nối song song nên dù máy có chạy theo sơ đồ nào thì cuộn (MC) cũng có điện.</para>
+          <para id="id7745754">Khi xảy ra quá nhiệt (do máy quá nóng hay dòng điện quá lớn) thì cơ cấu lưỡng kim của rơ le quá nhiệt OCR nhảy và đóng mạch điện đèn báo hiệu sự cố (L1) báo hiệu sự cố đồng thời cuộn (AX) mất điện và đồng thời các khởi động từ của mô tơ máy nén mất điện và máy dừng.</para>
+          <para id="id7745784">Nếu xảy ra một trong các sự cố áp suất dầu, áp suất cao hoặc áp suất nước, hoặc nhấn nút STOP thì cuộn (AX) mất điện và máy nén cũng sẽ dừng.</para>
+          <para id="id7745799">10.4 CÁC MẠCH ĐIỆN BẢO VỆ KHÁC TRONG HỆ THỐNG LẠNH</para>
+          <para id="id7745808">Hầu hết các mạch bảo vệ áp suất dầu OP, áp suất cao HP, áp suất nước WP của các hệ thống lạnh đều được thiết kế để ngắt điện cuộn dây (AX) trên mạch điều khiển chạy máy nén. Khi cuộn dây (AX) mất điện các cuộn dây khởi động từ mô tơ máy nén sẽ mất điện theo và máy nén ngừng chạy.</para>
+          <para id="id6985879">Khi xảy ra bất cứ sự cố nào nêu trên thì cuộn (AX) sẽ ngay lập tức mất điện và máy nén sẽ ngừng hoạt động, đồng thời các đèn báo hiệu sự cố sáng để người vận hành có thể nhanh chóng biết được sự cố đã xảy ra, đồng thời chuông báo sự cố reo lên.</para>
+          <para id="id6985897">Dưới đây chúng tôi xin giới thiệu nguyên tắc làm việc của các mạch điện điều khiển nêu trên.</para>
+          <para id="id6985907">10.4.1 Mạch bảo vệ áp suất dầu</para>
+          <para id="id6985912">Trên hình 10-13 giới thiệu sơ đồ nguyên lý hoạt động của rơ le áp suất dầu. Khi hiệu áp suất dầu và áp suất trong cacte máy nén giảm xuống quá thấp, tiếp điểm mạch điện trở đóng, dòng điện đi qua điện trở và đốt nóng cơ cấu lưỡng kim. Khi nhiệt độ cơ cấu lưỡng kim đủ lớn, do giãn nở nhiệt nên cơ cấu lưỡng kim bị uốn cong làm hở tiếp điểm (Timer switch), mạch điện nối với rơ le áp suất OP mất điện.</para>
+          <para id="id6985941">Trên hình 10-14 trình bày mạch điện bảo vệ áp suất dầu. Khi hệ thống đang hoạt động bình thường cơ cấu lưỡng kim của rơ le áp suất dầu đóng, cuộn dây rơ le trung gian (OP) mắc nối tiếp với nó có điện. Mạch điện cuộn (OPX) và đèn (L2) không có điện do tiếp điểm thường đóng OP và thường mở OPX đang ở trạng thái hở. </para>
+          <para id="id6985971">- Khi áp suất dầu nhỏ hơn giá trị định sẵn, dòng điện đi qua điện trở sấy của rơ le và bắt đầu đốt nóng cơ cấu lưỡng kim, khi cơ cấu lưỡng kim nhả ra cuộn dây rơ le trung gian (OP) mắc nối tiếp với nó mất điện, kéo theo các tiếp điểm thường đóng OP đóng lại, cuộn dây rơ le trung gian (OPX) và đèn (L2) có điện. Cuộn dây (OPX) có điện kéo theo tất cả các tiếp điểm thường đóng của nó nhả ra, cuộn dây (AX) trên mạch khởi động máy nén mất điện và tác động dừng máy nén.</para>
+          <para id="id6986009">Thông thường khi sự cố xảy ra, các mạch điện sự cố sẽ tự duy trì, chỉ sau khi xử lý xong sự cố và nhấn nút RESET mới có thể khởi động lại máy nén. Mạch điện cuộn sự cố (OPX) cũng tự duy trì thông qua tiếp điểm thường đóng của nó ở trên sơ đồ. Nếu không có mạch này thì sẽ rất nguy hiểm, vì người vận hành có thể chạy lại máy ngay mà không để ý là đang có cố áp suất dầu.</para>
+          <para id="id6986024">Trên mạch áp suất dầu, người ta sử dụng tiếp điểm thường mở của cuộn dây rơ le trung gian AX như là điều kiện để mạch áp suất dầu có hiệu lực. Mạch sự cố của cuộn (OPX) chỉ có hiệu lực khi cuộn (AX) có điện tức khi máy nén đang hoạt động mà mất áp suất dầu. Trường hợp khi khởi động máy, do bơm dầu chưa hoạt động nên hiệu áp suất sẽ bằng 0, nhưng nhờ cuộn (AX) chưa có điện nên mạch sự cố áp suất dầu chưa có hiệu lực và máy vẫn có thể khởi động được. </para>
+          <figure id="id6986058">
+            <media id="id1172473831529" alt=""><image src="../../media/graphics17.jpg" mime-type="image/jpeg" height="371" width="308"/></media>
+          </figure>
+          <para id="id7817543">Hình 10-13: Sơ đồ hoạt động của rơ le áp suất dầu</para>
+          <para id="id7817552">Một điểm trong cấu tạo của rơ le áp suất dầu cũng cần lưu ý là khi hiệu áp suất giảm, rơ le không tác động dừng máy ngay mà phải thông qua điện trở đốt nóng cơ cấu lưỡng kim, cơ cấu lưỡng kim giãn nở nhiệt mới dừng máy. Có nghĩa rằng, hiệu áp suất phải thực sự giảm và giảm trong một thời gian nhất định. Điều này có ý nghĩa rất quan trọng vì trong quá trình làm việc, do sự dao động hoặc do có lẫn các bọt khí hiệu áp suất có thể giảm tức thời. Đây không phải là sự cố mà chỉ là những tác động mang tính nhất thời.</para>
+          <para id="id7817586">Trường hợp rơ le áp suất không có điện trở sấy và cơ cấu lưỡng kim như trên, cần phải sử dụng rơ le thời gian để đếm thời gian giảm hiệu áp suất. Chỉ khi hiệu áp suất giảm trong một khoảng thời gian nhất định (thường là 10 giây) thì mới tác động dừng máy nén.</para>
+          <para id="id7817605">10.4.2 Mạch giảm tải</para>
+          <para id="id7817617">Mạch giảm tải trong sơ đồ đã chỉ ra trên hình 10-14 được sử dụng để giảm tải trong các trường hợp sau:</para>
+          <para id="id7817629">a) Khi mới khởi động đang chạy theo sơ đồ sao Y, do dòng khởi động rất lớn nên bắt buộc giảm tải.</para>
+          <para id="id7817638">b) Khi vận hành do phụ tải lớn, người vận hành muốn giảm tải bằng tay.</para>
+          <para id="id7817649">c) Lúc chạy bình thường (chế độ tam giác ) nhưng áp suất hút quá thấp, hệ thống hoạt động không hiệu qủa nên máy chuyển sang chế độ giảm tải.</para>
+          <para id="id7817672">Khi giảm tải, cuộn dây van điện từ (SV) có điện và mở thông đường dầu tác động lên cơ cấu giảm tải của máy nén để giảm tải.</para>
+          <para id="id7817682">Công tắc xoay COS trên sơ đồ điều khiển cho phép lựa chọn chế độ giảm tải bằng tay MANUAL (ngay lập tức), chế độ giảm tải tự động AUTO hoặc ngắt mạch giảm tải OFF. </para>
+          <para id="id7817699">Sơ đồ mạch điện trên hình 10-13 cho thấy trong quá trình khởi động khi đang chạy theo sơ đồ sao Y thì máy nén luôn luôn giảm tải vì lúc này cuộn dây khởi động từ (MS) đang có điện, tiếp điểm thường mở của nó trên mạch giảm tải đóng và cuộn (SV) có điện.</para>
+          <para id="id7817719">Khi ở chế độ tự động AUTO, chỉ khi áp suất hút nhỏ hơn giá trị đặt trước thì sẽ giảm tải. </para>
+          <para id="id7817730">Ngoài ra ở thời điểm bất kỳ nào cũng có thể giảm tải máy nén được khi xoay công tắc COS sang vị trí MANUAL.</para>
+          <para id="id7818604">Khi máy nén đang ở chế độ giảm tải, đèn (L3) sẽ sáng báo hiệu hệ thống đang chạy chế độ giảm tải.</para>
+          <figure id="id7818618">
+            <media id="id1172480056367" alt=""><image src="graphics18.wmf" mime-type="image/wmf" height="355" width="684"/></media>
+          </figure>
+        </section>
+        <section id="id-296624058634">
+          <title>Hình 10-14: Mạch điện điều khiển hệ thống lạnh</title>
+          <para id="id7818652">10.4.3 Mạch bảo vệ áp suất cao</para>
+          <para id="id7818665">Trên hình 10-14 biểu diễn mạch điện bảo vệ áp suất cao. </para>
+          <para id="id7818675">Khi hệ thống hoạt động bình thường, tiếp điểm của rơ le áp suất cao HP mở, đèn (L4) và cuộn (HPX) không có điện.</para>
+          <para id="id7818699">Khi áp suất phía đẩy của máy nén vượt quá giá trị đặt trước khoảng 18,5 kG/cm2, tiếp điểm rơ le áp suất cao HP đóng (UP-ON), cuộn dây rơ le trung gian (HPX) có điện và đèn (L4) sáng báo hiệu sự cố. Lúc này các tiếp điểm thường đóng HPX nhả ra. Trên mạch khởi động cuộn (AX) mất điện và tác động dừng máy nén.</para>
+          <para id="id7818746">Rơ le sự cố (HPX) cũng tự duy trì điện cho nó thông qua các tiếp điểm thường đóng RES và tiếp điểm thường mở HPX.</para>
+          <para id="id7818761">Chỉ sau khi khắc phục xong sự cố và nhấn nút RESET thì cuộn (HPX) mới mất điện.</para>
+          <para id="id7818773"/>
+          <para id="id7818778">10.4.4 Mạch bảo vệ quá dòng</para>
+          <para id="id7818783">Trên hình 10-14, OCR biểu thị cơ cấu lưỡng kim của rơ le nhiệt. Ở nhiệt độ bình thường cơ cấu lưỡng kim đóng tiếp điểm mạch điện cho các công tắc tơ máy nén và cuộn (AX). Lúc này hệ thống có thể khởi động làm việc.</para>
+          <para id="id7818798">Khi dòng điện chạy qua môtơ quá lớn, máy nén nóng cơ cấu lưỡng kim của rơ le nhiệt nhả ra và mạch điện khởi động mất điện, cơ cấu lưỡng kim nhảy sang phía mạch đèn (L1), đèn (L1) sáng báo hiệu sự cố quá dòng.</para>
+          <para id="id7818802">Khi xảy ra sự cố quá dòng, phải đợi cho cơ cấu lưỡng kim nguội và nhảy trở về vị trí bình thường, thì mới có thể khởi động lại được.</para>
+          <para id="id7732804">Mạch bảo vệ quá dòng, không phục hồi qua nút RESET như các mạch sự cố áp suất khác.</para>
+          <para id="id7732818"/>
+          <para id="id7732822">10.4.5 Mạch điều khiển và bảo vệ bơm, quạt giải nhiệt </para>
+          <para id="id7732837">Trên hình 10-15 giới thiệu mạch điều khiển, bảo vệ bơm, quạt giải nhiệt và bảo vệ áp suất nước. Mạch điện có tác dụng điều khiển chạy các bơm, quạt giải nhiệt dàn ngưng và bảo vệ máy nén khi áp suất nước thấp.</para>
+          <figure id="id7732855">
+            <media id="id1172481857674" alt=""><image src="graphics19.wmf" mime-type="image/wmf" height="413" width="602"/></media>
+          </figure>
+        </section>
+        <section id="id-688213015326">
+          <title>Hình 10-15: Mạch bảo vệ áp suất nước và quá dòng bơm, quạt giải nhiệt</title>
+          <para id="id7732892">* Điều khiển chạy các bơm và quạt </para>
+          <para id="id7732899">Để chạy các bơm và quạt giải nhiệt có thể thực hiện theo hai chế độ:</para>
+          <para id="id7732905">- Chế độ bằng tay : Bật công tắc COS sang vị trí MAN , nếu không có sự cố áp suất nước và sự cố quá dòng của các bơm quạt (tiếp điểm WPX và OCR đóng) các cuộn dây khởi động từ của các bơm, quạt có điện và đóng điện cho mô tơ các bơm, quạt.</para>
+          <para id="id7732929">- Chế độ tự động : Bật công tắc COS sang vị trí AUT. Ở chế độ tự động bơm quạt sẽ khởi động cùng với máy nén. Sau khi nhấn nút START trên mạch khởi động nếu không có bất cứ sự cố nào thì cuộn (AX) có điện, đồng thời đóng tiếp điểm AX cấp điện cho các cuộn dây của các khởi động từ (MCP1), (MCP2), (MCCF1) và (MCCF2) của bơm, quạt giải nhiệt và bơm, quạt hoạt động. </para>
+          <para id="id7732967">Khi một trong các thiết bị bơm giải nhiệt máy nén, bơm và quạt giải nhiệt dàn ngưng không làm việc thì cuộn (MCX) mất điện, mạch khởi động máy nén mất điện và ngừng máy nén. </para>
+          <para id="id7732981">* Bảo vệ quá dòng bơm, quạt giải nhiệt</para>
+          <para id="id7732989">Khi một trong 4 thiết bị gồm bơm giải nhiệt máy nén, bơm giải nhiệt và các quạt giải nhiệt dàn ngưng bị quá dòng, rơ le nhiệt nhảy khỏi vị trí thường đóng và đóng mạch điện cuộn dây rơ le trung gian (AUX) và đèn (L5) sáng báo sự cố. Cuộn dây sự cố (AUX) đóng mạch chuông báo hiệu sự cố (hình 10- ), đồng thời cuộn dây của rơ le trung gian (MCX) mất điện. Tiếp điểm thường mở của nó trên mạch khởi động nhả ra, cuộn (AX) mất điện và máy dừng ngay lập tức.</para>
+          <para id="id7820327"/>
+          <para id="id7820332">10.4.6 Mạch bảo vệ áp suất nước </para>
+          <para id="id7820337">Trên hình 10-15 trình bày mạch bảo vệ áp suất nước. Trong hệ thống này có 02 bơm: Bơm giải nhiệt dàn ngưng và bơm giải nhiệt máy nén, vì thế tương ứng sẽ có 02 rơ le áp suất nước WP1 và WP2 bảo vệ. </para>
+          <para id="id7820371">Khi đang hoạt động bình thường, tiếp điểm của các rơ le áp suất nước mở, cuộn dây rơ le thời gian T2 không có điện. </para>
+          <para id="id7820401">Khi xảy ra sự cố mất áp suất nước của một trong hai bơm thì cuộn dây rơ le thời gian (T2) có điện và bắt đầu đếm thời gian. Nếu sự cố kéo dài quá thời gian đặt (10 giây) tiếp điểm T2 đóng, cuộn (WPX) có điện và đèn (L6) sáng báo hiệu sự cố. Cuộn (WPX) tự duy trì nhờ tiếp điển thường đóng của nó và tiếp điểm RES. </para>
+          <para id="id7820450">Đồng thời với báo hiệu sự cố tiếp điểm thường đóng của WPX trên mạch khởi động nhả ra, cuộn (AX) mất điện và máy dừng.</para>
+          <para id="id7820464">Rơ le thời gian T2 rất quan trọng, nó có tác dụng điều khiển dừng máy khi áp suất nước thực sự giảm trong một thời gian nhất định, mà không tác dụng tức thời. Tránh trường hợp dừng máy do giảm áp suất tức thời khi có các bọt khí trong dòng nước hoặc dao động bất thường khác. </para>
+          <para id="id7820499">Sau sự cố áp suất nước, muốn khởi động lại hệ thống, phải nhấn nút RESET mới có thể khởi động lại máy nén.</para>
+          <para id="id7840986">10.4.7 Mạch cấp dịch và điều khiển quạt dàn lạnh</para>
+          <figure id="id7841005">
+            <media id="id1172474885875" alt=""><image src="graphics20.wmf" mime-type="image/wmf" height="445" width="447"/></media>
+          </figure>
+        </section>
+        <section id="id-977619994561">
+          <title>Hình 10-16 : Mạch cấp dịch và điều khiển quạt dàn lạnh.</title>
+          <para id="id7841041">Trên hình 10-16 trình bày mạch cấp dịch, bảo vệ quá dòng quạt dàn lạnh và báo chạy dàn lạnh. Trên mạch này van điện từ (SV) là van điện từ điều khiển cấp dịch cho dàn lạnh. Thermostat (Th) điều khiển nhiệt độ phòng lạnh, khi nhiệt độ đạt thì không cấp dịch cho dàn lạnh nữa, các tiếp điểm XD1 và XD2 là liên quan tới mạch xả băng. Khi xả băng có những giai đoạn phải khống chế dừng cấp dịch hoặc dừng không cho quạt hoạt động tránh bắn nước tung toé trong kho lạnh.</para>
+          <para id="id7841071">a) Mạch cấp dịch dàn lạnh : Mạch điện sẽ tác động ngừng cấp dịch cho dàn lạnh trong các trường hợp sau đây :</para>
+          <para id="id7841087">+ Trong giai đoạn hút dịch của quá trình xả băng (cuộn XD1 có điện và tiếp điểm thường đóng XD1 mở)</para>
+          <para id="id7841101">+ Khi nhiệt độ phòng đạt yêu cầu : Tiếp điểm thermostat (Th) ngắt.</para>
+          <para id="id7841110">+ Người vận hành có thể ngừng cấp dịch dàn lạnh bất cứ lúc nào khi xoay công tắc COS1 về vị trí OFF</para>
+          <para id="id7841131">Có 02 chế độ cấp dịch : </para>
+          <para id="id7841137">- Chế độ tự động : Bật công tắc COS1 sang vị trí AUT. Ở chế độ này việc cấp dịch chỉ dừng khi xả băng hoặc khi nhiệt độ phòng đạt yêu cầu. Khi hệ thống dừng, mạch cấp dịch đóng.</para>
+          <para id="id7841168">- Chế độ bằng tay: Bật công tắc COS1 sang vị trí MAN. Ở chế độ cấp dịch bằng tay việc cấp dịch có thể thực hiện ngay cả khi máy nén đang ngừng hoạt động miễn là nhiệt độ phòng không quá thấp và không phải trong giai đoạn rút dịch của quá trình xả băng </para>
+          <para id="id7841188">Khi hệ thống đang cấp dịch thì đèn L8 sẽ sáng báo hiệu đang thực hiện cấp dịch. </para>
+          <para id="id7817742">b). Mạch điều khiển quạt dàn lạnh. </para>
+          <para id="id7817756">Mạch điện này có các dụng điều khiển cấp điện cho các bơm, quạt giải nhiệt và bảo vệ các thiết bị đó khi quá dòng. </para>
+          <para id="id7817765">* Điều khiển chạy quạt :</para>
+          <para id="id7817772">Khi khởi động hệ thống, cuộn dây của rơ le trung gian (AX) có điện, tiếp điểm thường mở AX của nó đóng mạch cung cấp điện cho các cuộn dây của khởi động từ (MCF1) và (MCF2) của các quạt giải nhiệt và mô tơ quạt có điện và bắt đầu làm việc. </para>
+          <para id="id7817787">Thông qua công tắc COS2 có thể lựa chọn chế độ chạy quat là tự động AUT hoặc bằng tay MAN và có thể dừng quạt khi xoay về vị trí OFF. Tuy nhiên dù ở chế độ nào thì khi đang xả băng (cuộn XD2 có điện) thì quạt cũng phải dừng.</para>
+          <para id="id7817819">* Bảo vệ quá dòng</para>
+          <para id="id7817825">Khi xảy ra sự cố quá dòng của một trong 2 quạt thì tiếp điểm rơ le nhiệt nhảy và đèn (L9) sáng báo hiệu sự cố.</para>
+          <para id="id7817834">Lúc này các cuộn dây của khởi động từ (MCF1 hoặc MCF2 ) tương ứng sẽ mất điện, trên mạch điện bảo vệ áp suất nước (hình 10-14) cuộn (MCX) mất điện và kéo theo cuộn (AX) trên mạch khởi động mất điện và dừng máy.</para>
+          <para id="id7817849">10.4.8 Mạch xả băng ba giai đoạn</para>
+          <para id="id7817862">Khi băng bám nhiều trên dàn lạnh, hiệu quả trao đổi nhiệt giảm, mô tơ quạt có thể bị quá tải và cháy. Vậy thì lúc nào cần xả băng cho dàn lạnh ? Trong quá trình làm việc, việc phải vào trong các buồng lạnh là bất đắc dĩ và cần hạn chế, mặt khác bên trong buồng lạnh khi đang hoạt động cũng rất khó quan sát, kiểm tra mức độ bám băng. Hơn nữa nhiều dàn lạnh có vỏ bao che khá kín bên ngoài nên cũng rất khó xác định mức độ bám băng.</para>
+          <para id="id7817892">Vì vậy, xác định mức độ bám băng dàn lạnh gián tiếp thông qua dòng điện mô tơ quạt. Khi băng bám nhiều, đường gió tuần hoàn trong dàn lạnh bị thu hẹp, trở lực tăng lên và dòng điện mô tơ tăng theo. Đối với người vận hành có kinh nhiệm, khi dòng điện mô tơ tăng đến một giá trị nào đó so với dòng chạy bình thường thì biết cần phải tiến hành xả băng. Một số hệ thống lạnh do MYCOM lắp đặt tại Việt Nam người ta đánh dấu vị trí cần xả băng trên ampekế của quạt dàn lạnh. </para>
+          <para id="id7817931">Quá trình xả băng thực hiện qua 3 giai đoạn và hoạt động hoàn toàn tự động. Thời gian thực hiện một giai đoạn được đặt sẵn thông qua rơ le thời gian TD1, TD2 và TD3. Quá trình làm việc thực tế có thể điều chỉnh lại thời gian cho phù hợp.</para>
+          <para id="id7817950">Tiến hành xả băng như sau:</para>
+          <para id="id7817958">- Nhấn nút START để bắt đầu quá trình xả băng.</para>
+          <para id="id7813384">- Khi cần dừng xả băng nhấn nút STOP1 </para>
+          <para id="id7813393">Sau khi nhấn nút START quá trình xả băng thực hiện theo các giai đoạn sau :</para>
+          <figure id="id7813404">
+            <media id="id4766521" alt=""><image src="graphics21.wmf" mime-type="image/wmf" height="352" width="678"/></media>
+          </figure>
+        </section>
+        <section id="id-367610176055">
+          <title>Hình 10-17 : Mạch điện xả băng</title>
+          <para id="id7813437">- Giai đoạn 1: Rút dịch khỏi dàn lạnh</para>
+          <para id="id7813447">Thực hiện trong khoảng 5 phút, thời gian này được khống chế bằng rơ le thời gian (TD1). </para>
+          <para id="id7813455">Sau khi nhấn nút START trên mạch xả băng, cuộn dây rơ le trung gian (XD1) có điện, tiếp điểm thường mở XD1 của nó đóng, rơ le trung gian tự duy trì điện cho nó và rơ le thời gian TD1 có điện. Rơ le thời gian TD1 bắt đầu đếm thời gian. Trong lúc này tiếp điểm thường đóng XD1 của nó trên mạch cấp dịch dàn lạnh nhả ra, van điện từ (SV) mất điện và ngừng cấp dịch cho dàn lạnh, hệ thống lạnh vẫn chạy nên hút dịch ra khỏi dàn lạnh.</para>
+          <para id="id7813487">Nếu trong thời gian 5 phút mà vẫn chưa hút kiệt gas trong dàn lạnh (Ph = -50CmHg) thì phải tăng thời gian đặt ở (TD1).</para>
+          <para id="id7813516">- Giai đoạn 2: Giai đoạn xả băng </para>
+          <para id="id7813522">Sau thời gian đã định (5 phút), rơ le thời gian TD1 điều khiển đóng tiếp điểm TD1 nối nối tiếp với rơ le trung gian (XD2). Rơ le trung gian (XD2) và rơ le thời gian (TD2) có điện. Rơ le thời gian TD2 bắt đầu đếm thời gian. Trong thời gian này, tiếp điểm thường mở của XD2 trên mạch bơm xả băng đóng, bơm xả băng hoạt động và thực hiện bơm nước xả băng.</para>
+          <para id="id7813547">Trong lúc xả băng rơ le trung gian XD2 điều khiển dừng các quạt dàn lạnh để nước không bắn tung toé trong buồng lạnh, đồng thời ngắt điện vào rơ le thời gian TD1.</para>
+          <para id="id7813562">Rơ le trung gan (XD2) cũng tự duy trì điện thông qua tiếp điểm thường mở của nó ở trên mạch xả băng.</para>
+          <para id="id7813573">- Giai đoạn 3: Giai đoạn làm khô dàn lạnh </para>
+          <para id="id7813579">Sau thời gian xả băng (15 phút), rơ le thời gian (TD2) điều khiển đóng tiếp điểm TD2 trên mạch làm làm khô dàn lạnh, cuộn (XD3) và rơ le thời gian TD3 có điện. Rơ le thời gian TD3 bắt đầu đếm thời gian làm khô dàn lạnh. </para>
+          <para id="id7813597">Trong giai đoạn này bơm xả băng ngừng chạy và các quạt dàn lạnh làm việc. Một điểm cần lưu ý là trong suốt thời gian xả băng, cuộn (XD1) luôn luôn có điện.</para>
+          <para id="id7813609">Sau thời gian làm khô rơ le thời gian (TD3) ngắt điện cuộn (XD1) thông qua tiếp điểm thường đóng TD3 và cuộn dây rơ le trung gian (XD3) mất điện theo. Quá trình xả băng kết thúc.</para>
+          <para id="id7735829">Ghi chú:</para>
+          <para id="id7735834">- Trong quá trình vận hành xả băng, nếu phát hiện sau một thời gian ngắn hơn qui định băng ở dàn lạnh đã được xả tan hết, lúc đó có thể dừng xả băng để giảm tổn thất nhiệt, không cần duy trì đúng thời gian qui định, nhờ nút STOP2 có thể chuyển ngay sang giai đoạn 3. </para>
+          <para id="id7735848">- Có thể ngừng hoàn toàn quá trình xả băng bất cứ lúc nào thông qua nút nhấn STOP1</para>
+          <para id="id7735858">- Các tiếp điểm XD2 và XD3 nối nối tiếp với rơ le thời gian (TD1) nhằm ngắt điện vào nó khi đang ở giai đoạn 2 và 3.</para>
+          <para id="id7735869">- Tiếp điểm thường đóng XD3 nối nối tiếp với cuộn dây rơ le trung gian (XD2) có tác dụng ngắt điện cuộn khi chuyển sang giai đoạn 3.</para>
+          <para id="id7735886">- Tiếp điểm XD1 trên mạch làm ráo dùng ngắt điện cho cuộn (XD3) và rơ le thời gian TD3 khi kết thúc xả băng.</para>
+          <para id="id7735899">10.4.9 Mạch chuông báo động sự cố</para>
+          <figure id="id7735908">
+            <media id="id4852437" alt=""><image src="graphics22.wmf" mime-type="image/wmf" height="349" width="322"/></media>
+          </figure>
+        </section>
+        <section id="id-41240151105">
+          <title>Hình 10-18 : Mạch chuông báo sự cố</title>
+          <para id="id7735941">Khi xả ra các sự cố áp suất hoặc quá dòng mạch điện của chuông BZ có điện và chuông reo báo sự cố. </para>
+          <para id="id7735955">Khi đó, người vận hành phải nhất nút BELL STOP để ngừng tiếng chuông. Lúc đó cuộn dây của rơ le trung gian (BZX) có điện và tiếp điểm thường đóng của nó nhả ra, ngắt điện của chuông (BZ)</para>
+          <para id="id7735969">Sau khi khắc phục các sự cố xong, nhấn nút RESET, điện đi qua cuộn dây của rơ le trung gian (RES), tất cả các tiếp điểm thường đóng RES của nó trên các mạch sự cố sẽ nhả ra, làm mất điện mạch báo sự cố và hệ thống có thể bắt đầu khởi động.</para>
+          <para id="id7735996">* *</para>
+          <para id="id7736000">* * *</para>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

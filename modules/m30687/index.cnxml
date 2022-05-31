@@ -1,0 +1,621 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Mô hình hệ thống điều khiển tự động</title>
+  <metadata>
+  <md:content-id>m30687</md:content-id><md:title>Mô hình hệ thống điều khiển tự động</md:title>
+  <md:abstract>Đây là giáo trình về mô hình hệ thống điều khiển tự động</md:abstract>
+  <md:uuid>72a3a659-8491-4bfc-b3ca-16e2eb68c00f</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-00866247404628">
+      <title>MỤc tiêu</title>
+      <para id="id5611143">Trong bài thí nghiệm này chúng ta sẽ tìm hiểu phương pháp mô hình hóa một hệ điều khiển tự động, bao gồm:</para>
+      <list id="id5611155" list-type="bulleted">
+        <item>Hàm truyền và phương trình trạng thái của hệ thống</item>
+        <item>Đáp ứng vòng hở và đáp ứng vòng kín của hệ thống</item>
+        <item>Xây dựng bộ điều khiển PID</item>
+        <item>Chỉnh định thông số của bộ đỉều khiển và khảo sát đáp ứng của hệ thống. </item>
+      </list>
+      <para id="id5611191">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id5611218">Hình 5.1 – Một mô hình hệ thống điều khiển tiêu biểu</para>
+    </section>
+    <section id="id-869701890512">
+      <title>Tham khẢo</title>
+      <para id="id5611233">[1].The Mathworks Inc., Matlab Notebook User’s Guide – Control toolbox, 2003.</para>
+      <para id="id5611243">[2]. Phạm Văn Tấn, Bài giảng môn Cơ sở Tự động học, Bộ môn Viễn Thông và Tự động hóa, khoa Công nghệ Thông tin, Đại học Cần Thơ, 2001.</para>
+      <para id="id5611256">[3].Nguyễn Công Định, Phân tích và Tổng hợp các hệ thống Điều khiển bằng máy tính, NXB Khoa học và Kỹ thuật, 2002.</para>
+      <para id="id5611267">[4].<link url="http://www.engin.umich.edu/group/ctm">http://www.engin.umich.edu/group/ctm</link></para>
+      <para id="id5611290">[5]. <link url="http://www.shu.ac.uk/schools/eng/teaching/rw/pidtutorial.htm">http://www.shu.ac.uk/schools/eng/teaching/rw/pidtutorial.htm</link></para>
+    </section>
+    <section id="id-306410927677">
+      <title>ThỰc hành</title>
+      <para id="id5611321">Để có thể thực hiện tốt bài thí nghiệm, sinh viên cần nắm vững các kiến thức cơ bản về Điều khiển tự động (Cơ sở tự động học). Do đó, bài này không bắt buộc đối với các sinh viên Tin học (nếu có) và các sinh viên Điện tử theo hướng Viễn thông. Trong trường hợp đó, có thể sinh viên đã thực tập bài 4 hoặc sinh viên có thể chuyển sang bài 7. </para>
+      <section id="id-640195617058">
+        <title>Hàm truyền và phương trình trạng thái của hệ thống</title>
+        <para id="id5611370">Trong điều khiển tự động, người ta thường biểu diễn một hệ thống vật lý bằng hàm truyền (transfer function) hay phương trình trạng thái (state-space equation) của nó (đối với các hệ phi tuyến, để đạt được điều này, người ta phải dùng phương pháp tuyến tính hóa từng đoạn).</para>
+        <para id="id5611388">Giả sử có hệ thống điều khiển tốc độ motor DC như hình vẽ 5.2 [4]. Trong đó:</para>
+        <para id="id5611399">J = 0.01 kgm2/s2 là moment quán tính của rotor </para>
+        <para id="id5611427">b = 0.1 Nms hệ số ma sát</para>
+        <para id="id5611434">K=Ke=Kt=0.01 Nm/Amp các hằng số sức điện động</para>
+        <para id="id5765115">R = 1 ohm điện trở</para>
+        <para id="id5765122">L = 0.5 H điện cảm</para>
+        <para id="id5765128">I:dòng điện chạy trong cuộn dây của motor</para>
+        <para id="id5765137">V: điện áp trên hai đầu cuộn dây motor – ngõ vào</para>
+        <para id="id5765145">: vị trí trục – ngõ ra</para>
+        <para id="id5765160">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id5765186">Hình 5.2 – Mô hình toán một hệ điều khiển tốc độ motor DC</para>
+        <para id="id5765193">Phương trình vi phân mô tả hệ thống như sau:</para>
+        <para id="id5765202">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>J</m:mi>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mi>d</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                    <m:mi>θ</m:mi>
+                                  </m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:msup>
+                                        <m:mtext>dt</m:mtext>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mfrac>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>b</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mi fontstyle="italic">dθ</m:mi>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dt</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mfrac>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>Ki</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mi>L</m:mi>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>di</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dt</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mfrac>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>Ri</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mi>V</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>K</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mfrac>
+                          <m:mi fontstyle="italic">dθ</m:mi>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dt</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{J {  {d rSup { size 8{2} } θ}  over  { ital "dt" rSup { size 8{2} } } } +b {  {dθ}  over  { ital "dt"} } = ital "Ki"}  {} # 
+L {  { ital "di"}  over  { ital "dt"} } + ital "Ri"=V - K {  {dθ}  over  { ital "dt"} }  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id5765387">Hàm truyền: Biến đổi Laplace 2 vế của phương trình trên ta được:</para>
+        <para id="id5765410">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>s</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>Js</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>b</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>Θ</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>s</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mi fontstyle="italic">KI</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>s</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>Ls</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>R</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>I</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>s</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:mi>V</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>Ks</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mi>Θ</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>s</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{s \(  ital "Js"+b \) Θ \( s \) =KI \( s \) }  {} # 
+ size 12{ \(  ital "Ls"+R \) I \( s \) =V -  ital "Ks"Θ \( s \) }  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id5765599">Suy ra: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfenced open="[" close="]"><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ls</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>R</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Js</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:msup><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mfenced><m:mrow><m:mi fontstyle="italic">sΘ</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">KV</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ \(  ital "Ls"+R \)  \(  ital "Js"+b \) +K rSup { size 8{2} }  right ]sΘ=KV} {}</m:annotation></m:semantics></m:math> hay 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mover><m:mi>θ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mover><m:mi>V</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>K</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ls</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>R</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Js</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>b</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:msup><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { {θ}  cSup { size 8{ cdot } } }  over  {V} } = {  {K}  over  { \(  ital "Ls"+R \)  \(  ital "Js"+b \) +K rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id5765869">Biểu diễn hàm truyền này trong Matlab ta thực hiện như sau (sinh viên nên lưu thành file.m):</para>
+        <para id="id5765889">&gt;&gt;J=0.01;</para>
+        <para id="id5765893">&gt;&gt;b=0.1;</para>
+        <para id="id5765898">&gt;&gt;K=0.01;</para>
+        <para id="id5765903">&gt;&gt;R=1;</para>
+        <para id="id5765907">&gt;&gt;L=0.5;</para>
+        <para id="id5765912">&gt;&gt;num=K;% tử số của hàm truyền</para>
+        <para id="id5607258">&gt;&gt;den=[(J*L) ((J*R)+(L*b)) ((b*R)+K^2)];% mẫu số hàm truyền</para>
+        <para id="id5607267">&gt;&gt;hamtruyen = tf(num,den)</para>
+        <para id="id5607275"> Đáp ứng bước vòng hở:</para>
+        <para id="id5607288">&gt;&gt;step(num,den)% hoac</para>
+        <para id="id5607299">&gt;&gt;step(hamtruyen)</para>
+        <figure id="id5607307">
+          <media id="id20407635" alt=""><image src="graphics1.wmf" mime-type="image/wmf" height="201" width="311"/></media>
+        </figure>
+        <para id="id5607331"> Đáp ứng xung vòng hở:</para>
+        <para id="id5607344">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id5607370">&gt;&gt;impulse(hamtruyen)</para>
+        <figure id="id5607378">
+          <media id="id14453155" alt=""><image src="graphics2.wmf" mime-type="image/wmf" height="201" width="311"/></media>
+        </figure>
+        <para id="id5607402">Phương trình trạng thái: Dạng tổng quát:</para>
+        <para id="id5607424">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mover>
+                                <m:mi>X</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mover>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mi fontstyle="italic">AX</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mtext>BU</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>Y</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mtext>CX</m:mtext>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mtext>DU</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ {X}  cSup { size 8{ cdot } } =AX+"BU"}  {} # 
+Y="CX"+"DU" {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id5607519">với X là véctơ trạng thái, U là véctơ tín hiệu vào và Y là véctơ tín hiệu ra.</para>
+        <para id="id5607530"> Biến trạng thái và phương trình trạng thái: Từ phương trình vi phân mô tả hệ thống, nếu đặt 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mover><m:mi>θ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mover></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{1} } = {θ}  cSup { size 8{ cdot } } } {}</m:annotation></m:semantics></m:math>và 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>i</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{2} } =i} {}</m:annotation></m:semantics></m:math>, ta có:</para>
+        <para id="id5607682"><m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>J</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>K</m:mi><m:mi>J</m:mi></m:mfrac></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mn>0V</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mover><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mstyle fontsize="8pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>K</m:mi><m:mi>L</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>R</m:mi><m:mi>L</m:mi></m:mfrac></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>L</m:mi></m:mfrac></m:mrow><m:mi>V</m:mi><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mi>Y</m:mi><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mi/></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mi/></m:mrow><m:mn>0</m:mn><m:mi/><m:mi fontstyle="italic">x2</m:mi><m:mrow><m:mi/><m:mo stretchy="false">+</m:mo><m:mi/></m:mrow><m:mn>0</m:mn><m:mi/><m:mi>V</m:mi><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ {x rSub { size 8{1} } }  cSup { size 8{ cdot } } = -  {  {b}  over  {J} } x rSub { size 8{1} } + {  {K}  over  {J} } x rSub { size 8{2} } +0V}  {} # 
+ {x rSub { size 8{2} } }  cSup { size 8{ cdot } } = -  {  {K}  over  {L} } x rSub { size 8{1} }  -  {  {R}  over  {L} } x rSub { size 8{2} } + {  {1}  over  {L} } V {} # 
+Y```=```````````x rSub { size 8{1} } +```0`x2```+`0``V {} 
+} } {}</m:annotation></m:semantics></m:math> hay 
+<m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mover><m:mi>X</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mover><m:mo stretchy="false">=</m:mo><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>b</m:mi><m:mi>J</m:mi></m:mfrac></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mfrac><m:mi>K</m:mi><m:mi>J</m:mi></m:mfrac><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>K</m:mi><m:mi>L</m:mi></m:mfrac></m:mrow><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>R</m:mi><m:mi>L</m:mi></m:mfrac></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">+</m:mo><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>0</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mfrac><m:mn>1</m:mn><m:mi>L</m:mi></m:mfrac></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:mi>Y</m:mi><m:mo stretchy="false">=</m:mo><m:mfenced open="[" close="]"><m:mtable><m:mtr><m:mtd><m:mrow><m:mn>1</m:mn><m:mrow/></m:mrow></m:mtd><m:mtd><m:mrow><m:mn>0</m:mn><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable></m:mfenced></m:mrow><m:mi>X</m:mi><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ {X}  cSup { size 8{ cdot } } = left [ matrix {
+ -  {  {b}  over  {J} }  {} #  {  {K}  over  {J} }  {} ##
+ -  {  {K}  over  {L} }  {} #  -  {  {R}  over  {L} } {}
+}  right ]X+ left [ matrix {
+0 {} ##
+ {  {1}  over  {L} } 
+}  right ]V}  {} # 
+Y= left [ matrix {
+1 {} # 0{}
+}  right ]X {} 
+} } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id6098602"> Biểu diễn phương trình trạng thái trong Matlab như sau:</para>
+        <para id="id6098617">&gt;&gt;J=0.01;</para>
+        <para id="id6098621">&gt;&gt;b=0.1;</para>
+        <para id="id6098626">&gt;&gt;K=0.01;</para>
+        <para id="id6098631">&gt;&gt;R=1;</para>
+        <para id="id6098635">&gt;&gt;L=0.5;</para>
+        <para id="id6098640">&gt;&gt;A = [-b/J K/J; -K/L -R/L];</para>
+        <para id="id6098656">&gt;&gt;B = [0;1/L];</para>
+        <para id="id6098663">&gt;&gt;C=[1 0];</para>
+        <para id="id6098672">&gt;&gt;D=0;</para>
+        <para id="id6098676"> Đáp ứng bước vòng hở:</para>
+        <para id="id6098689">&gt;&gt;step(A,B,C,D)</para>
+        <para id="id6098694"> Đáp ứng xung vòng hở:</para>
+        <para id="id6098707">&gt;&gt;impulse(A,B,C,D)</para>
+        <para id="id6098715">Ta có thể chuyển đổi qua lại giữa hàm truyền và phương trình trạng thái bằng lệnh sau:</para>
+        <para id="id6098732">&gt;&gt;[num,den]=ss2tf(A,B,C,D)% từ PT trạng thái sang hàm truyền</para>
+        <para id="id6098741">&gt;&gt;[A,B,C,D]=tf2ss(num,den)% từ hàm truyền sang PT trạng thái</para>
+        <para id="id6098750">Khảo sát đáp ứng vòng hở của hệ thống đối với tín hiệu bất kỳ</para>
+        <para id="id6098766">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id6098792">(Hình 5.3)</para>
+        <para id="id6098796">Phải đảm bảo rằng trong Workspace còn biến hamtruyen của câu , sinh viên có thể dùng lệnh lsim để khảo sát đáp ứng của hệ đối với tín hiệu bất kỳ. Giả sử đó là tín hiệu sin:</para>
+        <para id="id6098837">&gt;&gt;close all</para>
+        <para id="id6098844">&gt;&gt;t=0:0.1:2*pi;</para>
+        <para id="id6098852">&gt;&gt;u=sin(pi/4*t);</para>
+        <para id="id6098857">&gt;&gt;lsim(hamtruyen,u,t)% mo phong dap ung voi tin hieu vao u</para>
+        <figure id="id6098867">
+          <media id="id12587426" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="188" width="310"/></media>
+        </figure>
+      </section>
+      <section id="id-0975240004277">
+        <title>Bộ điều khiển PID</title>
+        <para id="id6098900">Cấu trúc một hệ thống điều khiển PID như hình sau:</para>
+        <para id="id6098910">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id6098936">Hình 5.4 – Sơ đồ khối hệ điều khiển PID</para>
+        <para id="id6098943">Trong đó hàm truyền của khâu PID là: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>I</m:mi></m:mrow></m:mstyle></m:msub><m:mi>s</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>D</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msup><m:mi>s</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>P</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>I</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow><m:mi>s</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K rSub { size 8{P} } + {  {K rSub { size 8{I} } }  over  {s} } +K rSub { size 8{D} } s= {  {K rSub { size 8{D} } s rSup { size 8{2} } +K rSub { size 8{P} } s+K rSub { size 8{I} } }  over  {s} } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id6099103">với: KP là độ lợi của khâu tỉ lệ (Proportional gain)</para>
+        <para id="id6099124">KI là độ lợi của khâu tích phân (Integral gain)</para>
+        <para id="id6099144">KD là độ lợi khâu vi phân (Derivative gain)</para>
+        <para id="id6099163">Việc hiệu chỉnh phù hợp 3 thông số KP, KI và KD sẽ làm tăng chất lượng điều khiển. Ảnh hưởng của 3 thông số này lên hệ thống như sau:</para>
+        <table id="id6099201" summary="">
+          <tgroup cols="5">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry>Đ. ứng vòng kín(C.L. response)</entry>
+                <entry>T. gian tăng(Rise time)</entry>
+                <entry>Vọt lố(Overshoot)</entry>
+                <entry>T. gian quá độ(Settling time)</entry>
+                <entry>Sai số xác lập(Steady-state err.) </entry>
+              </row>
+              <row>
+                <entry>KP</entry>
+                <entry>Giảm</entry>
+                <entry>Tă ng</entry>
+                <entry>Ít thay đổI</entry>
+                <entry>Tă ng</entry>
+              </row>
+              <row>
+                <entry>KI</entry>
+                <entry>Giảm</entry>
+                <entry>Tăng</entry>
+                <entry>Tăng</entry>
+                <entry>Không xác định</entry>
+              </row>
+              <row>
+                <entry>KD</entry>
+                <entry>Ít thay đổi</entry>
+                <entry>Giảm</entry>
+                <entry>Giảm</entry>
+                <entry>Thay đổi ít</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <figure id="id5785214">
+          <media id="id22503920" alt=""><image src="graphics4.wmf" mime-type="image/wmf" height="291" width="436"/></media>
+        </figure>
+        <para id="id5785238">Bộ điều khiển tỉ lệ P:</para>
+        <para id="id5785256">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id5785282">Hình 5.5 – Bộ điều khiển tỉ lệ P</para>
+        <para id="id5785288"> Thực hiện trong Matlab: Ta có hàm truyền của motor DC như III.1.:</para>
+        <para id="id5785311">&gt;&gt;J=0.01;</para>
+        <para id="id5785316">&gt;&gt;b=0.1;</para>
+        <para id="id5785320">&gt;&gt;K=0.01;</para>
+        <para id="id5785325">&gt;&gt;R=1;</para>
+        <para id="id5785330">&gt;&gt;L=0.5;</para>
+        <para id="id5785334">&gt;&gt;num=K;</para>
+        <para id="id5785339">&gt;&gt;den=[(J*L) ((J*R)+(L*b)) ((b*R)+K^2)];</para>
+        <para id="id5785345">Khi thêm vào khâu tỉ lệ P, ta có hàm truyền vòng hở: </para>
+        <para id="id5785351">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id5785377">&gt;&gt;Kp=100;</para>
+        <para id="id5785382">&gt;&gt;numa=Kp*num;</para>
+        <para id="id5785387">&gt;&gt;dena=den;</para>
+        <para id="id5785392">Xác định hàm truyền vòng kín của hệ thống ta dùng lệnh cloop:</para>
+        <para id="id5785410">&gt;&gt;[numac,denac]=cloop(numa,dena)</para>
+        <para id="id5785416">Đáp ứng Step vòng kín của bộ điều khiển tỉ lệ như sau:</para>
+        <para id="id5785424">&gt;&gt;t=0:0.01:2;</para>
+        <para id="id5785429">&gt;&gt;step(numac,denac)</para>
+        <figure id="id5785437">
+          <media id="id19531847" alt=""><image src="graphics5.wmf" mime-type="image/wmf" height="239" width="319"/></media>
+        </figure>
+        <para id="id5785461"> Sinh viên hãy so sánh với đáp ứng của hệ khi chưa có bộ điều khiển tỉ lệ, ở câu III.1. (lưu ý đến các thông số: thời gian lên, độ vọt lố, thời gian quá độ).</para>
+        <para id="id5785489"> Tương tự, sinh viên hãy so sánh với đáp ứng xung.</para>
+        <para id="id5785503">Bộ điều khiển Vi tích phân tỉ lệ PID:</para>
+        <para id="id5785522">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id5785548">Hình 5.6 – Bộ điều khiển PID</para>
+        <para id="id5785555">Khi thêm bộ điều khiển PID, hàm truyền hở của hệ thống là:</para>
+        <para id="id5785562">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id5785588">&gt;&gt;Kp=100;</para>
+        <para id="id5785596">&gt;&gt;Ki=1;</para>
+        <para id="id5785601">&gt;&gt;Kd=1;</para>
+        <para id="id5785606">&gt;&gt;numc=[Kd, Kp, Ki];</para>
+        <para id="id5785611">&gt;&gt;denc=[1 0];</para>
+        <para id="id5785615">&gt;&gt;numa=conv(num,numc);% tích chập tử số</para>
+        <para id="id5785625">&gt;&gt;dena=conv(den,denc);% tích chập mẫu số</para>
+        <para id="id5785634">Hàm truyền vòng kín hồi tiếp âm đơn vị:</para>
+        <para id="id5785643">&gt;&gt;[numac,denac]=cloop(numa,dena);</para>
+        <para id="id5785660">Đáp ứng Step của hệ điều khiển PID:</para>
+        <para id="id5785665">&gt;&gt;step(numac,denac)</para>
+        <para id="id5785670"> Sinh viên so sánh với đáp ứng của bộ điều khiển tỉ lệ P ở câu , nhận xét.</para>
+        <para id="id5785694"> Dựa vào bảng tổng kết ảnh hưởng của KP, KD và KI đối với hệ thống điều khiển, sinh viên hãy thay đổi 3 thông số này và kiểm chứng đáp ứng của hệ thống.</para>
+        <figure id="id5785741">
+          <media id="id18746108" alt=""><image src="graphics6.wmf" mime-type="image/wmf" height="243" width="359"/></media>
+        </figure>
+      </section>
+      <section id="id-0716258147927">
+        <title>Hiệu chỉnh thông số của bộ điều khiển PID</title>
+        <para id="id5785774">Một phương pháp cổ điển nhưng đơn giản và hiệu quả để chỉnh định 3 thông số KP, KI và KD của bộ điều khiển PID là phương pháp Ziegler-Nichols (Ziegler Nichols Tuning Method). Thủ tục chỉnh định như sau:</para>
+        <para id="id5785823">1. Chỉ điều khiển hệ thống bằng bộ điều khiển tỉ lệ KP (đặt KI=KD=0).</para>
+        <para id="id5785861">2. Tăng KP đến giá trị KC mà ở đó hệ thống bắt đầu bất ổn (bắt đầu xuất hiện sự giao động - điểm cực của hàm truyền kín nằm trên trục ảo j). Xác định tần số c của giao động vừa đạt.</para>
+        <para id="id5765943">Từ 2 giá trị KC và c vừa đạt, các thông số số KP, KI và KD được xác định như bảng sau:</para>
+        <table id="id5766005" summary="">
+          <tgroup cols="4">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry>Bộ điều khiển</entry>
+                <entry>KP</entry>
+                <entry>KI</entry>
+                <entry>KD</entry>
+              </row>
+              <row>
+                <entry>P (tỉ lệ)</entry>
+                <entry>0.5 KC</entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>PI (tích phân tỉ lệ)</entry>
+                <entry>0.45 KC</entry>
+                <entry>0.191KPc</entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry>PID (vi tích phân tỉ lệ)</entry>
+                <entry>0.6 KC</entry>
+                <entry>0.318KPc</entry>
+                <entry>0.785KP/c</entry>
+              </row>
+              <row>
+                <entry>PID với một ít vọt lố</entry>
+                <entry>0.33 KC</entry>
+                <entry>0.318KPc</entry>
+                <entry>2.07KP/c</entry>
+              </row>
+              <row>
+                <entry>PID không vọt lố</entry>
+                <entry>0.2 KC</entry>
+                <entry>0.53KPc</entry>
+                <entry>3.14KP/c</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id5766483">3. Tinh chỉnh lại 3 thông số này để đạt được đáp ứng như mong muốn.</para>
+        <para id="id5766496"> Ví dụ: Giả sử cần thiết kế bộ điều khiển PID cho hệ thống sau:</para>
+        <para id="id5766517">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id5766543"> Bước 1: Điều khiển hệ thống chỉ với bộ điều khiển tỉ lệ:</para>
+        <para id="id5766558">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+        <para id="id5766584"> Bước 2: Xác định KC và c mà ở đó hệ thống bắt đầu giao động - dùng hàm rlocus của Matlab (sinh viên nên lưu thành file .m hoặc thao tác trong Matlab Editor sau đó copy và dán vào Workspace cả đoạn lệnh để dễ dàng cho việc hiệu chỉnh các thông số ở phần sau): </para>
+        <para id="id5766645">&gt;&gt;close all</para>
+        <para id="id5766650">&gt;&gt;num=5;</para>
+        <para id="id5766654">&gt;&gt;den=[1 10 100 0];</para>
+        <para id="id5766660">&gt;&gt;[numc,denc]=cloop(num,den);</para>
+        <para id="id5766665">&gt;&gt;htkin=tf(numc,denc)% ham truyen vong kin</para>
+        <para id="id5766673">&gt;&gt;rlocus(htkin);%ve qui dao nghiem</para>
+        <para id="id5766683">&gt;&gt; axis([-10 10 -15 15])</para>
+        <figure id="id5766691">
+          <media id="id5106136" alt=""><image src="graphics7.wmf" mime-type="image/wmf" height="244" width="441"/></media>
+        </figure>
+        <para id="id5766715">Xác định Kc và c bằng hàm rlocfind: </para>
+        <para id="id5717114">&gt;&gt;[Kc,Omegac] = rlocfind(htkin)</para>
+        <para id="id5717120">Nhấp chuột vào điểm giao nhau giữa quĩ đạo nghiệm và trục ảo của đồ thị, trong WorkSpace ta được:</para>
+        <para id="id5717131">Kc =</para>
+        <para id="id5717136">199.5793</para>
+        <para id="id5717145">Omegac =</para>
+        <para id="id5717150">-10.0145 </para>
+        <para id="id5717160">0.0072 +10.0072i</para>
+        <para id="id5717170">0.0072 - 10.0072i</para>
+        <para id="id5717180">Như vậy ta được KC=200 và c = 10. Suy ra thông số của bộ điều khiển PID: </para>
+        <para id="id5717212">KP = 0.6KC = 120</para>
+        <para id="id5717236">KI = 0.318KPc = 381.6</para>
+        <para id="id5717269">KD = 0.785KP/c = 9.4</para>
+        <para id="id5717306">Thử đáp ứng của hệ:</para>
+        <para id="id5717312">&gt;&gt;Kp=120; Ki=381.5; Kd=9.4;</para>
+        <para id="id5717317">&gt;&gt;numc=[Kd, Kp, Ki];</para>
+        <para id="id5717322">&gt;&gt;denc=[1 0];% ham truyen cua PID</para>
+        <para id="id5717333">&gt;&gt;[numac,denac]=cloop(conv(num,numc),conv(den,denc))</para>
+        <para id="id5717339">&gt;&gt;step(numac,denac)</para>
+        <para id="id5717344"> Bước 3: Thực hiện tương tự như III.2., sinh viên hãy điều chỉnh một lượng nhỏ 3 thông số KP, KD và KI để được đáp ứng tốt hơn.</para>
+        <figure id="id5717398">
+          <media id="id21969444" alt=""><image src="graphics8.wmf" mime-type="image/wmf" height="188" width="338"/></media>
+        </figure>
+        <para id="id5717422">Sinh viên hãy thiết kế bộ điều khiển PID cho hệ thống sau:</para>
+        <para id="id5717437">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      </section>
+    </section>
+    <section id="id-765839894822">
+      <title>TỰ chỌn</title>
+      <para id="id5717473">Sinh viên hãy thiết kế bộ điều khiển Vi phân tỉ lệ (Proportional-Derivative controller):</para>
+      <para id="id5717492">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+      <para id="id5717520">Sinh viên hãy thiết kế bộ điều khiển Tích phân tỉ lệ (Proportional-Integral controller):</para>
+      <para id="id5717549">
+        ***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED.***
+      </para>
+    </section>
+  </content>
+</document>
