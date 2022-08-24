@@ -1,3 +1,31 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col10908</md:content-id>  <md:title>Thu Course</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>vi</md:language>          <md:uuid>7667c049-94cc-464c-85bd-cc25b2c88df8</md:uuid>
-<md:slug>thu-course</md:slug>
-</metadata>  <col:content>                        <col:subcollection>        <md:title>Chương 1 </md:title>                                <col:content>                    <col:module document="m31110"/>                            <col:module document="m30095"/>                            <col:module document="m30788"/>                            <col:module document="m27189"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chuong 2: Tai</md:title>                                <col:content>                    <col:module document="m30532"/>                            <col:module document="m30687"/>                            <col:module document="m30530"/>                            <col:module document="m29891"/>                          </col:content>      </col:subcollection>      </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Nguyen Trong Tai">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10908</md:content-id>
+    <md:title>Thu Course</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>vi</md:language>
+    <md:uuid>7667c049-94cc-464c-85bd-cc25b2c88df8</md:uuid>
+    <md:slug>thu-course</md:slug>
+  </metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 1 </md:title>
+      <col:content>
+        <col:module document="m31110"/>
+        <col:module document="m30095"/>
+        <col:module document="m30788"/>
+        <col:module document="m27189"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Chuong 2: Tai</md:title>
+      <col:content>
+        <col:module document="m30532"/>
+        <col:module document="m30687"/>
+        <col:module document="m30530"/>
+        <col:module document="m29891"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
